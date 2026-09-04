@@ -1,0 +1,110 @@
+# Chinese translations for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-08-12 11:13+0800\n"
+"PO-Revision-Date: 2025-08-13 15:11+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: frontend/templates/cheque-fraud.html:5
+msgid "How to Spot and Avoid Cheque Scams – HSBC HK"
+msgstr "如何避免支票詐騙陷阱 - 香港滙豐"
+
+#: frontend/templates/cheque-fraud.html:11
+msgid "How to Spot and Avoid Cheque Scams"
+msgstr "如何避免支票詐騙陷阱"
+
+#: frontend/templates/cheque-fraud.html:13
+msgid "Cyber security &amp; fraud hub"
+msgstr "網路安全及防詐騙資訊中心"
+
+#: frontend/templates/cheque-fraud.html:18
+msgid "Ledger balance vs available balance"
+msgstr "賬面結餘vs可用結餘"
+
+#: frontend/templates/cheque-fraud.html:19
+msgid ""
+"Ledger balance includes cheques that have been deposited but not yet "
+"cleared. Available balance is the amount you can actually withdraw. Don’t"
+" rely on the ledger balance as proof of funds."
+msgstr "先看看應如何理解戶口結餘。登入網上或流動理財後，會見到兩個不同的結餘金額"
+
+#: frontend/templates/cheque-fraud.html:22
+msgid "How do cheque scams work?"
+msgstr "「彈票黨」出沒注意！"
+
+#: frontend/templates/cheque-fraud.html:23
+msgid ""
+"Scammers deposit invalid cheques, making it look like you’ve been paid. "
+"They exploit the time it takes for cheques to clear, convincing victims "
+"to deliver goods or send money before the cheque bounces."
+msgstr "「彈票黨」騙徒會存入無效支票，令受害人誤以為自己已經收妥款項"
+
+#: frontend/templates/cheque-fraud.html:26
+msgid "Common techniques used by scammers"
+msgstr "「彈票黨」常用技倆"
+
+#: frontend/templates/cheque-fraud.html:28
+msgid "Targeting sellers on social media or trading platforms with fake payments."
+msgstr "騙徒通常在社交媒體或買賣交易平台出沒，假扮成買家，用無效支票購買貴價貨品。"
+
+#: frontend/templates/cheque-fraud.html:29
+msgid ""
+"Depositing large sums with invalid cheques and asking for a refund of the"
+" difference."
+msgstr "有些騙徒會用無效支票假裝存入大量金額，然後要求受害人發回差額，令受害人不止被騙去貨物，更付出真金白銀退款，遭受雙重損失。"
+
+#: frontend/templates/cheque-fraud.html:30
+msgid "Using counterfeit cashier’s orders, which also take time to clear."
+msgstr "部分騙徒以高佣金為餌，誘騙受害人向假供應商入貨。"
+
+#: frontend/templates/cheque-fraud.html:31
+msgid ""
+"Impersonating teachers or charities to trick companies into making "
+"payments to fake suppliers."
+msgstr "他們會假扮成學校教師或慈善團體以獲取信任，哄騙公司代他們向假供應商付款入貨。"
+
+#: frontend/templates/cheque-fraud.html:35
+msgid "How to spot and prevent cheque scams"
+msgstr "提防支票騙案"
+
+#: frontend/templates/cheque-fraud.html:37
+msgid ""
+"Always check your available balance, not just the deposit slip or ledger "
+"balance."
+msgstr "收款時緊記檢查清楚戶口可用結餘，不應單靠入數紙或賬面結餘作轉賬證明。"
+
+#: frontend/templates/cheque-fraud.html:38
+msgid ""
+"Don’t rush to comply with payment requests, even if the potential gain is"
+" high."
+msgstr "而且，就算回報多高，都不應急於答應對方要求，或提前付款。"
+
+#: frontend/templates/cheque-fraud.html:39
+msgid ""
+"Verify the identity of anyone claiming to be from an institution using "
+"official contact info."
+msgstr "如果接到自稱來自某組織或某機構的電話，應該仔細查核對方背景，用官方聯絡資訊或成員通訊錄驗證他們的身份。"
+
+#: frontend/templates/cheque-fraud.html:40
+msgid "Use tools like Scameter to assess suspicious numbers or accounts."
+msgstr "如有懷疑，可使用「防騙視伏器」、「防騙視伏App」應用程式等防騙資源，評估可疑電話號碼、網址、支付賬戶等的風險。"
+
+#: frontend/templates/cheque-fraud.html:42
+msgid ""
+"If you think you've been scammed, contact HSBC immediately at (852) 2233 "
+"3000."
+msgstr "滙豐致力保障您的財務安全。懷疑自己遭遇支票詐騙？請即聯絡我們"
+

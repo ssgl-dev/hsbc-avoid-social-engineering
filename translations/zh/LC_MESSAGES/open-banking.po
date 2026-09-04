@@ -1,0 +1,169 @@
+# Chinese translations for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-08-12 17:19+0800\n"
+"PO-Revision-Date: 2025-08-13 15:11+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: frontend/templates/open-banking.html:5
+msgid "Open Banking – HSBC HK"
+msgstr "開放銀行服務 - 香港滙豐"
+
+#: frontend/templates/android-malware-safety-measures.html:13
+msgid "Cyber security and fraud hub"
+msgstr "網路安全及防詐騙資訊中心"
+
+#: frontend/templates/open-banking.html:11
+msgid "Open Banking"
+msgstr "開放銀行服務"
+
+#: frontend/templates/open-banking.html:19
+msgid ""
+"With more control over your data, you can use it to enjoy an innovative "
+"and enhanced banking experience."
+msgstr "戶口資料盡在掌握，為您帶來創新升級的理財體驗。"
+
+#: frontend/templates/open-banking.html:20
+msgid ""
+"Open Banking allows you to share your data digitally with third-party "
+"service providers in a simple and secure way."
+msgstr "開放銀行服務讓您安全快捷地與第三方服務提供者分享您的資料。"
+
+#: frontend/templates/open-banking.html:24
+msgid "What is Open Banking?"
+msgstr "甚麼是「開放銀行」？"
+
+#: frontend/templates/open-banking.html:25
+msgid ""
+"Open Banking uses Open Application Programming Interface (Open API) to "
+"enable the sharing of product information and account data with your "
+"consent. Open API allows secure and efficient data communication between "
+"HSBC and our trusted third-party service providers (TSPs, including "
+"Interbank Account Data Sharing participating banks)."
+msgstr ""
+"「開放銀行」使用「開放式應用程式介面」（Open "
+"API）分享產品資訊，及在獲得您的授權後安全有效地分別獲取和分享您在第三方服務提供者（TSPs，包括戶口互聯（IADS）參與銀行）和滙豐銀行的戶口資料。"
+
+#: frontend/templates/open-banking.html:26
+msgid ""
+"Open Banking unlocks opportunities for a wide collection of innovative "
+"applications. This includes providing a consolidated view of your various"
+" bank accounts, facilitating management of your finances and offering "
+"more personalised products and services."
+msgstr "「開放銀行」可讓您體驗一系列創新的理財應用，包括一站式查閲您於多間銀行的戶口結餘，協助您管理財務，並讓我們為您提供更個人化的產品和服務。"
+
+#: frontend/templates/open-banking.html:27
+msgid "Watch this video"
+msgstr "您可以參考由香港金融管理局發布的影片，"
+
+#: frontend/templates/open-banking.html:27
+msgid ""
+"(available in Chinese only) by the Hong Kong Monetary Authority to know "
+"more about Open Banking."
+msgstr "更深入了解何謂「開放銀行」。"
+
+#: frontend/templates/open-banking.html:28
+msgid "Check out our overall"
+msgstr "請瀏覽我們的全面"
+
+#: frontend/templates/open-banking.html:28
+msgid "partnership list"
+msgstr "合作夥伴列表"
+
+#: frontend/templates/open-banking.html:28
+msgid ""
+"to learn more about our partnering TSPs, and the corresponding products "
+"and services they offer."
+msgstr "（只有英文版本），以進一步了解與我們合作的第三方服務提供者及他們提供的產品和服務。"
+
+#: frontend/templates/open-banking.html:32
+msgid "What is Interbank Account Data Sharing (IADS)?"
+msgstr "甚麼是戶口互聯（IADS）？"
+
+#: frontend/templates/open-banking.html:33
+msgid ""
+"The Hong Kong Monetary Authority (HKMA) Interbank Account Data Sharing "
+"(IADS) initiative allows the sharing of your deposit account data, with "
+"your consent, between the participating banks using Open API."
+msgstr "香港金融管理局（HKMA）的戶口互聯（IADS）計劃讓參與銀行在獲得您的授權後，透過開放式API與其他銀行分享您的戶口資料。"
+
+#: frontend/templates/open-banking.html:34
+msgid ""
+"You remain in full control, selecting which accounts' data you'd like to "
+"share, for how long and with which bank. You can choose to cancel your "
+"consent at any time."
+msgstr "您將保留全面的控制權，包括可以選擇分享哪些戶口資料，分享期間的長短，以及與哪些銀行分享。您任何時候都可以取消授權。"
+
+#: frontend/templates/open-banking.html:35
+msgid ""
+"Save time checking the balance of your numerous bank accounts and get a "
+"consolidated view of your deposit accounts with the HSBC HK App. We'll "
+"connect securely to your other banks, saving you the hassle of logging on"
+" to various other applications. Enjoy a more seamless banking service "
+"along with personalised offers."
+msgstr ""
+"透過香港滙豐流動理財應用程式 "
+"，您能夠一站式查閲您於多間銀行的戶口結餘。我們會安全地連接至其他銀行，令您毋須登入其他銀行的應用程式，即可享有順暢無縫的理財體驗，以及個人化的優惠。"
+
+#: frontend/templates/open-banking.html:36
+msgid ""
+"To learn more about the HKMA IADS initiative and the list of IADS "
+"participating banks, you may visit the"
+msgstr "如需進一步了解金管局的IADS計劃及參與銀行列表，請瀏覽"
+
+#: frontend/templates/open-banking.html:36
+msgid "HKMA IADS web page"
+msgstr "香港金融管理局戶口互聯（IADS）網頁"
+
+#: frontend/templates/open-banking.html:40
+msgid "Ready to start?"
+msgstr "開始使用「開放銀行」"
+
+#: frontend/templates/open-banking.html:41
+msgid ""
+"You can easily provide consent to access and consolidate other bank's "
+"account balances in a few simple steps on the HSBC HK App."
+msgstr "簡單幾步，即可輕鬆透過HSBC HK App建立授權，以獲取和整合您在其他銀行的戶口結餘。"
+
+#: frontend/templates/open-banking.html:43
+msgid ""
+"On your HSBC HK App homepage, select 'Add accounts' under 'Accounts with "
+"other banks'."
+msgstr "在首頁的「其他銀行戶口」下，點選「新增戶口」。"
+
+#: frontend/templates/open-banking.html:44
+msgid "Select the bank you want HSBC to have access to."
+msgstr "選擇您希望授權滙豐獲取哪一間銀行的戶口資料。"
+
+#: frontend/templates/open-banking.html:45
+msgid "Choose how long HSBC can access your account data."
+msgstr "選擇滙豐能夠存取您戶口資料的期限。"
+
+#: frontend/templates/open-banking.html:46
+msgid ""
+"We'll redirect you to your selected bank's website or application. Log on"
+" and select the bank accounts whose data you want to share with HSBC. "
+"You'll be automatically returned to a confirmation page on the HSBC HK "
+"App."
+msgstr "您將跳轉至所選銀行的網站或應用程式，登入後選擇您希望與滙豐分享的戶口資料。然後，您將被帶回HSBC HK App的確認頁面，顯示您已成功建立授權。"
+
+#: frontend/templates/open-banking.html:47
+msgid ""
+"You'll be able to view the balances of your newly connected bank accounts"
+" on your homepage within minutes. Tap 'Refresh' to see the latest "
+"balances anytime."
+msgstr "只需數分鐘，您便可在首頁看到新加入銀行的戶口結餘。您可隨時點選「更新」以查閱最新戶口結餘。"
+

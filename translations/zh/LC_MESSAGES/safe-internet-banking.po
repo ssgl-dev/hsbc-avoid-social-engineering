@@ -1,0 +1,239 @@
+# Chinese translations for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-08-13 12:07+0800\n"
+"PO-Revision-Date: 2025-08-13 15:11+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: frontend/templates/safe-internet-banking.html:5
+msgid "How to Use a Laptop/Tablet Securely – HSBC HK"
+msgstr "如何安全使用平板電腦 - 香港滙豐"
+
+#: frontend/templates/safe-internet-banking.html:11
+msgid "How to use a laptop/tablet securely"
+msgstr "如何安全使用平板電腦"
+
+#: frontend/templates/safe-internet-banking.html:12
+msgid "How to make sure your online banking experience is safe and secure"
+msgstr "以安全穩妥的方式使用網上理財服務"
+
+#: frontend/templates/safe-internet-banking.html:14
+msgid "Cyber security &amp; fraud hub"
+msgstr "網絡安全及防詐騙資訊中心"
+
+#: frontend/templates/safe-internet-banking.html:20
+msgid ""
+"Online banking is fast and convenient, but it’s important to make sure "
+"you aren’t exposing yourself to fraud or financial crime. Follow these "
+"tips to keep your accounts and private data secure."
+msgstr "網上理財服務快捷方便，但亦務必採取措施來防範欺詐和金融罪案。建議遵照以下守則，以保戶口和個人資料萬全。"
+
+#: frontend/templates/safe-internet-banking.html:24
+msgid "What you can do to keep your internet banking safe"
+msgstr "網上理財服務安全使用守則"
+
+#: frontend/templates/safe-internet-banking.html:25
+msgid "Accessing your account"
+msgstr "登入您的戶口"
+
+#: frontend/templates/safe-internet-banking.html:27
+msgid "Avoid using public computers for online banking."
+msgstr "避免使用公用電腦登入網上理財"
+
+#: frontend/templates/safe-internet-banking.html:28
+msgid ""
+"Never share your personal security details (PIN or security code) with "
+"anyone."
+msgstr "切忌與他人分享您的個人保安資料（密碼或保安編碼）"
+
+#: frontend/templates/safe-internet-banking.html:29
+msgid ""
+"If you notice unusual pop-ups or your computer is unusually slow, do not "
+"enter personal details—report it to HSBC immediately."
+msgstr "如果您發現任何不尋常的彈出式視窗或電腦反應異常緩慢，請勿提供您的個人資料及／或信用卡資料，並立即致電客戶服務熱線通知我們"
+
+#: frontend/templates/safe-internet-banking.html:30
+msgid ""
+"Be wary of “business opportunities” involving receiving or holding money "
+"for strangers (money-laundering scams)."
+msgstr "當心清洗黑錢的騙局。提防涉及替陌生人接收或保存金錢的「商機」"
+
+#: frontend/templates/safe-internet-banking.html:31
+msgid ""
+"Only use secure and trusted wireless networks. Password-protect your home"
+" Wi-Fi."
+msgstr "只使用安全而可信賴的無線網絡，自己的家居Wi-Fi無線網絡亦應加設密碼"
+
+#: frontend/templates/safe-internet-banking.html:34
+msgid "If you receive any email or SMS claiming to be from HSBC, remember:"
+msgstr "若您收到自稱由滙豐發出的任何電郵或短訊，請謹記下列各項："
+
+#: frontend/templates/safe-internet-banking.html:36
+msgid ""
+"HSBC will never ask you to confirm or provide personal data by replying "
+"to an email."
+msgstr "在任何情況下，我們都不會要求您回覆電郵以確認或提供任何個人資料"
+
+#: frontend/templates/safe-internet-banking.html:37
+msgid ""
+"We will not ask for excessive information (e.g. HKID, passport, credit "
+"card details, CVV/CVC code, expiry date)."
+msgstr "我們不會要求您提供過多敏感資料，例如姓名、香港身份證／護照號碼、信用卡號碼、CVV／CVC碼和到期日"
+
+#: frontend/templates/safe-internet-banking.html:38
+msgid ""
+"HSBC emails/texts never include hyperlinks to the logon page or any page "
+"requesting personal info."
+msgstr "我們的電郵和文字訊息絕不會包含前往滙豐個人網上理財登入頁面（或要求您填寫個人資料的任何頁面）的超連結"
+
+#: frontend/templates/safe-internet-banking.html:41
+msgid "Monitoring your account"
+msgstr "監察您戶口的活動"
+
+#: frontend/templates/safe-internet-banking.html:43
+msgid ""
+"Check statements, emails, and SMS notifications promptly. Report unusual "
+"transactions immediately."
+msgstr "收到結單、電郵和短訊提示後請盡快查閱。若發現有任何不尋常的交易，請立即通知本行。建議使用滙豐網上理財或滙豐流動理財應用程式，經常查閱您戶口的交易記錄"
+
+#: frontend/templates/safe-internet-banking.html:44
+msgid ""
+"Use HSBC Online Banking or the Mobile Banking app to check transactions "
+"frequently."
+msgstr "建議使用滙豐網上理財或滙豐流動理財應用程式，經常查閱您戶口的交易記錄"
+
+#: frontend/templates/safe-internet-banking.html:45
+msgid ""
+"Keep electronic receipts for transfers and bill payments to help verify "
+"transactions."
+msgstr "凡進行轉帳和繳付帳單的交易，都應保存電子收據，以作交易驗證之用"
+
+#: frontend/templates/safe-internet-banking.html:48
+msgid "Protecting your PIN"
+msgstr "保護您的密碼"
+
+#: frontend/templates/safe-internet-banking.html:50
+msgid ""
+"Never tell your PIN to anyone, even if they claim to be from HSBC or the "
+"police."
+msgstr "切勿向任何人透露您的密碼，即使有人聲稱自己是本行職員或警方人員"
+
+#: frontend/templates/safe-internet-banking.html:51
+msgid "Memorise your PIN—never write it down."
+msgstr "請默記您的密碼，不要寫下"
+
+#: frontend/templates/safe-internet-banking.html:52
+msgid "Choose a PIN that’s hard to guess."
+msgstr "選擇一個難以被人猜中的密碼"
+
+#: frontend/templates/safe-internet-banking.html:53
+msgid ""
+"Use different PINs for different websites/channels (ATM, Phone Banking, "
+"Online/Mobile Banking)."
+msgstr "於不同的網站及渠道（即自動櫃員機、電話理財、網上及流動理財等）使用不同的密碼"
+
+#: frontend/templates/safe-internet-banking.html:54
+msgid ""
+"HSBC representatives will never ask you to say your Phone PIN out "
+"loud—only enter it on your phone keypad."
+msgstr "請謹記，我們的客戶代表絕不會要求您讀出自己的電話理財密碼。如需使用電話理財密碼，您只會被要求以電話按鍵輸入"
+
+#: frontend/templates/safe-internet-banking.html:59
+msgid "How HSBC keeps Personal Internet Banking secure"
+msgstr "滙豐使用五個方法來保障個人網上理財的安全"
+
+#: frontend/templates/safe-internet-banking.html:61
+msgid "Multi-layer log on verification:"
+msgstr "多重登入認證"
+
+#: frontend/templates/safe-internet-banking.html:61
+msgid ""
+"Your financial info is protected by a unique username and a one-time "
+"security code from your Security Device / Mobile Security Key or a "
+"password."
+msgstr "您的財務資料受到獨有的用戶名稱及保安編碼器／流動保安編碼產生的一次性保安編碼或密碼所保護。"
+
+#: frontend/templates/safe-internet-banking.html:61
+msgid "Learn more"
+msgstr "了解更多"
+
+#: frontend/templates/safe-internet-banking.html:62
+msgid "Transaction verification:"
+msgstr "交易驗證"
+
+#: frontend/templates/safe-internet-banking.html:62
+msgid ""
+"When transferring money or paying bills, you’ll be asked for a "
+"transaction code generated by your Security Device / Mobile Security Key."
+" Only you can authorise payments and transfers."
+msgstr "當您轉帳到第三者戶口或網上支付帳單時，滙豐會要求您從保安編碼器／流動保安編碼取得交易保安編碼。這保障只有您本人才能夠授權進行付款或第三者轉帳的要求。"
+
+#: frontend/templates/safe-internet-banking.html:63
+msgid "TLS Encryption:"
+msgstr "TLS傳輸加密技術"
+
+#: frontend/templates/safe-internet-banking.html:63
+msgid "HSBC uses TLS 1.2 encryption, the industry standard."
+msgstr "滙豐所採用的TSL 1.2傳輸加密技術是業界公認的標準技術。"
+
+#: frontend/templates/safe-internet-banking.html:64
+msgid "Automatic 'Time-out' feature:"
+msgstr "自動「操作時段逾時」功能"
+
+#: frontend/templates/safe-internet-banking.html:64
+msgid ""
+"Always log out and close your browser after banking. HSBC will also "
+"automatically log you out after inactivity to protect your data."
+msgstr ""
+"當您完成使用個人網上理財服務，應該登出並關閉瀏覽器視窗，尤其是在身處公共場所時。若您忘記這樣做，在一段時間內並無任何操作後，系統會自動將您登出個人網上理財。"
+" 登入服務後遠離電腦而不顧的做法，會產生個人及敏感資料外洩的風險，並可能因此使您蒙受欺詐"
+
+#: frontend/templates/safe-internet-banking.html:65
+msgid "SMS/email notifications:"
+msgstr "短訊／電郵提示2"
+
+#: frontend/templates/safe-internet-banking.html:65
+msgid ""
+"HSBC will notify you of certain transactions by SMS or email, including "
+"details to help you verify them. Call HSBC immediately if you receive an "
+"alert for a transaction you don’t recognise."
+msgstr "您在滙豐個人網上理財進行若干交易後，會收到我們的文字訊息。為協助您驗證交易，短訊或電郵提示的內容將包括部分受款者的戶口號碼、交易金額及交易時間。如您接收到任何未能確認的交易提示，請即時致電滙豐。"
+
+#: frontend/templates/safe-internet-banking.html:67
+msgid "Learn more about the Security Device / Mobile Security Key"
+msgstr "深入了解保安編碼器／流動保安編碼"
+
+#: frontend/templates/safe-internet-banking.html:71
+msgid "Remarks"
+msgstr "註："
+
+#: frontend/templates/safe-internet-banking.html:73
+msgid ""
+"In rare cases, a customer service officer may request personal info by "
+"email, but only through HSBC’s secure internet banking platform. You will"
+" need to log in to view such messages."
+msgstr "1.唯一例外情況是當我們的客戶服務代表透過電郵回覆您的查詢時，其中可能會要求提供一些個人資料。在這情況下，電郵會透過已加密的安全網上理財平台（即滙豐個人網上理財）傳送及儲存；您需要輸入您的用戶名稱和密碼，方可閱覽此類電郵。"
+
+#: frontend/templates/safe-internet-banking.html:74
+msgid ""
+"Review and update your registered mobile phone number regularly via the "
+"HSBC HK Mobile Banking app, Online Banking, branch, mail, or hotline."
+msgstr "建議您透過香港滙豐流動理財應用程式／網上理財、親臨分行、郵寄或致電我們的客戶服務熱線，以查看及更新您於本行已登記的手提電話號碼。請前往我們的"
+
+#: frontend/templates/safe-internet-banking.html:74
+msgid "Instructions here"
+msgstr "「更新聯絡資料」頁面了解更多詳情。"
+

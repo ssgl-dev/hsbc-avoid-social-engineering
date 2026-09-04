@@ -1,0 +1,146 @@
+# Chinese translations for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-08-12 11:23+0800\n"
+"PO-Revision-Date: 2025-08-13 15:11+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: frontend/templates/credit-card-fraud-alert.html:5
+msgid "Preventing Credit Card Fraud – HSBC HK"
+msgstr "提防信用卡詐騙 - 香港滙豐"
+
+#: frontend/templates/android-malware-safety-measures.html:13
+msgid "Cyber security and fraud hub"
+msgstr "網路安全及防詐騙資訊中心"
+
+#: frontend/templates/credit-card-fraud-alert.html:11
+msgid "Preventing Credit Card Fraud"
+msgstr "保障信用卡／扣賬卡安全"
+
+#: frontend/templates/credit-card-fraud-alert.html:19
+msgid "Better safe than sorry"
+msgstr "保護自己，防範未然"
+
+#: frontend/templates/credit-card-fraud-alert.html:20
+msgid ""
+"Credit cards are a popular payment choice, but that also makes them a "
+"target for fraudsters. Credit card fraud can involve unauthorised use, "
+"lost or stolen cards, fraudulent applications, and suspicious online or "
+"mail order transactions."
+msgstr "平時購物以信用卡付款越見普及，平均一個人就有兩張信用卡。但同時亦會令騙徒有機可乘，用五花八門的技倆盜用您的信用卡"
+
+#: frontend/templates/credit-card-fraud-alert.html:21
+msgid ""
+"Here are some tips to help you protect yourself from falling victim to "
+"credit card fraud."
+msgstr "以下我們為您提供多項用卡安全小貼士，保護自己免受信用卡詐騙威脅。"
+
+#: frontend/templates/credit-card-fraud-alert.html:25
+msgid "Authenticating online transactions with HSBC HK App"
+msgstr "透過HSBC HK App安全認證網上交易"
+
+#: frontend/templates/credit-card-fraud-alert.html:26
+msgid ""
+"From March 2024, you can authenticate your online transactions more "
+"securely using the HSBC HK App Online Transaction Authentication Service."
+" If you have the app and are registered for mobile banking, you’ll be "
+"asked to authenticate online transactions via the app instead of SMS OTP,"
+" which is safer and more convenient."
+msgstr ""
+"由2024年3月起，您可以使用香港滙豐流動理財應用程式網上交易認證服務，認證您的網上交易。如您已安裝HSBC HK "
+"App及登記滙豐流動理財，您毋須再以短訊收取一次性驗證碼，並可使用HSBC HK App更安全便捷地認證您的網上交易。"
+
+#: frontend/templates/credit-card-fraud-alert.html:28
+msgid "Update your HSBC HK App to the latest version"
+msgstr "更新HSBC HK App至最新版本"
+
+#: frontend/templates/credit-card-fraud-alert.html:29
+msgid "Activate and verify your Mobile Security Key"
+msgstr "啟動及驗證流動保安編碼"
+
+#: frontend/templates/credit-card-fraud-alert.html:34
+msgid "Card Fraud Alert"
+msgstr "使用信用卡／扣賬卡前，多一分留心"
+
+#: frontend/templates/credit-card-fraud-alert.html:35
+msgid ""
+"HSBC will notify you via the app or SMS if a suspicious transaction is "
+"detected. Always verify the merchant, payment amount, currency, date, and"
+" time before responding. Let HSBC know if you did not make the "
+"transaction."
+msgstr "如果我們發現您的信用卡／扣賬卡出現可疑交易，就會向您發送信用卡／扣賬卡可疑交易通知"
+
+#: frontend/templates/credit-card-fraud-alert.html:39
+msgid "Turn on push notifications"
+msgstr "在HSBC HK App上開啟推播通知"
+
+#: frontend/templates/credit-card-fraud-alert.html:41
+msgid "Open the HSBC HK App and select the menu icon, then the profile icon."
+msgstr "點擊選單圖示，然後點選頭像圖示。"
+
+#: frontend/templates/credit-card-fraud-alert.html:42
+msgid "Find 'Settings and preferences', select 'Communication preferences'."
+msgstr "到「設定及喜好設定」點選「通訊喜好設定」。"
+
+#: frontend/templates/credit-card-fraud-alert.html:43
+msgid "Switch on push notifications for 'Transactions & Services'."
+msgstr "開啓「銀行交易及服務」推播通知。"
+
+#: frontend/templates/credit-card-fraud-alert.html:48
+msgid "Safeguarding yourself when using your card"
+msgstr "使用信用卡／扣賬卡時，提高警覺性"
+
+#: frontend/templates/credit-card-fraud-alert.html:50
+msgid ""
+"Shop only at secure, trustworthy websites. Check for 'https' and a "
+"padlock icon in the address bar."
+msgstr "確保網購平台安全可"
+
+#: frontend/templates/credit-card-fraud-alert.html:51
+msgid ""
+"Use the HSBC HK App Online Transaction Authentication Service at "
+"supported merchants."
+msgstr "以更安全可靠的方式認證網上交"
+
+#: frontend/templates/credit-card-fraud-alert.html:52
+msgid ""
+"When you receive an OTP, check all details (merchant, time, amount) "
+"before acting."
+msgstr "清楚檢查一次性密碼短"
+
+#: frontend/templates/credit-card-fraud-alert.html:53
+msgid ""
+"Review your transactions regularly via the app or card statements. Ensure"
+" you recognise every transaction."
+msgstr "定期查閱信用卡／扣賬卡賬"
+
+#: frontend/templates/credit-card-fraud-alert.html:54
+msgid ""
+"Never disclose banking credentials or card details. Fraudsters may "
+"impersonate real organisations and use phishing messages, fake websites, "
+"calls, or malicious links to trick you."
+msgstr "千萬不要透露敏感個人資"
+
+#: frontend/templates/credit-card-fraud-alert.html:59
+msgid "Reporting suspicious activities"
+msgstr "發現可疑交易，即通知我們"
+
+#: frontend/templates/credit-card-fraud-alert.html:60
+msgid ""
+"If you see a transaction you don't recognise, you can place a temporary "
+"block on your card or file a report with HSBC."
+msgstr "對某些交易紀錄沒有印象？不要慌張，您可以暫時封鎖信用卡／扣賬卡，同時再三檢查您的交易紀錄或向我們舉報可疑交易。"
+

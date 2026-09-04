@@ -1,0 +1,211 @@
+# Chinese translations for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-08-12 16:14+0800\n"
+"PO-Revision-Date: 2025-08-13 15:11+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: frontend/templates/job-scams.html:5
+msgid "How to Stay Safe from Job Scams – HSBC HK"
+msgstr "求職騙案 - 香港滙豐"
+
+#: frontend/templates/android-malware-safety-measures.html:13
+msgid "Cyber security and fraud hub"
+msgstr "網路安全及防詐騙資訊中心"
+
+#: frontend/templates/job-scams.html:11
+msgid "How to Stay Safe from Job Scams"
+msgstr "心急求職，小心誤墮騙案"
+
+#: frontend/templates/job-scams.html:18
+msgid ""
+"Job ads promising big pay, great benefits, and easy work can be tempting."
+" But if a career opportunity sounds too good to be true, it probably is."
+msgstr "看見薪高糧準、工時短、福利多的工作難免令人心動，但如果這份工真的好到難以置信，其實很有可能是求職騙案。"
+
+#: frontend/templates/job-scams.html:19
+msgid "One day, you log on to social media and this job ad pops up:"
+msgstr "打開社交網站，您看到這樣的招聘廣告："
+
+#: frontend/templates/job-scams.html:20
+msgid ""
+"Want to make money quickly and easily? We're hiring people to help with "
+"money transfers. No experience or qualifications required. All you have "
+"to do is send us a copy of your HKID card and proof of income to apply. "
+"Limited openings. Call us now!"
+msgstr "招請員工協助匯款，毋須學歷經驗，輕鬆月入數萬。申請時須提交收入證明及身分證副本。招請名額有限，馬上致電申請。"
+
+#: frontend/templates/job-scams.html:21
+msgid ""
+"Making money quickly and easily sounds a bit too good to be true, but "
+"they're hiring just a few people. You don't want to miss out on a golden "
+"opportunity. It won't hurt to call and ask for details, will it? So you "
+"make the call."
+msgstr "輕輕鬆鬆就月入數萬？您有點懷疑，但「荀工」可能轉瞬即逝，於是您決定打電話去問問詳情。"
+
+#: frontend/templates/job-scams.html:22
+msgid ""
+"\"It's an easy job. We just need to borrow your bank account to make some"
+" money transfers. We'll deposit some money into your account, and once "
+"you've wired the money to our account overseas, you'll receive a "
+"commission. All we need is a copy of your HKID card, proof of your "
+"income, proof of your address and some cash upfront to make sure you "
+"won't run away once you've received the money for the transfers. It's "
+"just a precaution.\""
+msgstr "「我們的工作很簡單。我們會借用您的戶口匯款，您再將錢轉去別的戶口就可以賺佣。您只需要提交收入證明、住址證明和身分證副本，還要支付保證金，免得您收到匯款後失去聯絡。」"
+
+#: frontend/templates/job-scams.html:23
+msgid ""
+"You think to yourself, \"They're transferring money into my account, so "
+"of course they'll need my personal details and a cash deposit. That "
+"sounds fair.\""
+msgstr "您想：「要將錢匯到我的戶口，需要提供一些個人資料和保證金，也很合理。」"
+
+#: frontend/templates/job-scams.html:25
+msgid ""
+"So you take a picture of your HKID card, pay statement and proof of "
+"address, and use your mobile payment app to transfer a deposit to your "
+"'future boss'. You hope you can start this project soon as it'll bring in"
+" extra money without having to work hard. It's really easy!"
+msgstr "於是您用手機拍下收入證明、住址證明和身分證等文件，然後打開電子支付程式，準備將保證金轉賬給您的「未來僱主」，滿心期望不用花太多力氣就可以賺錢，真好﹗"
+
+#: frontend/templates/job-scams.html:29
+msgid "Wait just a second – does it sound too perfect?"
+msgstr "停一停，勿上當"
+
+#: frontend/templates/job-scams.html:30
+msgid ""
+"Slow down and think. Have you ever wondered why your 'new boss' needs to "
+"borrow your bank account for transfers? Why does the company need you to "
+"give them copies of your pay statement, proof of address and HKID card at"
+" such an early stage? And why do you have to pay them before you start "
+"work?"
+msgstr "慢著，先別急著開始投入「新工作」。您有沒有想過為甚麼「未來老闆」要借用您的戶口？為甚麼一開始就要您交出收入證明、住址證明和身分證副本？為甚麼上班前要先付錢？"
+
+#: frontend/templates/job-scams.html:31
+msgid ""
+"The truth is: you thought you found the perfect job, but it was actually "
+"a scam."
+msgstr "您以為自己好運遇上「絕世筍工」，其實只是一頭栽進騙案之中。"
+
+#: frontend/templates/job-scams.html:32
+msgid ""
+"\"They can't scam me if I don't pay them anything.\" Unfortunately, this "
+"isn't true. Giving out your personal information will already make you "
+"more likely to lose money. Fraudsters only need your online banking "
+"credentials, a recent headshot, one-time-passwords (OTPs), your date of "
+"birth and HKID number to complete a transaction or make a transfer in "
+"your name."
+msgstr "您以為不付錢就沒事？隨便提供個人資料，同樣會令您被騙的機會大增！騙徒只要掌握您的銀行登入資料、近照、一次性密碼（OTP）、出生日期和身分證號碼，就可以冒用您的名義進行交易或轉賬。"
+
+#: frontend/templates/job-scams.html:33
+msgid ""
+"In fact, all that's needed to get a loan from a bank is a copy of your "
+"HKID card, pay statement and proof of your home address. A scammer can "
+"easily apply to borrow money and leave you responsible for their debt."
+msgstr "他們更可以用您的收入證明、住址證明和身分證副本向銀行貸款，要您幫他們還錢。"
+
+#: frontend/templates/job-scams.html:36
+msgid "Tips to protect you from job scams"
+msgstr "防範求職騙案貼士"
+
+#: frontend/templates/job-scams.html:37
+msgid ""
+"Even if you're digitally savvy, you shouldn't underestimate the damage "
+"fake online job offers could cause. Follow these tips to keep your "
+"personal data safe from career scams."
+msgstr "即使您經常使用數碼科技，也不要以為自己一定不會上當。記得做足以下措施，謹慎分享個人資料："
+
+#: frontend/templates/job-scams.html:38
+msgid "Don't give away too much information in job applications:"
+msgstr "申請工作時，切勿提供過多個人資料"
+
+#: frontend/templates/job-scams.html:38
+msgid ""
+" Details you shouldn't provide right at the beginning of a job "
+"application include proof of your home address and a copy of your HKID "
+"card. These details could be asked for later during a background check by"
+" a legitimate company. If you're asked to provide them at the start, "
+"that's a big red flag."
+msgstr "申請工作時，不要一開始就提供住址證明及身分證副本等資料。正規的公司決定聘請您後，可能會要求您提供這些資料作背景審查，但如果有公司要您在申請工作時就向他們提供個人資料，一定要小心提防。"
+
+#: frontend/templates/job-scams.html:39
+msgid "Don't reveal sensitive information:"
+msgstr "切勿提供敏感資料"
+
+#: frontend/templates/job-scams.html:39
+msgid ""
+" Never give away information such as your online banking credentials and "
+"one-time passwords (OTPs)."
+msgstr "千萬不要透露銀行登入資料及一次性密碼（OTP）。"
+
+#: frontend/templates/job-scams.html:40
+msgid "Check if the job opening is authentic:"
+msgstr "查探空缺真偽"
+
+#: frontend/templates/job-scams.html:40
+msgid ""
+" Search for the phone number listed in the job ad on the web, and even "
+"call it to check if it's linked to a reliable organisation."
+msgstr "搜尋招聘廣告的電話號碼，甚至致電去查證號碼是否來自合法的公司。"
+
+#: frontend/templates/job-scams.html:41
+msgid "Do a thorough check on the people you're speaking with:"
+msgstr "了解和您對話的「公司員工」"
+
+#: frontend/templates/job-scams.html:41
+msgid ""
+" Even if you do reach someone on the phone who seems to have legitimate "
+"information about the company, be sure to stay wary. This is because "
+"fraudsters could be using a bogus number to make their scam more "
+"convincing. For instance, check if they have a LinkedIn profile with a "
+"photograph, and if their past work experience matches the title they "
+"claim to currently hold."
+msgstr "騙徒擅長在電話上假冒身分，所以即使他們侃侃而談，向您介紹「公司」背景，也要記得查探他們的身分。您可以搜尋他們有沒有LinkedIn個人檔案、上面有沒有相片，看看他們的工作經驗和職位是否吻合。"
+
+#: frontend/templates/job-scams.html:42
+msgid "Do your own research on the company:"
+msgstr "事先了解公司資料"
+
+#: frontend/templates/job-scams.html:42
+msgid ""
+" Look for the firm's background information, its scale of operation and "
+"its address."
+msgstr "例如公司背景、規模及地址。"
+
+#: frontend/templates/job-scams.html:43
+msgid "Don't pay to work:"
+msgstr "不要預繳費用"
+
+#: frontend/templates/job-scams.html:43
+msgid ""
+" When applying for jobs, don't pay any fees upfront to the company or "
+"related parties."
+msgstr "申請工作時，不要付給對方任何費用。"
+
+#: frontend/templates/job-scams.html:45
+msgid ""
+"Remember, there's nothing wrong with being eager to find a new job or get"
+" a higher salary. Just be aware that this could make you more vulnerable "
+"to job scams."
+msgstr "緊記不要因為心急求職，而誤墮騙局。"
+
+#: frontend/templates/job-scams.html:46
+msgid ""
+"If you think you've already experienced a scam, don't wait any longer and"
+" <a href=\"/how-to-report-fraud/\">report it to us</a> immediately."
+msgstr "如果懷疑已經遇上詐騙，請即時<a href=\"/how-to-report-fraud/\">向我們舉報</a>。"
+

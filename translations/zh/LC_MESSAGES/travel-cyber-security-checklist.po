@@ -1,0 +1,237 @@
+# Chinese translations for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-08-13 14:51+0800\n"
+"PO-Revision-Date: 2025-08-13 15:11+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: frontend/templates/travel-cyber-security-checklist.html:5
+msgid "Security Checklist Before Your Next Travel Departure – HSBC HK"
+msgstr "旅遊有清單，保安一樣有 - 香港滙豐"
+
+#: frontend/templates/travel-cyber-security-checklist.html:11
+msgid "Security Checklist Before Your Next Travel Departure"
+msgstr "旅遊有清單，保安一樣有"
+
+#: frontend/templates/travel-cyber-security-checklist.html:13
+msgid "Cyber security &amp; fraud hub"
+msgstr "網路安全及防詐騙資訊中心"
+
+#: frontend/templates/travel-cyber-security-checklist.html:18
+msgid ""
+"Hongkongers are a travel loving bunch, spending a whopping USD25.5 "
+"billion on international tourism11 view footnote 1 in 2017 to popular "
+"locations like Japan, Thailand and Australia. With so many of us taking "
+"flight, it's important to make sure you protect yourself and your money "
+"while you're away from home. Here's a handy checklist you can take along "
+"with your suitcases to keep cyber crime at bay:"
+msgstr "香港人熱愛旅遊，2017年在赴日本、泰國和澳洲等熱門地點的國際旅游上花費的金額高達255億美元（1）。這麼多人出外度假，在外遊時保護自己和財產安全就十分重要。暢遊外地時，不妨隨身攜帶以下安全清單，防範網上罪行："
+
+#: frontend/templates/travel-cyber-security-checklist.html:21
+msgid "1. Pre-flight checks"
+msgstr "1. 起飛前檢查"
+
+#: frontend/templates/travel-cyber-security-checklist.html:22
+msgid ""
+"We're not just talking about keeping your window shades up or your seats "
+"upright before the plane takes off; it's important to ensure your "
+"smartphones and laptops have up-to-date operating systems and apps. These"
+" fraud prevention security measures are the first step in guarding "
+"against malware and other online threats and once you're abroad it might "
+"be tough finding Wi-Fi so you can download all your updates."
+msgstr "我們說的不是要在起飛前打開窗戶擋板，或者把座位豎直，而是要檢查手機和手提電腦是否已經安裝最新的作業系統和應用程式。"
+
+#: frontend/templates/travel-cyber-security-checklist.html:23
+msgid ""
+"Once you've got that covered, consider the extra measure of ditching your"
+" physical token and switching to a Mobile Security Key. It'll ensure you "
+"have the top level of security for online banking, and you'll have one "
+"less gadget to carry with you."
+msgstr ""
+"這項預防欺詐的保安措施是抵禦惡意程式和網絡威脅的第一步，但因為出發後可能很難找到Wi-"
+"Fi下載所有更新，所以您應該提前做好準備。您也可以由實體編碼器轉用流動保安編碼，更安全地使用網上銀行服務，而且可以少帶一件東西。"
+
+#: frontend/templates/travel-cyber-security-checklist.html:26
+msgid "2. Lock it down"
+msgstr "2. 將智能裝置上鎖"
+
+#: frontend/templates/travel-cyber-security-checklist.html:27
+msgid ""
+"Keep your digital devices – smartphones, laptops, tablets, and your "
+"security device – locked and secure with a password, fingerprint or "
+"facial ID at all times. Strengthen your mobile security by shortening the"
+" time your smartphone's auto lock mechanism takes to kick in, so "
+"strangers have less of a chance to grab hold of your mobile's active "
+"screen and apps."
+msgstr "將智能電話、手提電腦、平板電腦和保安裝置等數碼裝置上鎖，時刻以密碼、指紋或臉部辨識作防護。我們也建議您縮短自動上鎖的時限，令陌生人有較少機會操作您的手機屏幕和應用程式，加強流動保安。"
+
+#: frontend/templates/travel-cyber-security-checklist.html:28
+msgid ""
+"Better yet: never leave your devices unattended. Keep them in your "
+"possession at all times, or safely secured in your hotel safe."
+msgstr "更加有效的方法是︰不要將裝置放在您的視線範圍以外，應該時刻看管您的裝置，或將它放在酒店的保險箱內，確保安全。"
+
+#: frontend/templates/travel-cyber-security-checklist.html:31
+msgid "3. Keep your passwords private and strong"
+msgstr "3. 採用難以識破的私人密碼"
+
+#: frontend/templates/travel-cyber-security-checklist.html:32
+msgid ""
+"Personal data protection is pivotal. Never share the passwords or pin "
+"numbers for your devices, credit cards or debit cards with anyone. And "
+"don't save those passwords on your device either, or write them on post-"
+"its or notepads. Use a different password for each device, and don't use "
+"your online banking password for anything else. Choose one that will be "
+"easy for you to remember, but don't make it a normal word or phrase and "
+"don't use things that are associated with you, such as pet names, "
+"children’s names or the city you live in. Instead, use a (seemingly) "
+"random combination of at least eight letters (both upper and lower case),"
+" numbers and symbols. It might look like hieroglyphics to a stranger, but"
+" it could hold a special meaning for you so you can easily remember it. "
+"Need some inspiration? We've got some tips on how to create a strong "
+"password."
+msgstr "保護個人資料最為關鍵，不要告訴別人任何裝置、信用卡或扣賬卡的密碼或PIN碼，也不應把密碼儲存在自己的裝置內，或者將它寫在便利貼或記事本內。為每個裝置設定不同的密碼，也不要將網上理財密碼用在其他裝置上。您可以使用容易記得的密碼，但不要使用一般單字或短語，也不要用您的個人資料作密碼，例如寵物的名字、乳名或居住的城市等。您可以使用看似隨機的組合，以字母（大寫和小寫）、數字和符號組成密碼。對不知道箇中含義的人來說，這個組合可能有如「外星文字」，但對您卻有特別意義，方便記憶。不知道從何入手？不妨參考我們關於建立安全密碼的建議。"
+
+#: frontend/templates/travel-cyber-security-checklist.html:35
+msgid "4. Be wary of public Wi-Fi and Bluetooth"
+msgstr "4. 慎用公共Wi-Fi和藍牙"
+
+#: frontend/templates/travel-cyber-security-checklist.html:36
+msgid ""
+"While it's tempting to connect to any free Wi-Fi network you can find "
+"instead of purchasing a local data plan for your smartphone, this can "
+"pose a security threat to your personal data, especially if you use "
+"unencrypted networks. This is true even if you're just checking your "
+"email or social media. If you must use the hotel Wi-Fi platform to get "
+"online, avoid accessing any sites or data that contain or require your "
+"personal information."
+msgstr ""
+"免費Wi-"
+"Fi可以省下當地數據計劃費用，無疑非常方便，卻會威脅您的個人資料安全。而使用未經加密的網絡，就更加危險。即使您只是用來檢查電郵、使用社交媒體，仍然有機會洩露個人資料"
+"。但如果您必須用酒店的Wi-Fi上網，應該避免到訪任何包含或要求您提供個人資料的網站或資訊。"
+
+#: frontend/templates/travel-cyber-security-checklist.html:37
+msgid ""
+"Some venues actively look for devices with Wi-Fi or Bluetooth turned on "
+"so they can track your movements while you are within range. To avoid "
+"this, disable your Wi-Fi and Bluetooth when you're not using them."
+msgstr "有些場所會主動搜尋啟用Wi-Fi或藍牙功能的裝置，在收發範圍內記錄您的行蹤。為了避免這種情況，在不使用Wi-Fi或藍牙功能時，就應該將它們關掉。"
+
+#: frontend/templates/travel-cyber-security-checklist.html:40
+msgid "5. Keep sensitive information off public channels"
+msgstr "5. 避免以公共途徑傳送敏感資料"
+
+#: frontend/templates/travel-cyber-security-checklist.html:41
+msgid ""
+"If you have to use the computer, printer or phone at your hotel's "
+"business centre, make sure you're not using them to communicate sensitive"
+" information or private data. Anytime you sign in to an account on a "
+"public computer, make sure that you don't allow the site or the browser "
+"to save your log-in details. You never know who will be using the "
+"computer afterwards. Once you're finished, log off completely from all "
+"the pages you opened, especially if you've had to access your bank or "
+"email accounts."
+msgstr "如果需要使用酒店商務中心的電腦、打印機或電話，不要用它們傳送敏感資料或私人資訊。在公用電腦登入賬戶前，應先確保這些網站或瀏覽器不會儲存自己的登入資訊，因為您不會知道接著誰會使用這部電腦。用完之後，徹底登出所有頁面，特別是銀行或電郵賬戶。"
+
+#: frontend/templates/travel-cyber-security-checklist.html:44
+msgid "6. Check the ATMs"
+msgstr "6. 檢查自動櫃員機"
+
+#: frontend/templates/travel-cyber-security-checklist.html:45
+msgid ""
+"If you have to use an ATM during your trip, take a second look before "
+"sliding in your bank card. In recent years we've seen scams like shell "
+"ATMs being set up to look exactly like the real thing, or ATM skimmers – "
+"malicious card readers – being attached to actual ATMs. If you put your "
+"bank card into one of those, it's not cash that comes out, but your card "
+"data and PIN – and it goes straight into the hands of the fraudsters."
+msgstr "如果旅程中要使用自動櫃員機，在插入銀行卡前，應該仔細看看櫃員機。近年，有不法分子在自動櫃員機裝設十分像真的「空殼機」，又曾在櫃員機加裝讀卡器。當您把銀行卡插入「空殼機」或讀卡器時，騙徒就能知道卡上的資料和PIN碼。"
+
+#: frontend/templates/travel-cyber-security-checklist.html:46
+msgid ""
+"Even if an ATM looks legitimate and is branded as that of a reputable "
+"bank you recognise, check for signs that it might be a fake. Does the pin"
+" shield detach easily from the machine? Are there two slots instead of "
+"just one insert your card into the machine? Are the arrows directing you "
+"to insert your card positioned oddly and does the keypad feel strange to "
+"the touch? Does any part of the ATM look like it's been tampered with and"
+" does it look different from the machine next to it? If so, don't use it."
+msgstr "但就算自動櫃員機沒有異樣，而且您也認得櫃員機上可信的銀行標誌，也應該查看是否有「假機」的跡象。鍵盤遮罩是否容易鬆脫？櫃員機是否有兩個插槽，比平常多了一個？標示插卡處的箭嘴位置，是不是有點奇怪﹖按鍵的觸感是不是有點古怪？櫃員機有没有任何部分好像被人改動過，看起來和旁邊的不同？如果發現有這些問題，就不應該使用。"
+
+#: frontend/templates/travel-cyber-security-checklist.html:47
+msgid ""
+"Your safest bet is to use an ATM in a branch, during bank hours. That "
+"way, if the machine eats your card, you'll be able to talk to bank staff "
+"about getting it back immediately. If that happens at a different ATM, "
+"you'll need to call our customer support hotline and let us know, but you"
+" might be without your card for the rest of your trip."
+msgstr "最安全的做法，莫過於在銀行營業時間內使用分行的自動櫃員機。即使櫃員機「食卡」，也可以請職員即時取回您的銀行卡。如果您在使用其他自動櫃員機時「食卡」，就要致電我們的客戶服務熱線，但您就未必可以在旅程期間取回銀行卡了。"
+
+#: frontend/templates/travel-cyber-security-checklist.html:48
+msgid ""
+"Even if you are certain the ATM you're using is legitimate, there is one "
+"more danger to be aware of: peepers. People – or strategically placed "
+"cameras – who hope to spy on you as you enter that magic PIN on the "
+"keypad. Keep your wits about you when using any ATM and do your best to "
+"hide your fingers so no one can figure out your PIN. Find out more about "
+"staying safe at the ATM."
+msgstr "然而，即使您肯定所用的自動櫃員機毫無問題，仍然需要提防那些偷看的人。不法分子或者裝在「有利」位置的鏡頭，可能會偷看您輸入銀行卡密碼。所以使用自動櫃員機時，應該提高警覺，盡量遮掩輸入的動作，令其他人看不到您的密碼。不妨了解一下安全使用自動櫃員機陷阱的方法。"
+
+#: frontend/templates/travel-cyber-security-checklist.html:51
+msgid "7. Keep track of your belongings"
+msgstr "7. 保管好隨身物品"
+
+#: frontend/templates/travel-cyber-security-checklist.html:52
+msgid ""
+"Make sure you keep your personal belongings accounted for while "
+"travelling, especially when you're on the move between different cities. "
+"It's not a good idea to keep your cash, credit or debit cards, laptop, "
+"cellphone and passport all in the same place, because you might be left "
+"completely stranded in the unfortunate event of being pick-pocketed, "
+"while the perpetrator has access to even more of your private "
+"information. Keep your guard up especially in crowded areas or during "
+"times when you may be momentarily distracted, like when you're having a "
+"meal with a large group of people or shopping in a crowded market."
+msgstr "記得在旅程時刻保管好個人財物，特別是在不同城市之間穿梭時，更加要小心。最好不要把現金、信用卡、扣賬卡、手提電腦、手機和護照放在同一個地方。如果不幸遇上扒手，您可能會損失慘重，也會讓扒手一下取得您更多私人資料。在人多擠迫的地方，或可能會分心時（例如與大夥進餐或者在熱鬧的市場購物），一定要打醒十二分精神。"
+
+#: frontend/templates/travel-cyber-security-checklist.html:55
+msgid "8. One last step"
+msgstr "8. 旅途結尾"
+
+#: frontend/templates/travel-cyber-security-checklist.html:56
+msgid ""
+"The cybersecurity checklist doesn't end right when you board your return "
+"flight back. If you used local networks or Wi-Fi while you were overseas,"
+" your cellphone and laptop could be carrying spyware you're not aware of."
+" Once you get home, update your security and antivirus software to the "
+"newest available versions, and change your device passwords."
+msgstr ""
+"踏上回程客機，不代表網上保安已經完成。如果您在海外用過當地網絡或Wi-"
+"Fi，間諜軟件可能已經潛藏在您的手機和手提電腦之中。回家後，應盡快把保安和防毒軟件更新至最新版本，並更改裝置的密碼。"
+
+#: frontend/templates/travel-cyber-security-checklist.html:57
+msgid ""
+"We hope these tips will help keep you safe both at home and abroad. Each "
+"of the tips might protect something small, but the more you can protect, "
+"the fewer ways a cyber criminal will have of patching together your "
+"identity or committing a fraud. We've got lots of other tips that can "
+"help you maximise your banking security."
+msgstr "希望這些錦囊能夠幫您確保境內和境外的網絡安全。只使用一個錦囊，保護未必足夠，但如果多管齊下，就可以保護更多資料，令網上犯罪分子更難掌握您的身分資訊、製造騙局。我們還有許多其他建議，幫您更加安全地理財。"
+
+#: frontend/templates/travel-cyber-security-checklist.html:58
+msgid "Planning a trip? Check out our other safe travel tips. Bon voyage!"
+msgstr "正在計劃旅程？不妨看看我們其他的安全旅遊訣竅。祝旅途愉快！"
+

@@ -1,0 +1,292 @@
+# Chinese translations for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-08-12 11:43+0800\n"
+"PO-Revision-Date: 2025-08-13 15:11+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: frontend/templates/cyber-security-index.html:5
+msgid "How to Be Cyber Smart? – HSBC HK"
+msgstr "如何變得更Cyber Smart？ - 香港滙豐"
+
+#: frontend/templates/android-malware-safety-measures.html:13
+msgid "Cyber security and fraud hub"
+msgstr "網路安全及防詐騙資訊中心"
+
+#: frontend/templates/cyber-security-index.html:11
+msgid "How to be Cyber Smart?"
+msgstr "如何變得更Cyber Smart？"
+
+#: frontend/templates/cyber-security-index.html:19
+msgid ""
+"The internet has made our lives incredibly convenient. But for all the "
+"benefits this enormous data explosion gives us, it also brings new risks."
+msgstr "互聯網帶來的數據大爆炸，雖然讓我們的生活更加方便，但也為我們帶來新的風險。"
+
+#: frontend/templates/cyber-security-index.html:20
+msgid ""
+"Are Hongkongers able to handle and avoid threats like identity theft, "
+"online scams, account hacks or ransomware?"
+msgstr "對於互聯網帶來的身份盜竊、網上詐騙、賬戶被盜或電腦勒索等危機，港人有能力處理和防範嗎？"
+
+#: frontend/templates/cyber-security-index.html:21
+msgid ""
+"We wanted to know. So in February 2020, we surveyed more than 1,000 Hong "
+"Kong residents – both HSBC customers and non-customers – to see how "
+"\"Cyber Smart\" they are."
+msgstr "我們很好奇，所以我們在2020年2月進行調查，訪問超過1,000名香港居民（包括滙豐和非滙豐客戶），了解他們有多「Cyber Smart」。"
+
+#: frontend/templates/cyber-security-index.html:22
+msgid ""
+"We plotted their results on our Cyber Security Index, which we developed "
+"with a well-known market research company."
+msgstr "我們又與一家知名市場調研公司合作開發網絡安全指數，顯示調查結果。"
+
+#: frontend/templates/cyber-security-index.html:26
+msgid "The Index is comprised of 3 key pillars:"
+msgstr "網絡安全指數由三大關鍵指標組成："
+
+#: frontend/templates/cyber-security-index.html:28
+msgid "Knowledge"
+msgstr "知識"
+
+#: frontend/templates/cyber-security-index.html:28
+msgid ""
+" – Awareness of threats as well as steps to defend and protect against "
+"them"
+msgstr " - 對網絡威脅和防範措施的認知"
+
+#: frontend/templates/cyber-security-index.html:29
+msgid "Behavior"
+msgstr "行為"
+
+#: frontend/templates/cyber-security-index.html:29
+msgid ""
+" – How a person uses technology, and how they use technology to protect "
+"themselves"
+msgstr " - 如何使用科技，以及如何用科技保護自己"
+
+#: frontend/templates/cyber-security-index.html:30
+msgid "Attitude"
+msgstr "態度"
+
+#: frontend/templates/cyber-security-index.html:30
+msgid ""
+" – How much priority a person places on staying up to date on threats, or"
+" the importance they place on security precautions"
+msgstr " - 有多關注最新的網絡威脅，或者有多重視保安措施"
+
+#: frontend/templates/cyber-security-index.html:35
+msgid "Let's look at the results."
+msgstr "現在，來了解一下調查結果吧。"
+
+#: frontend/templates/cyber-security-index.html:37
+#, python-format
+msgid "56%% of people in HK encountered scams"
+msgstr "56%%港人曾經歷網上騙案"
+
+#: frontend/templates/cyber-security-index.html:38
+#, python-format
+msgid "29%% of those people lost money, HKD2,811 on average"
+msgstr "當中29%%港人蒙受金錢損失，人均損失港幣2,811元"
+
+#: frontend/templates/cyber-security-index.html:43
+msgid "What it takes to be \"Cyber Smart\""
+msgstr "怎樣才算「Cyber Smart」"
+
+#: frontend/templates/cyber-security-index.html:44
+msgid ""
+"To get a Cyber Smart rating, respondents had to score 80 or above in all "
+"three sections of the survey. These scores show that they are more "
+"conscious of different online scams and are willing to learn more about "
+"the latest cybersecurity tips. They take more preventive measures against"
+" cyber attacks, as well as try their best to avoid potentially risky "
+"behaviours."
+msgstr ""
+"受訪者必須在全部三個範疇中取得80分或以上，才可以達到「Cyber "
+"Smart」等級。這個等級代表他們對各種網上詐騙較為警惕，亦願意了解更多最新的網絡安全秘訣，同時會對網絡攻擊採取更多防範措施，盡力避免做出可能會對安全構成風險的行為。"
+
+#: frontend/templates/cyber-security-index.html:45
+#, python-format
+msgid ""
+"Only 8.5%% of the people in our survey received a Cyber Smart rating. What"
+" did most of them get wrong? How could they have done better?"
+msgstr "但是，只有8.5%%的受訪者可以歸為「Cyber Smart」。到底香港人最常犯的錯誤是甚麼？他們有甚麼可以改善的地方？"
+
+#: frontend/templates/cyber-security-index.html:46
+msgid "Here are some of the most common mistakes:"
+msgstr "來看一下他們最常犯的錯誤："
+
+#: frontend/templates/cyber-security-index.html:48
+msgid "Mistake 1:"
+msgstr "錯誤一："
+
+#: frontend/templates/cyber-security-index.html:48
+#, python-format
+msgid ""
+"Using the same password for multiple apps and sites. 66%% of respondents "
+"said they did this."
+msgstr "為不同應用程式和網站設定同一密碼。66%%受訪者表示曾犯這個錯誤。"
+
+#: frontend/templates/cyber-security-index.html:48
+#: frontend/templates/cyber-security-index.html:49
+#: frontend/templates/cyber-security-index.html:50
+#: frontend/templates/cyber-security-index.html:51
+#: frontend/templates/cyber-security-index.html:52
+msgid "Solution:"
+msgstr "解決方法："
+
+#: frontend/templates/cyber-security-index.html:48
+msgid ""
+"Use a unique password for your online banking. Change it every 3 months "
+"(at least). Don't write it down on a piece of paper and never share it "
+"with anyone."
+msgstr "為網上理財設定獨一無二的密碼，並且至少每三個月更改一次。但記得不要寫下密碼，也不要向任何人透露。"
+
+#: frontend/templates/cyber-security-index.html:49
+msgid "Mistake 2:"
+msgstr "錯誤二："
+
+#: frontend/templates/cyber-security-index.html:49
+msgid "Not using all the security at your disposal."
+msgstr "沒有善用保安工具。"
+
+#: frontend/templates/cyber-security-index.html:49
+msgid ""
+"Make sure you have anti-virus software installed on your devices. Use "
+"2-factor identification and biometric identification to make logging on "
+"quick and secure. Activate push notifications that will alert you to any "
+"unexpected transactions from your account."
+msgstr "除了在所有裝置安裝防毒軟件外，您也可以用雙重認證及生物識別認證等方法，安全快捷地登入戶口。您亦應啟用推送通知，在戶口出現預料之外的交易時提醒您，確保資金安全。"
+
+#: frontend/templates/cyber-security-index.html:50
+msgid "Mistake 3:"
+msgstr "錯誤三："
+
+#: frontend/templates/cyber-security-index.html:50
+msgid "Not staying up to date."
+msgstr "沒有定期更新。"
+
+#: frontend/templates/cyber-security-index.html:50
+msgid ""
+"Update your device operating systems, browsers, apps and antivirus "
+"software regularly. Or, set them to auto-update so you'll always have the"
+" latest levels of security."
+msgstr "定期更新裝置運作系統、瀏覽器、應用程式和防毒軟件，或者開啟自動更新功能，隨時獲得最新的安全防護。"
+
+#: frontend/templates/cyber-security-index.html:51
+msgid "Mistake 4:"
+msgstr "錯誤四："
+
+#: frontend/templates/cyber-security-index.html:51
+msgid "Banking on public Wi-Fi using public devices."
+msgstr "以公共電子裝置並經公眾無線網絡登入網上理財。"
+
+#: frontend/templates/cyber-security-index.html:51
+msgid ""
+"Only use trusted Wi-Fi or cell service when banking online, and only "
+"trust browsers on a reliable personal device. Avoid banking on public "
+"devices (e.g. public computers in cafes or libraries) and ensure your "
+"home Wi-Fi is secured with a password."
+msgstr "只用可信賴的無線網絡或數據網絡連接網上理財。與此同時，只信任及使用在您個人電子裝置上的瀏覽器，並避免使用公共電子裝置，如在咖啡廳和圖書館裡的電腦，並為家居無線網絡加設密碼。"
+
+#: frontend/templates/cyber-security-index.html:52
+msgid "Mistake 5:"
+msgstr "錯誤五："
+
+#: frontend/templates/cyber-security-index.html:52
+msgid "Trusting apps too much."
+msgstr "過於信任應用程式。"
+
+#: frontend/templates/cyber-security-index.html:52
+msgid ""
+"Be cautious of any app that asks for too many permissions. Be sure to "
+"read the T&amp;Cs instead of just swiping to the end and accepting them."
+msgstr "當應用程式要求太多權限時，您應提高警惕，並仔細閱讀條款及細則，不要隨隨便便就按下「同意」。"
+
+#: frontend/templates/cyber-security-index.html:57
+msgid "Cyber Smart tips to remember your password:"
+msgstr "記住密碼的小秘訣："
+
+#: frontend/templates/cyber-security-index.html:59
+msgid "Log on more often:"
+msgstr "經常登入賬戶"
+
+#: frontend/templates/cyber-security-index.html:59
+msgid "Using your password regularly will help you remember it."
+msgstr "定期輸入密碼，可以幫您將它牢牢記住。"
+
+#: frontend/templates/cyber-security-index.html:60
+msgid "Make it personal, but discrete:"
+msgstr "設定和自己有關的密碼，但不要太著跡"
+
+#: frontend/templates/cyber-security-index.html:60
+msgid ""
+"Use a combination of upper/lowercase letters, numbers, and symbols. It "
+"can look like gibberish, but still have a special meaning for you."
+msgstr "使用結合大小寫字母、數字和符號的密碼可能令其他人摸不著頭腦，但對您可以包含特別意思，幫您更易記住。"
+
+#: frontend/templates/cyber-security-index.html:61
+msgid "Use your biometrics:"
+msgstr "用生物特徵登入"
+
+#: frontend/templates/cyber-security-index.html:61
+msgid ""
+"The HSBC HK Mobile Banking app lets you log on with just a smile or a "
+"touch. It's hard to forget your face or your fingerprint."
+msgstr "只需簡單一按，或者一個笑容，即可輕鬆登入香港滙豐流動理財應用程式。用臉部和指紋登入，就不用苦記密碼了吧？"
+
+#: frontend/templates/cyber-security-index.html:66
+msgid "HSBC is your trusted partner"
+msgstr "滙豐是您值得信賴的夥伴"
+
+#: frontend/templates/cyber-security-index.html:67
+msgid ""
+"We are very proud that the survey results ranked us as Hong Kong's most "
+"trusted bank*. We work hard to keep your finances secure, and to help "
+"people be more aware of online risks and dangers."
+msgstr "調查結果顯示，滙豐是香港最受信賴的銀行*。對此，我們深感自豪。一直以來，我們均致力確保您的資金安全，並加強市民對網絡風險和危機的認識。"
+
+#: frontend/templates/cyber-security-index.html:68
+msgid ""
+"But we can't do it without your help. Updating your unique online banking"
+" password is a great start. Ensuring that all of your personal "
+"information with us is up to date is another simple but powerful tool in "
+"the fight against cybercrime."
+msgstr "不過，如果沒有您的配合，我們就無法成功。您可以先為網上理財設置獨特的新密碼，並向我們提供最新的個人資料，踏出網絡安全的第一步。不要少看這個步驟，它看似簡單，卻能有效防範網絡犯罪。"
+
+#: frontend/templates/cyber-security-index.html:69
+msgid "We'll be updating our Cyber Security Index every year."
+msgstr "我們每年都會更新網絡安全指數，"
+
+#: frontend/templates/cyber-security-index.html:69
+msgid "We hope that articles like this, as well as our"
+msgstr "希望這篇文章和"
+
+#: frontend/templates/cyber-security-index.html:69
+msgid "other cyber security tips"
+msgstr "其他網絡安全錦囊一樣"
+
+#: frontend/templates/cyber-security-index.html:69
+msgid ""
+", will go a long way towards helping more Hongkongers reach that Cyber "
+"Smart status."
+msgstr "，能幫助更多港人變得「Cyber Smart」。"
+
+#: frontend/templates/cyber-security-index.html:70
+msgid "* Statistics from HSBC Cyber Security Index 2020"
+msgstr "* 數據來自滙豐網絡安全調查2020"
+

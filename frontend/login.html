@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- FontAwesome 6 CDN for eye icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HSBC HKSL Demo :8012 - Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Source Sans Pro', 'Arial', sans-serif;
+            background: linear-gradient(135deg, #db0011 0%, #a50000 50%, #8b0000 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            position: relative;
+        }
+
+        /* Background pattern */
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M 20 0 L 0 0 0 20" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"/></pattern></defs><rect width="100" height="100" fill="url(%23grid)"/></svg>');
+            z-index: 1;
+        }
+
+        .login-container {
+            background: rgba(255, 255, 255, 0.98);
+            backdrop-filter: blur(20px);
+            border-radius: 20px;
+            box-shadow: 
+                0 25px 50px rgba(0, 0, 0, 0.2),
+                0 0 0 1px rgba(255, 255, 255, 0.1),
+                inset 0 1px 0 rgba(255, 255, 255, 0.8);
+            padding: 50px 40px;
+            width: 100%;
+            max-width: 450px;
+            text-align: center;
+            position: relative;
+            z-index: 2;
+            animation: slideIn 0.8s ease-out;
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .logo-section {
+            margin-bottom: 40px;
+        }
+
+        .demo-badge {
+            display: inline-block;
+            margin-bottom: 14px;
+            padding: 5px 12px;
+            border: 1px solid #db0011;
+            border-radius: 999px;
+            color: #db0011;
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: 0.4px;
+            text-transform: uppercase;
+        }
+
+        .hsbc-logo {
+            width: 120px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        .main-title {
+            color: #db0011;
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            letter-spacing: -0.5px;
+            line-height: 1.2;
+        }
+
+        .subtitle {
+            color: #666;
+            font-size: 16px;
+            font-weight: 400;
+            margin-bottom: 40px;
+        }
+
+        .form-group {
+            margin-bottom: 25px;
+            text-align: left;
+        }
+
+        .form-label {
+            display: block;
+            color: #333;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .form-input {
+            width: 100%;
+            padding: 16px 20px;
+            border: 2px solid #e0e0e0;
+            border-radius: 12px;
+            font-size: 16px;
+            background: #fff;
+            transition: all 0.3s ease;
+            outline: none;
+        }
+
+        .form-input:focus {
+            border-color: #db0011;
+            box-shadow: 0 0 0 4px rgba(219, 0, 17, 0.1);
+        }
+
+        .login-button {
+            width: 100%;
+            background: linear-gradient(135deg, #db0011 0%, #b50010 100%);
+            color: white;
+            border: none;
+            padding: 18px 24px;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-top: 20px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .login-button:hover {
+            background: linear-gradient(135deg, #c50010 0%, #a5000e 100%);
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(219, 0, 17, 0.3);
+        }
+
+        .login-button:active {
+            transform: translateY(0);
+        }
+
+        .error-message {
+            background: #fff5f5;
+            border: 1px solid #fed7d7;
+            color: #c53030;
+            padding: 12px 16px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            font-size: 14px;
+            display: none;
+        }
+
+        .powered-by {
+            margin-top: 30px;
+            padding-top: 25px;
+            border-top: 1px solid #e0e0e0;
+            color: #888;
+            font-size: 12px;
+        }
+
+        .disclaimer {
+            margin-top: 20px;
+            padding: 16px 20px;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            border: 1px solid #e0e6ed;
+            border-radius: 12px;
+            color: #495057;
+            font-size: 11px;
+            line-height: 1.6;
+            text-align: left;
+            position: relative;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+
+        .disclaimer::before {
+            content: '⚠️';
+            position: absolute;
+            top: 12px;
+            left: 16px;
+            font-size: 14px;
+            color: #db0011;
+        }
+
+        .disclaimer-content {
+            margin-left: 24px;
+        }
+
+        .disclaimer a {
+            color: #db0011;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.2s ease;
+        }
+
+        .disclaimer a:hover {
+            color: #b50010;
+            text-decoration: underline;
+        }
+
+        .disclaimer-highlight {
+            font-weight: 600;
+            color: #343a40;
+        }
+
+        .glassbox-logo {
+            color: #db0011;
+            font-weight: 600;
+        }
+
+        /* Loading animation */
+        .loading {
+            pointer-events: none;
+        }
+
+        .loading::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 20px;
+            height: 20px;
+            margin: -10px 0 0 -10px;
+            border: 2px solid transparent;
+            border-top: 2px solid white;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Responsive */
+        @media (max-width: 480px) {
+            .login-container {
+                margin: 20px;
+                padding: 30px 25px;
+            }
+            
+            .main-title {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <div class="logo-section">
+            <!-- HSBC Logo SVG -->
+            <svg class="hsbc-logo" viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="120" height="40" fill="#db0011"/>
+                <text x="60" y="26" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">HSBC</text>
+            </svg>
+            
+            <div class="demo-badge">Standalone Demo :8012</div>
+            <h1 class="main-title">HSBC HKSL POC<br>8012 Demo Access</h1>
+            <p class="subtitle">Separate secure login for the standalone 8012 demo</p>
+        </div>
+
+        <form id="loginForm">
+            <div class="error-message" id="errorMessage">
+                Invalid credentials. Please try again.
+            </div>
+
+            <div class="form-group">
+                <label for="username" class="form-label">Username</label>
+                <input type="text" id="username" name="username" class="form-input" required autocomplete="username">
+            </div>
+
+            <div class="form-group">
+                                <label for="password" class="form-label">Password</label>
+                                <div style="position:relative;">
+                                    <input type="password" id="password" name="password" class="form-input" required autocomplete="current-password" style="padding-right:44px;">
+                                    <span id="togglePassword" style="position:absolute;top:50%;right:16px;transform:translateY(-50%);cursor:pointer;color:#888;font-size:20px;">
+                                        <i class="fa-solid fa-eye" aria-hidden="true"></i>
+                                    </span>
+                                </div>
+            </div>
+
+            <button type="submit" class="login-button" id="loginButton">
+                Sign In
+            </button>
+        </form>
+
+        <div class="powered-by">
+            Powered by <span class="glassbox-logo">Glassbox AI</span> Technology
+        </div>
+        <div class="disclaimer">
+            <div class="disclaimer-content">
+                <span class="disclaimer-highlight">Disclaimer:</span>
+                <br>
+                This website is a functional prototype developed by Glassbox AI for a demonstration project with HSBC. It is not the official HSBC website and offers no real banking services.
+                <br><br>
+                The Hong Kong Sign Language (HKSL) translations are AI-generated and provided "as is" without warranty of accuracy, completeness, or reliability. They are not a substitute for professional advice.
+            </div>
+        </div>
+    </div>
+
+    <script>
+                                // Password visibility toggle
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    var toggle = document.getElementById('togglePassword');
+                                    var pwd = document.getElementById('password');
+                                    if (toggle && pwd) {
+                                        toggle.addEventListener('click', function() {
+                                            if (pwd.type === 'password') {
+                                                pwd.type = 'text';
+                                                toggle.innerHTML = '<i class="fa-solid fa-eye-slash" aria-hidden="true"></i>';
+                                            } else {
+                                                pwd.type = 'password';
+                                                toggle.innerHTML = '<i class="fa-solid fa-eye" aria-hidden="true"></i>';
+                                            }
+                                        });
+                                    }
+                                });
+        // User credentials (in production, this should be server-side)
+        const validCredentials = {
+            "admin": "admin"
+        };
+
+        const loginForm = document.getElementById('loginForm');
+        const errorMessage = document.getElementById('errorMessage');
+        const loginButton = document.getElementById('loginButton');
+
+        loginForm.addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const username = document.getElementById('username').value.trim();
+            const password = document.getElementById('password').value;
+
+            // Show loading state
+            loginButton.classList.add('loading');
+            loginButton.textContent = '';
+            errorMessage.style.display = 'none';
+
+            try {
+                // Call the actual API endpoint
+                const response = await fetch('/api/login', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/x-www-form-urlencoded',
+                    },
+                    credentials: 'include', // Include cookies
+                    body: new URLSearchParams({
+                        username: username,
+                        password: password
+                    })
+                });
+
+                const result = await response.json();
+
+                if (result.success) {
+                    // Success - store session and redirect
+                    sessionStorage.setItem('hsbc_avoid_auth', 'authenticated');
+                    sessionStorage.setItem('hsbc_avoid_user', username);
+                    
+                    // Redirect to main page
+                    window.location.href = '/';
+                } else {
+                    // Failed authentication
+                    errorMessage.textContent = result.message || 'Invalid credentials';
+                    errorMessage.style.display = 'block';
+                    loginButton.classList.remove('loading');
+                    loginButton.textContent = 'Sign In';
+                    
+                    // Clear password field
+                    document.getElementById('password').value = '';
+                    document.getElementById('password').focus();
+                }
+            } catch (error) {
+                // Network or other error
+                errorMessage.textContent = 'Login failed. Please try again.';
+                errorMessage.style.display = 'block';
+                loginButton.classList.remove('loading');
+                loginButton.textContent = 'Sign In';
+                
+                console.error('Login error:', error);
+            }
+        });
+
+        // Check if already authenticated
+        function getCookie(name) {
+            const value = `; ${document.cookie}`;
+            const parts = value.split(`; ${name}=`);
+            if (parts.length === 2) return parts.pop().split(';').shift();
+            return null;
+        }
+
+        function isAuthenticated() {
+            // Check sessionStorage first
+            if (sessionStorage.getItem('hsbc_avoid_auth') === 'authenticated') {
+                return true;
+            }
+            
+            // Check the 8012-specific HTTP cookie only
+            const authCookie = getCookie('auth_token_avoid');
+            if (authCookie && authCookie.startsWith('authenticated_')) {
+                // Sync the auth state to sessionStorage
+                sessionStorage.setItem('hsbc_avoid_auth', 'authenticated');
+                const username = authCookie.replace('authenticated_', '');
+                sessionStorage.setItem('hsbc_avoid_user', username);
+                return true;
+            }
+            
+            return false;
+        }
+
+        if (isAuthenticated()) {
+            window.location.href = '/';
+        }
+
+        // Focus username field on load
+        window.addEventListener('load', () => {
+            document.getElementById('username').focus();
+        });
+    </script>
+</body>
+</html>

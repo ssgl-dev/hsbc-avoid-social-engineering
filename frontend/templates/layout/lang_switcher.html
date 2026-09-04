@@ -1,0 +1,16 @@
+<div class="lang-switcher" style="position: fixed; top: 10px; right: 10px; z-index: 1000; font-family: sans-serif; font-size: 14px;">
+  <span style="margin-right: 6px;" class="trans">{% trans %}Language{% endtrans %}:</span>
+  {# Build return URL preserving current path and query #}
+  {% set return_url = request.url.path %}
+  {% if request.url.query %}{% set return_url = return_url + '?' + request.url.query %}{% endif %}
+  {% if current_lang == 'en' %}
+    <strong><a aria-current="true" href="/set-lang?lang=en&next={{ return_url|urlencode }}" style="margin-right: 6px;">EN</a></strong>
+  {% else %}
+    <a href="/set-lang?lang=en&next={{ return_url|urlencode }}" style="margin-right: 6px;">EN</a>
+  {% endif %}
+  {% if current_lang and current_lang.startswith('zh') %}
+    <strong><a aria-current="true" href="/set-lang?lang=zh&next={{ return_url|urlencode }}">中文</a></strong>
+  {% else %}
+    <a href="/set-lang?lang=zh&next={{ return_url|urlencode }}">中文</a>
+  {% endif %}
+</div>

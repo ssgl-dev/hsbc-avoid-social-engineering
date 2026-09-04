@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HSBC HKSL Demo :8012</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            background: #f4f6fb;
+            color: #172b4d;
+            font-family: "Source Sans Pro", "Arial", sans-serif;
+        }
+
+        .topbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+            padding: 18px 32px;
+            background: #fff;
+            border-bottom: 1px solid #e3e8f2;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-weight: 700;
+        }
+
+        .brand-mark {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 34px;
+            height: 34px;
+            border-radius: 8px;
+            background: #db0011;
+            color: #fff;
+            font-weight: 700;
+        }
+
+        .brand-name {
+            color: #db0011;
+            font-size: 18px;
+        }
+
+        .port-tag {
+            display: inline-block;
+            padding: 5px 10px;
+            border: 1px solid #d3daea;
+            border-radius: 999px;
+            color: #59677d;
+            font-size: 12px;
+            font-weight: 700;
+        }
+
+        .logout-button {
+            padding: 8px 14px;
+            border: 1px solid #cbd2e0;
+            border-radius: 6px;
+            background: #fff;
+            color: #172b4d;
+            cursor: pointer;
+            font: inherit;
+            font-size: 14px;
+            text-decoration: none;
+        }
+
+        .logout-button:hover {
+            background: #f3f5fa;
+        }
+
+        .content {
+            width: min(920px, calc(100% - 40px));
+            margin: 44px auto 56px;
+        }
+
+        .eyebrow {
+            color: #db0011;
+            font-size: 13px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+        }
+
+        h1 {
+            margin: 10px 0 8px;
+            font-size: 32px;
+            line-height: 1.25;
+        }
+
+        .intro {
+            max-width: 640px;
+            color: #59677d;
+            font-size: 16px;
+            line-height: 1.7;
+        }
+
+        .demo-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 16px;
+            margin-top: 32px;
+        }
+
+        .demo-card {
+            display: block;
+            min-height: 168px;
+            padding: 24px;
+            border: 1px solid #e3e8f2;
+            border-radius: 8px;
+            background: #fff;
+            color: inherit;
+            text-decoration: none;
+            transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+        }
+
+        .demo-card:hover,
+        .demo-card:focus-visible {
+            border-color: #353ddc;
+            box-shadow: 0 8px 24px rgba(53, 61, 220, 0.12);
+            transform: translateY(-2px);
+            outline: none;
+        }
+
+        .demo-card small {
+            display: block;
+            margin-bottom: 10px;
+            color: #59677d;
+            font-size: 12px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.6px;
+        }
+
+        .demo-card h2 {
+            color: #172b4d;
+            font-size: 19px;
+            line-height: 1.4;
+        }
+
+        .demo-card p {
+            margin-top: 10px;
+            color: #59677d;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .route {
+            display: inline-block;
+            margin-top: 16px;
+            color: #353ddc;
+            font-family: Consolas, monospace;
+            font-size: 13px;
+        }
+
+        .route::after {
+            content: "  ->";
+        }
+    </style>
+</head>
+<body>
+    <header class="topbar">
+        <div class="brand">
+            <span class="brand-mark">H</span>
+            <span class="brand-name">HSBC HKSL Demo</span>
+            <span class="port-tag">Port 8012 Standalone</span>
+        </div>
+        <a class="logout-button" data-logout href="#">Log out</a>
+    </header>
+
+    <main class="content">
+        <div class="eyebrow">Independent 8012 demo entry</div>
+        <h1>Hand sign language demos</h1>
+        <p class="intro">This entry page is served only by the standalone 8012 project and is kept separate from the pages running on port 80.</p>
+
+        <div class="demo-grid">
+            <a class="demo-card" href="/avoid-social-engineering-scams">
+                <small>Demo 01</small>
+                <h2>Avoid Social Engineering Scams<br>防範「社交工程」詐騙</h2>
+                <p>Total-video sign language playback with sentence navigation.</p>
+                <span class="route">/avoid-social-engineering-scams</span>
+            </a>
+            <a class="demo-card" href="/credit-card-fraud-alert">
+                <small>Demo 02</small>
+                <h2>Preventing Credit Card Fraud<br>提防信用卡騙案</h2>
+                <p>Total-video sign language playback with tab and page navigation.</p>
+                <span class="route">/credit-card-fraud-alert</span>
+            </a>
+        </div>
+    </main>
+
+    <script src="/assets/js/auth-guard.js"></script>
+</body>
+</html>

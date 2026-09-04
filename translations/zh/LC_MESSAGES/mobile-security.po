@@ -1,0 +1,287 @@
+# Chinese translations for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-08-12 16:41+0800\n"
+"PO-Revision-Date: 2025-08-13 15:11+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: frontend/templates/mobile-security.html:5
+msgid "What you need to know about mobile device settings – HSBC HK"
+msgstr "流動裝置設定您要知 - 香港滙豐"
+
+#: frontend/templates/android-malware-safety-measures.html:13
+msgid "Cyber security and fraud hub"
+msgstr "網路安全及防詐騙資訊中心"
+
+#: frontend/templates/mobile-security.html:11
+msgid "What you need to know about mobile device settings"
+msgstr "流動裝置設定您要知"
+
+#: frontend/templates/mobile-security.html:12
+msgid ""
+"Your mobile contains a lot of valuable information. Don't let it fall "
+"into the wrong hands. Here's how you can keep your mobile safe."
+msgstr "您的流動裝置載有大量寶貴資料，應提防落入不法分子的手中。以下為保障裝置安全的守則。"
+
+#: frontend/templates/mobile-security.html:20
+msgid ""
+"The majority of online activity is done on mobile devices. That includes "
+"browsing, communicating, posting on social media, as well as making "
+"financial transactions. That’s why we need to treat our mobiles with the "
+"same level of vigilance and cyber protection as we do our computers."
+msgstr "大部分網上活動都在流動裝置進行，當中包括瀏覽、通訊、在社交媒體登載內容，以及進行財務交易。故此，我們對流動裝置的警覺及採取的網絡防護措施，均需達到和電腦同級的水平。"
+
+#: frontend/templates/mobile-security.html:24
+msgid "How you can keep your mobile safe"
+msgstr "如何安全地使用流動裝置"
+
+#: frontend/templates/mobile-security.html:25
+msgid "Browse smartly"
+msgstr "做個精明瀏覽者"
+
+#: frontend/templates/mobile-security.html:27
+msgid ""
+"If you use the HSBC HK Mobile Banking app, or other online apps like "
+"PayMe, Reward+ and EasyInvest be sure you download them from official app"
+" stores."
+msgstr "如要使用香港滙豐流動理財應用程式或其他應用程式，如PayMe 、滙豐Reward+及香港滙豐投資全速易，必須只在官方應用程式商店下載該應用程式"
+
+#: frontend/templates/mobile-security.html:28
+msgid ""
+"HSBC not affiliated with any third party aggregator mobile apps and "
+"customers should not disclose their online banking credentials to third "
+"parties."
+msgstr "滙豐與任何第三者聚合器流動應用程式都概無連繫，客戶不應向第三者披露其網上理財登入資料"
+
+#: frontend/templates/mobile-security.html:29
+msgid ""
+"When using your browser, look for the padlock in the address bar. This "
+"indicates the browser is secure."
+msgstr "使用瀏覽器時，應確保網址列中有掛鎖圖案，此圖案代表瀏覽器處於安全網域"
+
+#: frontend/templates/mobile-security.html:30
+msgid "Only use trusted Wi-Fi networks or service providers."
+msgstr "只使用可信賴的Wi-Fi無線網絡或服務供應商"
+
+#: frontend/templates/mobile-security.html:31
+msgid "Use security protection such as Wi-Fi Protected Access (WPA), if possible."
+msgstr "盡可能採用保安措施，例如Wi-Fi Protected Access（WPA；一種保護無線電腦網絡安全的系統）"
+
+#: frontend/templates/mobile-security.html:32
+msgid ""
+"Disable Bluetooth if you are not using it, or set your device so it is "
+"not discoverable."
+msgstr "在毋須使用時，請停用藍芽功能或把藍芽裝置設定為隱藏模式"
+
+#: frontend/templates/mobile-security.html:35
+msgid "Be cautious of using any free VPN"
+msgstr "慎用免費的虛擬專用網絡（VPN）"
+
+#: frontend/templates/mobile-security.html:36
+msgid ""
+"A \"Virtual Private Network\", or VPN, is a software that allows you to "
+"mask your computer's location or log on to sites as if your computer is "
+"based in another country or region. But just as “there’s no such thing as"
+" a free lunch”, the cheaper the VPN, the greater the chance they have "
+"security issues."
+msgstr ""
+"「虛擬專用網絡」（Virtual Private "
+"Network，簡稱VPN）是一種可用來隱藏電腦位址，或使電腦以看來處於另一國家或地區的「虛擬」位址登入網站的軟件。但「世上沒有免費午餐」：VPN越是廉宜，涉及保安問題的機會亦越高。"
+
+#: frontend/templates/mobile-security.html:37
+msgid "Free VPNs have hidden dangers."
+msgstr "免費VPN的隱藏危機"
+
+#: frontend/templates/mobile-security.html:39
+msgid ""
+"Malware hidden inside VPNs can steal your data, which can then be used to"
+" hijack your online accounts, steal your money (bank and credit card "
+"details), steal your digital goods or products, or lock or encrypt your "
+"devices in exchange for a payout (e.g. ransomware), and more."
+msgstr "隱藏於VPN的惡意軟件可能會盜取您的資料，藉以掌控您的網上帳戶，偷竊您的金錢（銀行及信用卡資料）、數碼貨品或產品，或者鎖住或加密您的裝置以換取「贖金」（如勒索軟件），手法層出不窮。"
+
+#: frontend/templates/mobile-security.html:40
+msgid ""
+"VPNs can also hijack your browser, redirecting it to other sites without "
+"your permission, which can further lead to fraud risk."
+msgstr "VPN亦可能會掌控瀏覽器，在未經許可的情況下使之重新導向至其他網站，從而進一步產生欺詐風險。"
+
+#: frontend/templates/mobile-security.html:42
+msgid ""
+"If you really want to use VPN, it's important to use a paid VPN, or one "
+"that has in-app purchase for higher levels of service. Paid doesn’t "
+"guarantee secure, but even partially paid apps are often more protective "
+"of your data and give more software updates than free options. Better "
+"yet, stick with a reputable VPN made by well-known providers or "
+"antivirus-software makers."
+msgstr "如果真的要使用VPN，務必選用付費VPN，或可在應用程式內購買更高服務水平的VPN。付款固然不代表安全，但與免費的選擇相比，即使是部分付費的應用程式亦往往提供更佳的資料保護和更多的軟件更新。最理想的選擇，莫過於由知名供應商或防毒軟件廠商製作而具信譽的VPN。"
+
+#: frontend/templates/mobile-security.html:44
+msgid "Be vigilant if your mobile is suddenly out of signal"
+msgstr "若流動裝置突然訊號全無，應提高警覺"
+
+#: frontend/templates/mobile-security.html:45
+msgid ""
+"With more people using mobile devices to do banking, fraudsters have "
+"begun to use a technique known as a \"SIM-swap\"."
+msgstr "隨着以流動裝置理財的人日漸增多，騙徒亦開始施展稱為「SIM卡偷換」的技巧。"
+
+#: frontend/templates/mobile-security.html:46
+msgid ""
+"Basically the criminal will call your mobile service provider claiming to"
+" be you, and ask for a replacement SIM card, saying that they lost the "
+"SIM or phone. If they are convincing, the mobile service provider will "
+"deactivate your SIM and issues a new one to the fraudster, who then "
+"executes transactions that require OTP authorisations."
+msgstr "簡單來說，匪徒會訛稱是受害人本人而致電流動服務供應商，稱自己遺失SIM卡或電話並且想補領SIM卡。若他博得職員相任，服務供應商便會停用受害人的SIM卡並向騙徒補發新卡，隨後，他便可執行需要經一次性密碼授權的交易。"
+
+#: frontend/templates/mobile-security.html:47
+msgid ""
+"Please be alert and talk to your mobile provider immediately if you "
+"suddenly find you do not have network connectivity and are not receiving "
+"calls or text messages for unusually long periods."
+msgstr "如您發現裝置的網絡連線中斷，並且在異常長時間內並無來電或文字訊息，便應提高警覺並即時與服務供應商聯絡。"
+
+#: frontend/templates/mobile-security.html:48
+msgid ""
+"Also, please change the password you use for accessing the mobile service"
+" portal. This is because fraudsters can activate an SMS forwarding "
+"service or enquire SMS content by logging on to the online service portal"
+" which are provided by some Mobile service providers."
+msgstr "此外，請更改用以連接流動服務入口網站的密碼。這是因為騙徒只需成功登入某些流動服務供應商提供的網上服務入口網站，便能啟動短訊轉寄服務或查詢短訊內容。"
+
+#: frontend/templates/mobile-security.html:49
+msgid ""
+"It’s also recommended that you do not switch off your phone if you are "
+"receiving numerous unknown calls, which could be a ploy to make you turn "
+"off your phone so you don't notice a tampered network connection."
+msgstr "亦建議您在接連收到不明來電後切勿關掉電話：可能是有人故意多次致電以誘使您關機，令您及後難以察覺裝置連線被人截停。"
+
+#: frontend/templates/mobile-security.html:50
+msgid "Maintain your device"
+msgstr "維護您的裝置"
+
+#: frontend/templates/mobile-security.html:52
+msgid ""
+"Install the latest anti-virus and anti-spyware software on your phones "
+"and tablets, and keep it updated. Even iPhones and Blackberries, which "
+"have strong built-in protection against malware threats, can be at risk. "
+"When installing protection, always use a reputable brand from a "
+"mainstream supplier."
+msgstr "在手提電話和平板電腦上安裝並不時更新防毒軟件和防間諜軟件。即使是內置針對惡意軟件威脅並具備強勁防護功能的iPhone和Blackberry手機，亦可能面臨風險。在安裝防護軟件時，應僅選用主流供應商旗下信譽良好的品牌"
+
+#: frontend/templates/mobile-security.html:53
+msgid ""
+"Install updates and patches to your smartphone and tablet regularly, "
+"including upgrades/updates to your operating system (OS) and other mobile"
+" applications."
+msgstr "請定時更新您的手提電話或平板電腦系統並安裝修補程式，包括有關操作系統及其他流動應用程式的升級／更新"
+
+#: frontend/templates/mobile-security.html:54
+msgid ""
+"Set up auto-lock and passcode lock to prevent unauthorised access to your"
+" phones and tablets and enable remote wiping."
+msgstr "設立自動上鎖和啟用密碼鎖功能，以防止他人未經許可使用您的手機和平板電腦，並且啟動遙距鎖機功能"
+
+#: frontend/templates/mobile-security.html:55
+msgid ""
+"Do not use security loopholes to log on to Personal Internet Banking on "
+"jail-broken/rooted handsets or tablets. HSBC mobile apps do not run on "
+"jail-broken/rooted devices."
+msgstr "不應使用已被破解（越獄／超級用戶權限）的流動電話或平板電腦，透過保安漏洞來登入個人網上理財。滙豐的流動應用程式無法在已被破解的裝置上運作"
+
+#: frontend/templates/mobile-security.html:56
+msgid ""
+"Install apps on your phones or tablets from trusted sources only. "
+"Understand the permissions of mobile apps before you accept and install "
+"them."
+msgstr "請僅從可信賴的來源為您的手機或平板電腦安裝應用程式。在安裝及接受流動應用程式前應清楚了解有關權限"
+
+#: frontend/templates/mobile-security.html:59
+msgid "Be vigilant"
+msgstr "保持警覺"
+
+#: frontend/templates/mobile-security.html:61
+msgid ""
+"Do not store your username and password for HSBC Mobile Banking and other"
+" private services on your mobile handset or tablet."
+msgstr "切勿於流動電話或平板電腦內儲存您的滙豐流動理財及其他私人服務的用戶名稱及密碼"
+
+#: frontend/templates/mobile-security.html:62
+msgid ""
+"Avoid sharing your device with others and do not use other people’s "
+"devices to log on to your private accounts."
+msgstr "避免與他人分享使用裝置，亦切勿使用他人的裝置登入您的私人戶口"
+
+#: frontend/templates/mobile-security.html:63
+msgid ""
+"Some online services might request you to upload a scanned copy of your "
+"HKID via their mobile apps. Protect your HKID copy and treat it with the "
+"same caution same as your physical HKID card.  Do not store your HKID "
+"copy on your mobile device and don't share it with people you don't trust"
+" people. Do not scan your HKID copy to any untrusted apps."
+msgstr "某些網上服務可能會要求您透過其流動應用程式上載香港身份證的掃描副本。應保護您的香港身份證副本，並視作實體身份證一樣謹慎處理。切勿在流動裝置中儲存或與並不信任的人分享您的香港身份證副本。切勿將您的香港身份證副本掃描至不可信賴的應用程式。"
+
+#: frontend/templates/mobile-security.html:68
+msgid "What HSBC is doing to keep your mobile banking secure"
+msgstr "滙豐保障你的流動理財體驗"
+
+#: frontend/templates/mobile-security.html:69
+msgid "Mobile Security Key"
+msgstr "流動保安編碼"
+
+#: frontend/templates/mobile-security.html:70
+msgid ""
+"Available via the HSBC HK App, Mobile Security Key provides you with a "
+"safe and convenient way to log on to online and mobile banking. It also "
+"allows you to generate unique, one-time security codes to authenticate "
+"important transactions and access a full range of online and mobile "
+"banking services securely."
+msgstr "流動保安編碼是HSBC HK app的內置功能，方便您登入及享用網上及流動理財服務，您亦可以獲取一次性保安編碼，讓您於處理重要交易時獲得額外保障。"
+
+#: frontend/templates/mobile-security.html:71
+msgid "Biometric Authentication"
+msgstr "生物認證功能"
+
+#: frontend/templates/mobile-security.html:72
+msgid ""
+"The new iOS Face ID lets you authenticate your identity and access your "
+"digital banking in seconds, just by looking at your screen. You can also "
+"log on to our app and confirm transactions using fingerprint "
+"authentication with iOS Touch ID and Android™1 Fingerprint ID."
+msgstr ""
+"透過全新iOS Face ID進行身分認證，只需注視螢幕，就可以登入及使用香港滙豐流動理財應用程式；您亦可透過iOS Touch "
+"ID及Android™指紋認證以指紋迅速登入及確認交易，讓理財事半功倍。"
+
+#: frontend/templates/mobile-security.html:73
+msgid ""
+"If you are using biometric for log on or confirming transactions, we "
+"highly recommend you only register your own biometric print onto your "
+"mobile. "
+msgstr "如您使用生物認證功能以作登入或確認交易，強烈建議您在流動裝置上只登記自己一人的生物認證資料。"
+
+#: frontend/templates/mobile-security.html:74
+msgid "Identity verification"
+msgstr "身分驗證​"
+
+#: frontend/templates/mobile-security.html:75
+msgid ""
+"After activating your Mobile Security Key or if we detect any suspicious "
+"activity on your HSBC Online and Mobile Banking and other selected HSBC "
+"Digital Banking platforms, you may need to further verify your identity "
+"before you can enjoy full access."
+msgstr "當您啟動「流動保安編碼」，或我們偵測到您於滙豐網上及流動理財上有可疑動態，您可能需要進行身分驗證以使用滙豐流動及網上理財的全部服務。"
+

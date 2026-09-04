@@ -1,0 +1,996 @@
+{
+  "video": "/static/videos/credit-card-total.mp4",
+  "total_duration": 1556.14,
+  "nodes": [
+    {
+      "index": "11.1",
+      "text": "﻿保障信用卡／扣賬卡安全",
+      "selector": "body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>#content_intro_hero_banner_1>#content_intro_hero_banner_image_1>div:nth-of-type(2)>div:nth-of-type(1)>#content_intro_hero_banner_2>div:nth-of-type(1)>h1:nth-of-type(1)>table:nth-of-type(1)>tbody:nth-of-type(1)>tr:nth-of-type(1)>td:nth-of-type(1)>h1:nth-of-type(1)",
+      "selector_en": "",
+      "file": "11.1.mp4",
+      "start": 0.0,
+      "end": 7.34,
+      "duration": 7.34
+    },
+    {
+      "index": "11.2",
+      "text": "如何保護自己免受金錢損失",
+      "selector": "body:nth-of-type(1)>div:nth-of-type(4)>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>#content_intro_hero_banner_1>#content_intro_hero_banner_image_1>div:nth-of-type(2)>div:nth-of-type(1)>#content_intro_hero_banner_2>div:nth-of-type(1)>div:nth-of-type(1)",
+      "selector_en": "",
+      "file": "11.2.mp4",
+      "start": 7.34,
+      "end": 14.44,
+      "duration": 7.1
+    },
+    {
+      "index": "11.3",
+      "text": "保護自己，防範未然",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>#content_main_columnControl_1>div:nth-of-type(1)>#content_main_columnControlColumn_1>div:nth-of-type(1)>#content_main_heading_1",
+      "selector_en": "",
+      "file": "11.3.mp4",
+      "start": 14.44,
+      "end": 23.22,
+      "duration": 8.78
+    },
+    {
+      "index": "11.4",
+      "text": "平時購物以信用卡付款越見普及，平均一個人就有兩張信用卡。但同時亦會令騙徒有機可乘，用五花八門的技倆盜用您的信用卡。",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>#content_main_columnControl_2>div:nth-of-type(1)>#content_main_columnControlColumn_2>div:nth-of-type(1)>#content_main_richtext_1>p:nth-of-type(1)",
+      "selector_en": "",
+      "file": "11.4.mp4",
+      "start": 23.22,
+      "end": 48.4,
+      "duration": 25.18
+    },
+    {
+      "index": "11.5",
+      "text": "信用卡詐騙有很多種類型，常見的例如有人在未經您授權下，使用您的信用卡來購物或套現、遺失的信用卡被盜用、以不正當手段申請信用卡、亦或盜取受害人的信用卡資料進行網上購物及交易。",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>#content_main_columnControl_2>div:nth-of-type(1)>#content_main_columnControlColumn_2>div:nth-of-type(1)>#content_main_richtext_1>p:nth-of-type(2)",
+      "selector_en": "",
+      "file": "11.5.mp4",
+      "start": 48.4,
+      "end": 92.36,
+      "duration": 43.96
+    },
+    {
+      "index": "11.6",
+      "text": "以下我們為您提供多項用卡安全小貼士，保護自己免受信用卡詐騙威脅。",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(2)>#content_main_columnControl_2>div:nth-of-type(1)>#content_main_columnControlColumn_2>div:nth-of-type(1)>#content_main_richtext_1>p:nth-of-type(3)",
+      "selector_en": "",
+      "file": "11.6.mp4",
+      "start": 92.36,
+      "end": 110.82,
+      "duration": 18.46
+    },
+    {
+      "index": "11.7",
+      "text": "帶我到",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(3)>#content_main_columnControl_3>div:nth-of-type(1)>#content_main_columnControlColumn_4>div:nth-of-type(1)>#content_main_heading_2",
+      "selector_en": "",
+      "file": "11.7.mp4",
+      "start": 110.82,
+      "end": 115.46,
+      "duration": 4.64
+    },
+    {
+      "index": "11.8",
+      "text": "透過HSBC HK App安全認證網上交易",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(4)>#content_main_columnControl_4>div:nth-of-type(1)>#content_main_columnControlColumn_5>div:nth-of-type(1)>#content_main_richtext_2>ul:nth-of-type(1)>li:nth-of-type(1)>a:nth-of-type(1)>span:nth-of-type(1)",
+      "selector_en": "",
+      "file": "11.8.mp4",
+      "start": 115.46,
+      "end": 126.2,
+      "duration": 10.74
+    },
+    {
+      "index": "11.9",
+      "text": "使用信用卡／扣賬卡前，多一分留心",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(4)>#content_main_columnControl_4>div:nth-of-type(1)>#content_main_columnControlColumn_5>div:nth-of-type(1)>#content_main_richtext_2>ul:nth-of-type(1)>li:nth-of-type(2)>a:nth-of-type(1)>span:nth-of-type(1)",
+      "selector_en": "",
+      "file": "11.9.mp4",
+      "start": 126.2,
+      "end": 135.48,
+      "duration": 9.28
+    },
+    {
+      "index": "11.10",
+      "text": "使用信用卡／扣賬卡時，提高警覺性",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(4)>#content_main_columnControl_4>div:nth-of-type(1)>#content_main_columnControlColumn_5>div:nth-of-type(1)>#content_main_richtext_2>ul:nth-of-type(1)>li:nth-of-type(3)>a:nth-of-type(1)>span:nth-of-type(1)",
+      "selector_en": "",
+      "file": "11.10.mp4",
+      "start": 135.48,
+      "end": 144.66,
+      "duration": 9.18
+    },
+    {
+      "index": "11.11",
+      "text": "發現可疑交易，即通知我們",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(4)>#content_main_columnControl_4>div:nth-of-type(1)>#content_main_columnControlColumn_5>div:nth-of-type(1)>#content_main_richtext_2>ul:nth-of-type(1)>li:nth-of-type(4)>a:nth-of-type(1)>span:nth-of-type(1)",
+      "selector_en": "",
+      "file": "11.11.mp4",
+      "start": 144.66,
+      "end": 152.92,
+      "duration": 8.26
+    },
+    {
+      "index": "11.12",
+      "text": "透過HSBC HK App安全認證網上交易",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(5)>#content_main_columnControl_5>div:nth-of-type(1)>#content_main_columnControlColumn_6>div:nth-of-type(1)>#content_main_heading_3",
+      "selector_en": "",
+      "file": "11.12.mp4",
+      "start": 152.92,
+      "end": 163.66,
+      "duration": 10.74
+    },
+    {
+      "index": "11.13",
+      "text": "由2024年3月起，您可以使用香港滙豐流動理財應用程式網上交易認證服務，認證您的網上交易。如您已安裝HSBC HK App及登記滙豐流動理財，您毋須再以短訊收取一次性驗證碼，並可使用HSBC HK App1參考註腳 1更安全便捷地認證您的網上交易。 1",
+      "selector": "#content_main_richtext_3>p:nth-of-type(1)",
+      "selector_en": "",
+      "file": "11.13.mp4",
+      "start": 163.66,
+      "end": 219.96,
+      "duration": 56.3
+    },
+    {
+      "index": "11.14",
+      "text": "使用香港滙豐流動理財應用程式網上交易認證服務前，請確保您已：",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(5)>#content_main_columnControl_5>div:nth-of-type(1)>#content_main_columnControlColumn_6>div:nth-of-type(2)>#content_main_richtext_3>p:nth-of-type(2)",
+      "selector_en": "",
+      "file": "11.14.mp4",
+      "start": 219.96,
+      "end": 238.12,
+      "duration": 18.16
+    },
+    {
+      "index": "11.15",
+      "text": "更新HSBC HK App至最新版本",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(5)>#content_main_columnControl_5>div:nth-of-type(1)>#content_main_columnControlColumn_6>div:nth-of-type(2)>#content_main_richtext_3>ul:nth-of-type(1)>li:nth-of-type(1)",
+      "selector_en": "",
+      "file": "11.15.mp4",
+      "start": 238.12,
+      "end": 245.48,
+      "duration": 7.36
+    },
+    {
+      "index": "11.16",
+      "text": "啟動及驗證流動保安編碼",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(5)>#content_main_columnControl_5>div:nth-of-type(1)>#content_main_columnControlColumn_6>div:nth-of-type(2)>#content_main_richtext_3>ul:nth-of-type(1)>li:nth-of-type(2)",
+      "selector_en": "",
+      "file": "11.16.mp4",
+      "start": 245.48,
+      "end": 255.32,
+      "duration": 9.84
+    },
+    {
+      "index": "11.17",
+      "text": "如何透過HSBC HK App認證單項網上交易",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(6)>#content_main_masterCard_1>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>#content_main_title_1>h2:nth-of-type(1)>span:nth-of-type(1)",
+      "selector_en": "",
+      "file": "11.17.mp4",
+      "start": 255.32,
+      "end": 266.9,
+      "duration": 11.58
+    },
+    {
+      "index": "11.18",
+      "text": "認證單項網上交易的步驟如下：",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(6)>#content_main_masterCard_1>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>#content_main_description_1>div:nth-of-type(1)",
+      "selector_en": "",
+      "file": "11.18.mp4",
+      "start": 266.9,
+      "end": 276.44,
+      "duration": 9.54
+    },
+    {
+      "index": "11.19",
+      "text": "第1步",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(6)>#content_main_masterCard_1>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>#content_main_card_1>#content_main_title_2>h3:nth-of-type(1)",
+      "selector_en": "",
+      "file": "11.19.mp4",
+      "start": 276.44,
+      "end": 279.6,
+      "duration": 3.16
+    },
+    {
+      "index": "11.20",
+      "text": "在商戶網站提供付款詳細資訊後，我們會向您發送推播通知。",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(6)>#content_main_masterCard_1>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>#content_main_card_1>div:nth-of-type(3)>#content_main_text_1>div:nth-of-type(1)",
+      "selector_en": "",
+      "file": "11.20.mp4",
+      "start": 279.6,
+      "end": 291.92,
+      "duration": 12.32
+    },
+    {
+      "index": "11.21",
+      "text": "第2步",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(6)>#content_main_masterCard_1>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>#content_main_card_2>#content_main_title_3>h3:nth-of-type(1)",
+      "selector_en": "",
+      "file": "11.21.mp4",
+      "start": 291.92,
+      "end": 294.98,
+      "duration": 3.06
+    },
+    {
+      "index": "11.22",
+      "text": "於3分鐘內點按推播通知，並登入HSBC HK App。",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(6)>#content_main_masterCard_1>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>#content_main_card_2>div:nth-of-type(3)>#content_main_text_2>div:nth-of-type(1)",
+      "selector_en": "",
+      "file": "11.22.mp4",
+      "start": 294.98,
+      "end": 306.52,
+      "duration": 11.54
+    },
+    {
+      "index": "11.23",
+      "text": "第3步",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(6)>#content_main_masterCard_1>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(2)>#content_main_card_3>#content_main_title_4>h3:nth-of-type(1)",
+      "selector_en": "",
+      "file": "11.23.mp4",
+      "start": 306.52,
+      "end": 309.6,
+      "duration": 3.08
+    },
+    {
+      "index": "11.24",
+      "text": "登入HSBC HK App。",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(6)>#content_main_masterCard_1>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(2)>#content_main_card_3>div:nth-of-type(3)>#content_main_text_3>div:nth-of-type(1)",
+      "selector_en": "",
+      "file": "11.24.mp4",
+      "start": 309.6,
+      "end": 315.48,
+      "duration": 5.88
+    },
+    {
+      "index": "11.25",
+      "text": "第4步",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(6)>#content_main_masterCard_1>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(3)>#content_main_card_4>#content_main_title_5>h3:nth-of-type(1)",
+      "selector_en": "",
+      "file": "11.25.mp4",
+      "start": 315.48,
+      "end": 318.58,
+      "duration": 3.1
+    },
+    {
+      "index": "11.26",
+      "text": "請仔細檢查交易詳情，然後再點選「同意」以認證交易。如您對此交易沒有印象，請點選「拒絕」取消交易。",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(6)>#content_main_masterCard_1>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(3)>#content_main_card_4>div:nth-of-type(3)>#content_main_text_4>div:nth-of-type(1)",
+      "selector_en": "",
+      "file": "11.26.mp4",
+      "start": 318.58,
+      "end": 345.74,
+      "duration": 27.16
+    },
+    {
+      "index": "11.27",
+      "text": "第5步",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(6)>#content_main_masterCard_1>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(4)>#content_main_card_5>#content_main_title_6>h3:nth-of-type(1)",
+      "selector_en": "",
+      "file": "11.27.mp4",
+      "start": 345.74,
+      "end": 348.84,
+      "duration": 3.1
+    },
+    {
+      "index": "11.28",
+      "text": "使用生物認證或輸入6位數字流動理財PIN認證交易，然後返回商戶網站完成付款。",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(6)>#content_main_masterCard_1>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(4)>#content_main_card_5>div:nth-of-type(3)>#content_main_text_5>div:nth-of-type(1)",
+      "selector_en": "",
+      "file": "11.28.mp4",
+      "start": 348.84,
+      "end": 373.7,
+      "duration": 24.86
+    },
+    {
+      "index": "11.29",
+      "text": "如何透過HSBC HK App認證多項網上交易",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(7)>#content_main_masterCard_2>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>#content_main_title_7>h2:nth-of-type(1)>span:nth-of-type(1)",
+      "selector_en": "#content_main_title_7",
+      "file": "11.29.mp4",
+      "start": 373.7,
+      "end": 385.2,
+      "duration": 11.5
+    },
+    {
+      "index": "11.30",
+      "text": "認證多項網上交易的步驟如下：",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(7)>#content_main_masterCard_2>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1)>#content_main_description_2>div:nth-of-type(1)",
+      "selector_en": "",
+      "file": "11.30.mp4",
+      "start": 385.2,
+      "end": 394.66,
+      "duration": 9.46
+    },
+    {
+      "index": "11.31",
+      "text": "第1步",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(7)>#content_main_masterCard_2>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>#content_main_card_6>#content_main_title_8>h3:nth-of-type(1)",
+      "selector_en": "",
+      "file": "11.31.mp4",
+      "start": 394.66,
+      "end": 397.82,
+      "duration": 3.16
+    },
+    {
+      "index": "11.32",
+      "text": "在商戶網站提供付款詳細資訊後，我們會向您發送推播通知。",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(7)>#content_main_masterCard_2>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>#content_main_card_6>div:nth-of-type(3)>#content_main_text_6>div:nth-of-type(1)",
+      "selector_en": "",
+      "file": "11.32.mp4",
+      "start": 397.82,
+      "end": 410.14,
+      "duration": 12.32
+    },
+    {
+      "index": "11.33",
+      "text": "第2步",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(7)>#content_main_masterCard_2>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>#content_main_card_7>#content_main_title_9>h3:nth-of-type(1)",
+      "selector_en": "",
+      "file": "11.33.mp4",
+      "start": 410.14,
+      "end": 413.2,
+      "duration": 3.06
+    },
+    {
+      "index": "11.34",
+      "text": "於3分鐘內點按推播通知，並登入HSBC HK App。",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(7)>#content_main_masterCard_2>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)>#content_main_card_7>div:nth-of-type(3)>#content_main_text_7>div:nth-of-type(1)",
+      "selector_en": "",
+      "file": "11.34.mp4",
+      "start": 413.2,
+      "end": 424.74,
+      "duration": 11.54
+    },
+    {
+      "index": "11.35",
+      "text": "第3步",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(7)>#content_main_masterCard_2>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(2)>#content_main_card_8>#content_main_title_10>h3:nth-of-type(1)",
+      "selector_en": "",
+      "file": "11.35.mp4",
+      "start": 424.74,
+      "end": 427.82,
+      "duration": 3.08
+    },
+    {
+      "index": "11.36",
+      "text": "登入HSBC HK App。",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(7)>#content_main_masterCard_2>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(2)>#content_main_card_8>div:nth-of-type(3)>#content_main_text_8>div:nth-of-type(1)",
+      "selector_en": "",
+      "file": "11.36.mp4",
+      "start": 427.82,
+      "end": 433.7,
+      "duration": 5.88
+    },
+    {
+      "index": "11.37",
+      "text": "第4步",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(7)>#content_main_masterCard_2>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(3)>#content_main_card_9>#content_main_title_11>h3:nth-of-type(1)",
+      "selector_en": "",
+      "file": "11.37.mp4",
+      "start": 433.7,
+      "end": 436.8,
+      "duration": 3.1
+    },
+    {
+      "index": "11.38",
+      "text": "畫面會顯示您即將認證的網上交易數目，請仔細檢查交易詳情，再點選「同意」以逐一認證每項交易。如您對此交易沒有印象，請點選「拒絕」取消交易。",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(7)>#content_main_masterCard_2>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(3)>#content_main_card_9>div:nth-of-type(3)>#content_main_text_9>div:nth-of-type(1)",
+      "selector_en": "",
+      "file": "11.38.mp4",
+      "start": 436.8,
+      "end": 474.08,
+      "duration": 37.28
+    },
+    {
+      "index": "11.39",
+      "text": "第5步",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(7)>#content_main_masterCard_2>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(4)>#content_main_card_10>#content_main_title_12>h3:nth-of-type(1)",
+      "selector_en": "",
+      "file": "11.39.mp4",
+      "start": 474.08,
+      "end": 477.18,
+      "duration": 3.1
+    },
+    {
+      "index": "11.40",
+      "text": "使用生物認證或您的6位數字流動理財PIN認證第一項交易，然後返回商戶網站完成付款，或點選「檢視另一項交易」以認證下一項交易。",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(7)>#content_main_masterCard_2>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(4)>#content_main_card_10>div:nth-of-type(3)>#content_main_text_10>div:nth-of-type(1)",
+      "selector_en": "",
+      "file": "11.40.mp4",
+      "start": 477.18,
+      "end": 509.56,
+      "duration": 32.38
+    },
+    {
+      "index": "11.41",
+      "text": "常見問題",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(8)>#content_main_columnControl_6>div:nth-of-type(1)>#content_main_columnControlColumn_8>div:nth-of-type(1)>#content_main_heading_4",
+      "selector_en": "",
+      "file": "11.41.mp4",
+      "start": 509.56,
+      "end": 513.84,
+      "duration": 4.28
+    },
+    {
+      "index": "11.42",
+      "text": "甚麼是網上交易認證服務？",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(9)>#content_main_columnControl_7>div:nth-of-type(1)>#content_main_columnControlColumn_10>div:nth-of-type(1)>div:nth-of-type(1)>#content_main_accordion_1>div:nth-of-type(1)>#content_main_advanced_expander_1>div:nth-of-type(1)>div:nth-of-type(1)>#\\32 24950019__tab0",
+      "selector_en": "",
+      "file": "11.42.mp4",
+      "start": 513.84,
+      "end": 521.86,
+      "duration": 8.02
+    },
+    {
+      "index": "11.43",
+      "text": "網上交易認證服務讓您以安全、方便的方式認證網上交易。在成功登入HSBC HK App，核對並同意交易後，即可完成支付。",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(9)>#content_main_columnControl_7>div:nth-of-type(1)>#content_main_columnControlColumn_10>div:nth-of-type(1)>div:nth-of-type(1)>#content_main_accordion_1>div:nth-of-type(1)>#content_main_advanced_expander_1>div:nth-of-type(1)>#\\32 24950019__panel0>div:nth-of-type(1)>div:nth-of-type(1)>#content_main_columnControl_8>div:nth-of-type(1)>#content_main_columnControlColumn_11>div:nth-of-type(1)>#content_main_richtext_4>p:nth-of-type(1)",
+      "selector_en": "",
+      "file": "11.43.mp4",
+      "start": 521.86,
+      "end": 548.22,
+      "duration": 26.36
+    },
+    {
+      "index": "11.44",
+      "text": "我與商戶進行網上交易時，已經登入HSBC HK App。當我返回HSBC HK App時，我找不到任何確認付款指示。我怎樣才能同意付款？",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(9)>#content_main_columnControl_7>div:nth-of-type(1)>#content_main_columnControlColumn_10>div:nth-of-type(1)>div:nth-of-type(1)>#content_main_accordion_1>div:nth-of-type(2)>#content_main_advanced_expander_2>div:nth-of-type(1)>div:nth-of-type(1)>#\\37 85505073__tab0",
+      "selector_en": "",
+      "file": "11.44.mp4",
+      "start": 548.22,
+      "end": 574.18,
+      "duration": 25.96
+    },
+    {
+      "index": "11.45",
+      "text": "如果您收到有關交易的推播通知，請點選推播通知並按照指示確認付款。",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(9)>#content_main_columnControl_7>div:nth-of-type(1)>#content_main_columnControlColumn_10>div:nth-of-type(1)>div:nth-of-type(1)>#content_main_accordion_1>div:nth-of-type(2)>#content_main_advanced_expander_2>div:nth-of-type(1)>#\\37 85505073__panel0>div:nth-of-type(1)>div:nth-of-type(1)>#content_main_columnControl_9>div:nth-of-type(1)>#content_main_columnControlColumn_12>div:nth-of-type(1)>#content_main_richtext_5>p:nth-of-type(1)",
+      "selector_en": "",
+      "file": "11.45.mp4",
+      "start": 574.18,
+      "end": 589.78,
+      "duration": 15.6
+    },
+    {
+      "index": "11.46",
+      "text": "如您收不到通知，請登出HSBC HK App並重新登入，以檢視相關付款指示。",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(9)>#content_main_columnControl_7>div:nth-of-type(1)>#content_main_columnControlColumn_10>div:nth-of-type(1)>div:nth-of-type(1)>#content_main_accordion_1>div:nth-of-type(2)>#content_main_advanced_expander_2>div:nth-of-type(1)>#\\37 85505073__panel0>div:nth-of-type(1)>div:nth-of-type(1)>#content_main_columnControl_9>div:nth-of-type(1)>#content_main_columnControlColumn_12>div:nth-of-type(1)>#content_main_richtext_5>p:nth-of-type(2)",
+      "selector_en": "",
+      "file": "11.46.mp4",
+      "start": 589.78,
+      "end": 607.12,
+      "duration": 17.34
+    },
+    {
+      "index": "11.47",
+      "text": "請注意，您須於3分鐘內認證交易。",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(9)>#content_main_columnControl_7>div:nth-of-type(1)>#content_main_columnControlColumn_10>div:nth-of-type(1)>div:nth-of-type(1)>#content_main_accordion_1>div:nth-of-type(2)>#content_main_advanced_expander_2>div:nth-of-type(1)>#\\37 85505073__panel0>div:nth-of-type(1)>div:nth-of-type(1)>#content_main_columnControl_9>div:nth-of-type(1)>#content_main_columnControlColumn_12>div:nth-of-type(1)>#content_main_richtext_5>p:nth-of-type(3)",
+      "selector_en": "",
+      "file": "11.47.mp4",
+      "start": 607.12,
+      "end": 617.1,
+      "duration": 9.98
+    },
+    {
+      "index": "11.48",
+      "text": "我之前於支援3D安全技術的商戶網站進行交易時，曾使用HSBC HK App認證交易。為何這次會向我發送驗證碼？",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(9)>#content_main_columnControl_7>div:nth-of-type(1)>#content_main_columnControlColumn_10>div:nth-of-type(1)>div:nth-of-type(1)>#content_main_accordion_1>div:nth-of-type(3)>#content_main_advanced_expander_3>div:nth-of-type(1)>div:nth-of-type(1)>#-\\31 70206988__tab0",
+      "selector_en": "",
+      "file": "11.48.mp4",
+      "start": 617.1,
+      "end": 640.84,
+      "duration": 23.74
+    },
+    {
+      "index": "11.49",
+      "text": "該服務可能暫時未能提供，原因可能是理財服務系統的定期維護或更新。為免影響您使用銀行卡消費，我們會向您的已登記手提電話號碼發送驗證碼以進行交易認證。",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(9)>#content_main_columnControl_7>div:nth-of-type(1)>#content_main_columnControlColumn_10>div:nth-of-type(1)>div:nth-of-type(1)>#content_main_accordion_1>div:nth-of-type(3)>#content_main_advanced_expander_3>div:nth-of-type(1)>#-\\31 70206988__panel0>div:nth-of-type(1)>div:nth-of-type(1)>#content_main_columnControl_10>div:nth-of-type(1)>#content_main_columnControlColumn_13>div:nth-of-type(1)>#content_main_richtext_6>p:nth-of-type(1)",
+      "selector_en": "",
+      "file": "11.49.mp4",
+      "start": 640.84,
+      "end": 681.46,
+      "duration": 40.62
+    },
+    {
+      "index": "11.50",
+      "text": "查看所有常見問題",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(9)>#content_main_columnControl_7>div:nth-of-type(1)>#content_main_columnControlColumn_10>div:nth-of-type(2)>div:nth-of-type(1)>#content_main_links_1>li:nth-of-type(1)>#content_main_link_1>a:nth-of-type(1)>span:nth-of-type(1)",
+      "selector_en": "",
+      "file": "11.50.mp4",
+      "start": 681.46,
+      "end": 687.88,
+      "duration": 6.42
+    },
+    {
+      "index": "11.51",
+      "text": "使用信用卡／扣賬卡前，多一分留心",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(10)>#content_main_columnControl_11>div:nth-of-type(1)>#content_main_columnControlColumn_15>div:nth-of-type(1)>#content_main_heading_5",
+      "selector_en": "",
+      "file": "11.51.mp4",
+      "start": 687.88,
+      "end": 698.18,
+      "duration": 10.3
+    },
+    {
+      "index": "11.52",
+      "text": "如果我們發現您的信用卡／扣賬卡出現可疑交易，就會向您發送信用卡／扣賬卡可疑交易通知。",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(11)>#content_main_columnControl_12>div:nth-of-type(1)>#content_main_columnControlColumn_16>div:nth-of-type(1)>#content_main_richtext_7>p:nth-of-type(1)",
+      "selector_en": "",
+      "file": "11.52.mp4",
+      "start": 698.18,
+      "end": 723.16,
+      "duration": 24.98
+    },
+    {
+      "index": "11.53",
+      "text": "在HSBC HK App或電話短訊收到通知時，請先仔細驗證所有商戶的詳細資料、付款金額、貨幣及交易日期和時間，然後向我們確認交易是否由您本人授權即可。",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(11)>#content_main_columnControl_12>div:nth-of-type(1)>#content_main_columnControlColumn_16>div:nth-of-type(1)>#content_main_richtext_7>p:nth-of-type(2)",
+      "selector_en": "",
+      "file": "11.53.mp4",
+      "start": 723.16,
+      "end": 756.14,
+      "duration": 32.98
+    },
+    {
+      "index": "11.54",
+      "text": "信用卡／扣賬卡「可疑交易通知」怎樣運作？",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(12)>#content_main_columnControl_13>div:nth-of-type(1)>#content_main_columnControlColumn_18>div:nth-of-type(1)>#content_main_heading_6",
+      "selector_en": "",
+      "file": "11.54.mp4",
+      "start": 756.14,
+      "end": 767.56,
+      "duration": 11.42
+    },
+    {
+      "index": "11.55",
+      "text": "香港滙豐流動理財應用程式",
+      "selector": "#content_main_tabsHorizontal_1 .tab-widget-list li:nth-child(1) a",
+      "selector_en": "",
+      "file": "11.55.mp4",
+      "start": 767.56,
+      "end": 772.8,
+      "duration": 5.24
+    },
+    {
+      "index": "11.56",
+      "text": "雙向交易短訊",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(12)>#content_main_columnControl_13>div:nth-of-type(1)>#content_main_columnControlColumn_18>div:nth-of-type(2)>div:nth-of-type(1)>section:nth-of-type(1)>#content_main_tabsHorizontal_1>div:nth-of-type(1)>ul:nth-of-type(1)>li:nth-of-type(2)>a:nth-of-type(1)",
+      "selector_en": "",
+      "file": "11.56.mp4",
+      "start": 772.8,
+      "end": 778.52,
+      "duration": 5.72
+    },
+    {
+      "index": "11.57",
+      "text": "只要啓用接收推播通知，當我們偵測到您的戶口有異常活動時，就會向您發出彈出式通知。",
+      "selector": "#content_main_richtext_8>p:nth-of-type(1)",
+      "selector_en": "",
+      "file": "11.57.mp4",
+      "start": 778.52,
+      "end": 797.6,
+      "duration": 19.08
+    },
+    {
+      "index": "11.58",
+      "text": "點擊通知後，即可開啓HSBC HK App，並可在登入後查閱交易詳情。在確認交易是否屬實前，請仔細檢查商戶的資料、金額、貨幣、交易日期及時間。",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(12)>#content_main_columnControl_13>div:nth-of-type(1)>#content_main_columnControlColumn_18>div:nth-of-type(2)>div:nth-of-type(1)>section:nth-of-type(1)>#content_main_tabsHorizontal_1>div:nth-of-type(1)>div:nth-of-type(1)>#tab-panel-tab>div:nth-of-type(1)>#content_main_columnControl_14>div:nth-of-type(1)>#content_main_columnControlColumn_21>div:nth-of-type(1)>#content_main_richtext_8>p:nth-of-type(2)",
+      "selector_en": "",
+      "file": "11.58.mp4",
+      "start": 797.6,
+      "end": 830.16,
+      "duration": 32.56
+    },
+    {
+      "index": "11.59",
+      "text": "我們亦可能會在您登入HSBC HK App後向您發出交易通知。與彈出式通知一樣，您可以點擊通知以確認交易，或按照通知上的指示致電聯絡我們。",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(12)>#content_main_columnControl_13>div:nth-of-type(1)>#content_main_columnControlColumn_18>div:nth-of-type(2)>div:nth-of-type(1)>section:nth-of-type(1)>#content_main_tabsHorizontal_1>div:nth-of-type(1)>div:nth-of-type(1)>#tab-panel-tab>div:nth-of-type(1)>#content_main_columnControl_14>div:nth-of-type(1)>#content_main_columnControlColumn_21>div:nth-of-type(1)>#content_main_richtext_8>p:nth-of-type(3)",
+      "selector_en": "",
+      "file": "11.59.mp4",
+      "start": 830.16,
+      "end": 861.04,
+      "duration": 30.88
+    },
+    {
+      "index": "11.60",
+      "text": "如您對此交易有印象，請選擇「是」",
+      "selector": "#content_main_richtext_9>p:nth-of-type(2)",
+      "selector_en": "",
+      "file": "11.60.mp4",
+      "start": 861.04,
+      "end": 871.1,
+      "duration": 10.06
+    },
+    {
+      "index": "11.61",
+      "text": "回覆通知後，請檢查交易是否成功。基於保安原因，您的交易可能會被拒絕。如被拒絕，請再次進行有關交易。",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(12)>#content_main_columnControl_13>div:nth-of-type(1)>#content_main_columnControlColumn_18>div:nth-of-type(2)>div:nth-of-type(1)>section:nth-of-type(1)>#content_main_tabsHorizontal_1>div:nth-of-type(1)>div:nth-of-type(1)>#tab-panel-tab>div:nth-of-type(2)>#content_main_columnControl_15>div:nth-of-type(1)>#content_main_columnControlColumn_23>div:nth-of-type(1)>#content_main_richtext_9>p:nth-of-type(3)",
+      "selector_en": "",
+      "file": "11.61.mp4",
+      "start": 871.1,
+      "end": 892.32,
+      "duration": 21.22
+    },
+    {
+      "index": "11.62",
+      "text": "如果您不認得該交易或其資料有誤，請選擇「否」",
+      "selector": "#content_main_richtext_10>p:nth-of-type(1)",
+      "selector_en": "",
+      "file": "11.62.mp4",
+      "start": 892.32,
+      "end": 905.34,
+      "duration": 13.02
+    },
+    {
+      "index": "11.63",
+      "text": "我們會拒絕相關交易，並與您聯絡（香港時間每日上午9時 – 下午10時30分期間），了解詳情。",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(12)>#content_main_columnControl_13>div:nth-of-type(1)>#content_main_columnControlColumn_18>div:nth-of-type(2)>div:nth-of-type(1)>section:nth-of-type(1)>#content_main_tabsHorizontal_1>div:nth-of-type(1)>div:nth-of-type(1)>#tab-panel-tab>div:nth-of-type(2)>#content_main_columnControl_15>div:nth-of-type(1)>#content_main_columnControlColumn_25>div:nth-of-type(1)>#content_main_richtext_10>p:nth-of-type(2)",
+      "selector_en": "",
+      "file": "11.63.mp4",
+      "start": 905.34,
+      "end": 925.2,
+      "duration": 19.86
+    },
+    {
+      "index": "11.64",
+      "text": "您也可以在選擇「否」後，和我們聯絡，攜手打擊信用卡騙案。",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(12)>#content_main_columnControl_13>div:nth-of-type(1)>#content_main_columnControlColumn_18>div:nth-of-type(2)>div:nth-of-type(1)>section:nth-of-type(1)>#content_main_tabsHorizontal_1>div:nth-of-type(1)>div:nth-of-type(1)>#tab-panel-tab>div:nth-of-type(2)>#content_main_columnControl_15>div:nth-of-type(1)>#content_main_columnControlColumn_25>div:nth-of-type(1)>#content_main_richtext_10>p:nth-of-type(3)",
+      "selector_en": "",
+      "file": "11.64.mp4",
+      "start": 925.2,
+      "end": 938.72,
+      "duration": 13.52
+    },
+    {
+      "index": "11.65",
+      "text": "在HSBC HK App上開啟推播通知",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(13)>#content_main_columnControl_24>div:nth-of-type(1)>#content_main_columnControlColumn_43>div:nth-of-type(1)>#content_main_heading_7",
+      "selector_en": "",
+      "file": "11.65.mp4",
+      "start": 938.72,
+      "end": 946.62,
+      "duration": 7.9
+    },
+    {
+      "index": "11.66",
+      "text": "如果您已於HSBC HK App啟用接收推播通知功能，您將收到付款確認通知。",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(14)>#content_main_columnControl_25>div:nth-of-type(1)>#content_main_columnControlColumn_45>div:nth-of-type(1)>#content_main_richtext_20>p:nth-of-type(1)",
+      "selector_en": "",
+      "file": "11.66.mp4",
+      "start": 946.62,
+      "end": 963.98,
+      "duration": 17.36
+    },
+    {
+      "index": "11.67",
+      "text": "否則，請按照以下步驟在HSBC HK App中啟用推播通知：",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(14)>#content_main_columnControl_25>div:nth-of-type(1)>#content_main_columnControlColumn_45>div:nth-of-type(1)>#content_main_richtext_20>p:nth-of-type(2)",
+      "selector_en": "",
+      "file": "11.67.mp4",
+      "start": 963.98,
+      "end": 977.58,
+      "duration": 13.6
+    },
+    {
+      "index": "11.68",
+      "text": "點擊選單圖示，然後點選頭像圖示。",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(14)>#content_main_columnControl_25>div:nth-of-type(1)>#content_main_columnControlColumn_45>div:nth-of-type(1)>#content_main_richtext_20>ol:nth-of-type(1)>li:nth-of-type(1)",
+      "selector_en": "",
+      "file": "11.68.mp4",
+      "start": 977.58,
+      "end": 987.38,
+      "duration": 9.8
+    },
+    {
+      "index": "11.69",
+      "text": "到「設定及喜好設定」點選「通訊喜好設定」。",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(14)>#content_main_columnControl_25>div:nth-of-type(1)>#content_main_columnControlColumn_45>div:nth-of-type(1)>#content_main_richtext_20>ol:nth-of-type(1)>li:nth-of-type(2)",
+      "selector_en": "",
+      "file": "11.69.mp4",
+      "start": 987.38,
+      "end": 1001.28,
+      "duration": 13.9
+    },
+    {
+      "index": "11.70",
+      "text": "開啓「銀行交易及服務」推播通知。",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(14)>#content_main_columnControl_25>div:nth-of-type(1)>#content_main_columnControlColumn_45>div:nth-of-type(1)>#content_main_richtext_20>ol:nth-of-type(1)>li:nth-of-type(3)",
+      "selector_en": "",
+      "file": "11.70.mp4",
+      "start": 1001.28,
+      "end": 1009.22,
+      "duration": 7.94
+    },
+    {
+      "index": "11.71",
+      "text": "使用信用卡／扣賬卡時，提高警覺性",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(15)>#content_main_columnControl_26>div:nth-of-type(1)>#content_main_columnControlColumn_46>div:nth-of-type(1)>#content_main_heading_8",
+      "selector_en": "",
+      "file": "11.71.mp4",
+      "start": 1009.22,
+      "end": 1019.4,
+      "duration": 10.18
+    },
+    {
+      "index": "11.72",
+      "text": "確保網購平台安全可信",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(16)>#content_main_columnControl_27>div:nth-of-type(1)>#content_main_columnControlColumn_47>div:nth-of-type(1)>#content_main_advancedList_1>ul:nth-of-type(1)>li:nth-of-type(1)>#content_main_advancedListElement_1>h3:nth-of-type(1)",
+      "selector_en": "",
+      "file": "11.72.mp4",
+      "start": 1019.4,
+      "end": 1028.98,
+      "duration": 9.58
+    },
+    {
+      "index": "11.73",
+      "text": "網址應該以「https」開頭，網址欄亦會顯示掛鎖圖案。",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(16)>#content_main_columnControl_27>div:nth-of-type(1)>#content_main_columnControlColumn_47>div:nth-of-type(1)>#content_main_advancedList_1>ul:nth-of-type(1)>li:nth-of-type(1)>#content_main_advancedListElement_1>div:nth-of-type(1)",
+      "selector_en": "",
+      "file": "11.73.mp4",
+      "start": 1028.98,
+      "end": 1042.92,
+      "duration": 13.94
+    },
+    {
+      "index": "11.74",
+      "text": "以更安全可靠的方式認證網上交易",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(16)>#content_main_columnControl_27>div:nth-of-type(1)>#content_main_columnControlColumn_47>div:nth-of-type(1)>#content_main_advancedList_1>ul:nth-of-type(1)>li:nth-of-type(2)>#content_main_advancedListElement_2>div:nth-of-type(1)",
+      "selector_en": "",
+      "file": "11.74.mp4",
+      "start": 1042.92,
+      "end": 1053.1,
+      "duration": 10.18
+    },
+    {
+      "index": "11.75",
+      "text": "於支援有關服務的網上商戶進行交易時，您可以使用香港滙豐流動理財應用程式網上交易認證服務，更安全便捷地認證您的網上交易，毋須再以短訊收取一次性驗證碼。",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(16)>#content_main_columnControl_27>div:nth-of-type(1)>#content_main_columnControlColumn_47>div:nth-of-type(1)>#content_main_advancedList_1>ul:nth-of-type(1)>li:nth-of-type(2)>#content_main_advancedListElement_2>div:nth-of-type(2)",
+      "selector_en": "",
+      "file": "11.75.mp4",
+      "start": 1053.1,
+      "end": 1086.34,
+      "duration": 33.24
+    },
+    {
+      "index": "11.76",
+      "text": "清楚檢查一次性密碼短訊",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(16)>#content_main_columnControl_27>div:nth-of-type(1)>#content_main_columnControlColumn_47>div:nth-of-type(1)>#content_main_advancedList_1>ul:nth-of-type(1)>li:nth-of-type(3)>#content_main_advancedListElement_3>h3:nth-of-type(1)",
+      "selector_en": "",
+      "file": "11.76.mp4",
+      "start": 1086.34,
+      "end": 1093.78,
+      "duration": 7.44
+    },
+    {
+      "index": "11.77",
+      "text": "每次向本行索取一次性密碼作付款之用前，您應仔細檢查商戶名稱、交易時間和金額，以確保交易正確，切勿只顧尋找六位數字的一次性密碼。",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(16)>#content_main_columnControl_27>div:nth-of-type(1)>#content_main_columnControlColumn_47>div:nth-of-type(1)>#content_main_advancedList_1>ul:nth-of-type(1)>li:nth-of-type(3)>#content_main_advancedListElement_3>div:nth-of-type(1)",
+      "selector_en": "",
+      "file": "11.77.mp4",
+      "start": 1093.78,
+      "end": 1122.58,
+      "duration": 28.8
+    },
+    {
+      "index": "11.78",
+      "text": "定期查閱信用卡／扣賬卡賬單",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(16)>#content_main_columnControl_27>div:nth-of-type(1)>#content_main_columnControlColumn_47>div:nth-of-type(1)>#content_main_advancedList_1>ul:nth-of-type(1)>li:nth-of-type(4)>#content_main_advancedListElement_4>h3:nth-of-type(1)",
+      "selector_en": "",
+      "file": "11.78.mp4",
+      "start": 1122.58,
+      "end": 1131.06,
+      "duration": 8.48
+    },
+    {
+      "index": "11.79",
+      "text": "定時登入香港滙豐流動理財應用程式，或仔細檢查您的信用卡／扣賬卡賬單及交易紀錄，並確保您授權所有交易。",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(16)>#content_main_columnControl_27>div:nth-of-type(1)>#content_main_columnControlColumn_47>div:nth-of-type(1)>#content_main_advancedList_1>ul:nth-of-type(1)>li:nth-of-type(4)>#content_main_advancedListElement_4>div:nth-of-type(1)",
+      "selector_en": "",
+      "file": "11.79.mp4",
+      "start": 1131.06,
+      "end": 1156.96,
+      "duration": 25.9
+    },
+    {
+      "index": "11.80",
+      "text": "千萬不要透露敏感個人資料",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(16)>#content_main_columnControl_27>div:nth-of-type(1)>#content_main_columnControlColumn_47>div:nth-of-type(1)>#content_main_advancedList_1>ul:nth-of-type(1)>li:nth-of-type(5)>#content_main_advancedListElement_5>h3:nth-of-type(1)",
+      "selector_en": "",
+      "file": "11.80.mp4",
+      "start": 1156.96,
+      "end": 1164.16,
+      "duration": 7.2
+    },
+    {
+      "index": "11.81",
+      "text": "無論優惠有多吸引，也切勿因此而提供個人銀行戶口資料。緊記，騙徒經常會冒認各大機構，利用釣魚短訊及電郵、假冒網站和偽冒電話誘使您交出敏感的個人資料（例如信用卡／扣賬卡號碼、CVC／CVV安全碼及一次性密碼）或者要求您點擊可疑的連結。",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(16)>#content_main_columnControl_27>div:nth-of-type(1)>#content_main_columnControlColumn_47>div:nth-of-type(1)>#content_main_advancedList_1>ul:nth-of-type(1)>li:nth-of-type(5)>#content_main_advancedListElement_5>div:nth-of-type(1)",
+      "selector_en": "",
+      "file": "11.81.mp4",
+      "start": 1164.16,
+      "end": 1219.26,
+      "duration": 55.1
+    },
+    {
+      "index": "11.82",
+      "text": "發現可疑交易，即通知我們",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(17)>#content_main_columnControl_28>div:nth-of-type(1)>#content_main_columnControlColumn_49>div:nth-of-type(1)>#content_main_heading_9",
+      "selector_en": "",
+      "file": "11.82.mp4",
+      "start": 1219.26,
+      "end": 1227.52,
+      "duration": 8.26
+    },
+    {
+      "index": "11.83",
+      "text": "對某些交易紀錄沒有印象？不要慌張，您可以暫時封鎖信用卡／扣賬卡，同時再三檢查您的交易紀錄或向我們舉報可疑交易。",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(18)>#content_main_columnControl_29>div:nth-of-type(1)>#content_main_columnControlColumn_50>div:nth-of-type(1)>#content_main_richtext_21>p:nth-of-type(1)",
+      "selector_en": "",
+      "file": "11.83.mp4",
+      "start": 1227.52,
+      "end": 1259.9,
+      "duration": 32.38
+    },
+    {
+      "index": "11.84",
+      "text": "暫時封鎖信用卡／扣賬卡",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(19)>#content_main_columnControl_30>div:nth-of-type(1)>#content_main_columnControlColumn_52>div:nth-of-type(1)>#content_main_heading_10",
+      "selector_en": "",
+      "file": "11.84.mp4",
+      "start": 1259.9,
+      "end": 1267.34,
+      "duration": 7.44
+    },
+    {
+      "index": "11.85",
+      "text": "如果您遺失信用卡／扣賬卡，或者懷疑信用卡／扣賬卡被盗竊或盗用，您可透過滙豐香港流動、網上理財應用程式或致電我們的客戶服務熱線封鎖信用卡／扣賬卡。",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(20)>#content_main_columnControl_31>div:nth-of-type(1)>#content_main_columnControlColumn_53>div:nth-of-type(1)>#content_main_richtext_22>p:nth-of-type(1)",
+      "selector_en": "",
+      "file": "11.85.mp4",
+      "start": 1267.34,
+      "end": 1298.68,
+      "duration": 31.34
+    },
+    {
+      "index": "11.86",
+      "text": "您亦可致電我們的客戶服務熱線報失信用卡／扣賬卡。",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(20)>#content_main_columnControl_31>div:nth-of-type(1)>#content_main_columnControlColumn_53>div:nth-of-type(1)>#content_main_richtext_22>p:nth-of-type(2)",
+      "selector_en": "",
+      "file": "11.86.mp4",
+      "start": 1298.68,
+      "end": 1311.66,
+      "duration": 12.98
+    },
+    {
+      "index": "11.87",
+      "text": "想知更多如何封鎖信用卡？您可以瀏覽滙豐香港網站 > 查看常見問題、表格及服務費用 > 信用卡／扣賬卡支援 > 報失或封鎖您的信用卡",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(20)>#content_main_columnControl_31>div:nth-of-type(1)>#content_main_columnControlColumn_53>div:nth-of-type(1)>#content_main_richtext_22>p:nth-of-type(3)",
+      "selector_en": "",
+      "file": "11.87.mp4",
+      "start": 1311.66,
+      "end": 1340.72,
+      "duration": 29.06
+    },
+    {
+      "index": "11.88",
+      "text": "舉報可疑狀況或交易",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(21)>#content_main_columnControl_32>div:nth-of-type(1)>#content_main_columnControlColumn_55>div:nth-of-type(1)>#content_main_heading_11",
+      "selector_en": "",
+      "file": "11.88.mp4",
+      "start": 1340.72,
+      "end": 1348.38,
+      "duration": 7.66
+    },
+    {
+      "index": "11.89",
+      "text": "如果發現信用卡／扣賬卡出現可疑狀況，或者有未經您授權的交易，請立即向我們回報。",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(22)>#content_main_columnControl_33>div:nth-of-type(1)>#content_main_columnControlColumn_56>div:nth-of-type(1)>#content_main_richtext_23>p:nth-of-type(1)",
+      "selector_en": "",
+      "file": "11.89.mp4",
+      "start": 1348.38,
+      "end": 1367.32,
+      "duration": 18.94
+    },
+    {
+      "index": "11.90",
+      "text": "滙豐環球私人銀行客戶(852) 2233 3033",
+      "selector": "#content_main_richtext_23>p:nth-of-type(2)",
+      "selector_en": "",
+      "file": "11.90.mp4",
+      "start": 1367.32,
+      "end": 1380.16,
+      "duration": 12.84
+    },
+    {
+      "index": "11.91",
+      "text": "滙豐卓越理財尊尚客戶(852) 2233 3033",
+      "selector": "#content_main_richtext_23>p:nth-of-type(3)",
+      "selector_en": "",
+      "file": "11.91.mp4",
+      "start": 1380.16,
+      "end": 1391.26,
+      "duration": 11.1
+    },
+    {
+      "index": "11.92",
+      "text": "滙豐卓越理財客戶(852) 2233 3322",
+      "selector": "#content_main_richtext_23>p:nth-of-type(4)",
+      "selector_en": "",
+      "file": "11.92.mp4",
+      "start": 1391.26,
+      "end": 1401.9,
+      "duration": 10.64
+    },
+    {
+      "index": "11.93",
+      "text": "其他個人理財客戶(852) 2233 3000",
+      "selector": "#content_main_richtext_23>p:nth-of-type(5)",
+      "selector_en": "",
+      "file": "11.93.mp4",
+      "start": 1401.9,
+      "end": 1411.8,
+      "duration": 9.9
+    },
+    {
+      "index": "11.94",
+      "text": "如您尚未登記滙豐流動理財，或安裝HSBC HK App並啟動及驗證流動保安編碼，我們會繼續透過短訊發送一次性驗證碼至您登記的手提電話號碼，以驗證您的網上交易。",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(23)>#content_main_footnote_1>div:nth-of-type(2)>div:nth-of-type(1)>ol:nth-of-type(1)>li:nth-of-type(1)>#fn-allvert-online-authentication",
+      "selector_en": "",
+      "file": "11.94.mp4",
+      "start": 1411.8,
+      "end": 1448.76,
+      "duration": 36.96
+    },
+    {
+      "index": "11.95",
+      "text": "請確保您的流動裝置及其他電信設備及服務能以推播通知收取推播通知提示。",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(24)>#content_main_columnControl_34>div:nth-of-type(1)>#content_main_columnControlColumn_58>div:nth-of-type(1)>#content_main_richtext_24>ol:nth-of-type(1)>li:nth-of-type(1)",
+      "selector_en": "",
+      "file": "11.95.mp4",
+      "start": 1448.76,
+      "end": 1466.96,
+      "duration": 18.2
+    },
+    {
+      "index": "11.96",
+      "text": "推播通知運行於Apple Inc.（「Apple」）或Google LLC. （「Google」）提供的服務之上（如適用）。因Apple或Google的服務導致的推播通知訊息傳送延遲或失敗，均不在本行的控制範圍之內。",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(24)>#content_main_columnControl_34>div:nth-of-type(1)>#content_main_columnControlColumn_58>div:nth-of-type(1)>#content_main_richtext_24>ol:nth-of-type(1)>li:nth-of-type(2)",
+      "selector_en": "",
+      "file": "11.96.mp4",
+      "start": 1466.96,
+      "end": 1497.74,
+      "duration": 30.78
+    },
+    {
+      "index": "11.97",
+      "text": "Apple、Apple標誌、iPhone、iPad、Touch ID及Face ID均為Apple Inc.在美國及其他國家或地區註冊的商標。App Store為 Apple Inc.之服務商標。",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(24)>#content_main_columnControl_34>div:nth-of-type(1)>#content_main_columnControlColumn_58>div:nth-of-type(1)>#content_main_richtext_24>ul:nth-of-type(1)>li:nth-of-type(1)",
+      "selector_en": "",
+      "file": "11.97.mp4",
+      "start": 1497.74,
+      "end": 1525.8,
+      "duration": 28.06
+    },
+    {
+      "index": "11.98",
+      "text": "Google Play和Google Play標誌均為Google LLC的商標。Android是Google LLC的商標。",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(24)>#content_main_columnControl_34>div:nth-of-type(1)>#content_main_columnControlColumn_58>div:nth-of-type(1)>#content_main_richtext_24>ul:nth-of-type(1)>li:nth-of-type(2)",
+      "selector_en": "",
+      "file": "11.98.mp4",
+      "start": 1525.8,
+      "end": 1543.68,
+      "duration": 17.88
+    },
+    {
+      "index": "11.99",
+      "text": "屏幕顯示與網頁圖像僅供參考及說明用途。",
+      "selector": "body:nth-of-type(1)>main:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(24)>#content_main_columnControl_34>div:nth-of-type(1)>#content_main_columnControlColumn_58>div:nth-of-type(1)>#content_main_richtext_24>ul:nth-of-type(1)>li:nth-of-type(3)",
+      "selector_en": "",
+      "file": "11.99.mp4",
+      "start": 1543.68,
+      "end": 1556.14,
+      "duration": 12.46
+    }
+  ]
+}

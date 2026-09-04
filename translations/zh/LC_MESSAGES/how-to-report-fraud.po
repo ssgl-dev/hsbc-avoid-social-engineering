@@ -1,0 +1,176 @@
+# Chinese translations for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-08-12 11:55+0800\n"
+"PO-Revision-Date: 2025-08-13 15:11+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: frontend/templates/how-to-report-fraud.html:5
+msgid "How to Handle and Report Fraud – HSBC HK"
+msgstr "懷疑受騙？教您處理及舉報 - 香港滙豐"
+
+#: frontend/templates/android-malware-safety-measures.html:13
+msgid "Cyber security and fraud hub"
+msgstr "網路安全及防詐騙資訊中心"
+
+#: frontend/templates/how-to-report-fraud.html:11
+msgid "How should I handle and report fraud?"
+msgstr "懷疑受騙？教您處理及舉報"
+
+#: frontend/templates/how-to-report-fraud.html:18
+msgid ""
+"HSBC is committed to fighting fraud and protecting your funds and data. "
+"If we notice any suspicious activity on your account, we will contact "
+"you—but we will never ask for your log on credentials or passwords. If "
+"you suspect fraud, report it to us immediately to help minimize the "
+"impact."
+msgstr "滙豐一直遵守嚴格保安措施，確保您的資金及資料安全。如果我們發現您的銀行戶口出現可疑活動，我們會與您聯絡，向您確認。然而，我們絕對不會要求您提供登入賬號及密碼等敏感個人資料"
+
+#: frontend/templates/how-to-report-fraud.html:21
+msgid "What problem have you encountered?"
+msgstr "您發現甚麼問題？"
+
+#: frontend/templates/how-to-report-fraud.html:23
+msgid "I don’t recognise a transaction on my statement"
+msgstr "賬單上有我不認得的交易賬單上有我不認得的交易"
+
+#: frontend/templates/how-to-report-fraud.html:24
+msgid "I got an SMS alert from HSBC about a possible unauthorised transaction"
+msgstr "我收到來自滙豐的短訊提示，提醒我的信用卡可能出現未經授權的交易"
+
+#: frontend/templates/how-to-report-fraud.html:25
+msgid "I received a suspicious email claiming to be from HSBC"
+msgstr "我收到可疑的滙豐電郵"
+
+#: frontend/templates/how-to-report-fraud.html:26
+msgid "I received a suspicious phone call claiming to be from HSBC"
+msgstr "我收到可疑的滙豐電話"
+
+#: frontend/templates/how-to-report-fraud.html:27
+msgid "I can't find my credit card or it has been stolen"
+msgstr "我的信用卡遺失或者被盗"
+
+#: frontend/templates/how-to-report-fraud.html:28
+msgid "I think my log on credentials have been disclosed"
+msgstr "我的登入資料被洩露"
+
+#: frontend/templates/how-to-report-fraud.html:32
+msgid "What to do in each case"
+msgstr "在每種情況下，您應如何應對？"
+
+#: frontend/templates/how-to-report-fraud.html:33
+msgid "If you don’t recognise a transaction"
+msgstr "您的月結單出現未能確認的費用，未必一定與詐騙有關，可能還有其他原因。"
+
+#: frontend/templates/how-to-report-fraud.html:34
+msgid "Check your"
+msgstr "請閱讀"
+
+#: frontend/templates/how-to-report-fraud.html:34
+msgid "transaction dispute page"
+msgstr "我們的交易支援頁面，"
+
+#: frontend/templates/how-to-report-fraud.html:34
+msgid ""
+"for possible reasons. If still unsure, contact the merchant, then HSBC if"
+" unresolved. If you suspect fraud, contact HSBC immediately:"
+msgstr "嘗試找出原因。如果您仍然無法確認交易，請先聯絡商戶解決問題，然後盡快與我們聯絡。若您依然無法解決問題，並懷疑遭到詐騙，請立即聯絡我們。"
+
+#: frontend/templates/how-to-report-fraud.html:36
+msgid "HSBC Global Private Banking:"
+msgstr "滙豐環球私人銀行客戶："
+
+#: frontend/templates/how-to-report-fraud.html:37
+msgid "HSBC Premier Elite:"
+msgstr "滙豐卓越理財尊尚客戶："
+
+#: frontend/templates/how-to-report-fraud.html:38
+msgid "HSBC Premier:"
+msgstr "滙豐卓越理財客戶："
+
+#: frontend/templates/how-to-report-fraud.html:39
+msgid "All other customers:"
+msgstr "其他客戶："
+
+#: frontend/templates/how-to-report-fraud.html:40
+msgid "Email:"
+msgstr "電郵："
+
+#: frontend/templates/how-to-report-fraud.html:42
+msgid "If you get an SMS alert from HSBC"
+msgstr "您收到有關短訊時，"
+
+#: frontend/templates/how-to-report-fraud.html:43
+msgid ""
+"Reply \"Y\" or \"Yes\" if you made the payment, \"N\" or \"No\" if you "
+"didn’t. HSBC will never ask for personal info via SMS. If you receive a "
+"suspicious SMS, do not reply or click links—report it to HSBC at"
+msgstr "如交易屬實並由您本人支付，只須回覆「Y」或「Yes」確認，否則請回覆「N」或「No」。回覆我們的短訊時，請勿分享任何敏感的個人資料。"
+
+#: frontend/templates/how-to-report-fraud.html:44
+msgid "If you receive a suspicious email"
+msgstr "如果您收到的電郵，它的外觀、感覺或內容都跟以往收到的滙豐電郵不同，"
+
+#: frontend/templates/how-to-report-fraud.html:45
+msgid "Do not reply, click links, or open attachments. Forward to"
+msgstr "千萬不要回覆、點擊任何連結或開啟任何附件。您也可以將任何收到的可疑電郵轉寄到"
+
+#: frontend/templates/how-to-report-fraud.html:45
+msgid "and call HSBC if concerned."
+msgstr "如果電郵十分可疑，請即向我們舉報。"
+
+#: frontend/templates/how-to-report-fraud.html:46
+msgid "If you receive a suspicious call"
+msgstr "如果您接到自稱滙豐職員的可疑電話或任何預先錄製的語音來電，"
+
+#: frontend/templates/how-to-report-fraud.html:47
+msgid ""
+"Hang up immediately. Contact HSBC to verify. If you disclosed info, "
+"change your passwords and monitor your statements. Email"
+msgstr "請立即掛線，並向我們查詢或舉報。若您曾向來電者透露個人密碼等敏感資料，應立即更改相關資料，並定期查閱銀行及信用卡結單和通知書。您也可以傳送電郵至"
+
+#: frontend/templates/how-to-report-fraud.html:47
+msgid "if needed."
+msgstr "向我們回報。"
+
+#: frontend/templates/how-to-report-fraud.html:48
+msgid "If your credit card is lost or stolen"
+msgstr "如果您遺失信用卡，或者懷疑信用卡被盗竊或盗用，"
+
+#: frontend/templates/how-to-report-fraud.html:49
+msgid "Report via the HSBC HK Mobile Banking app or"
+msgstr "請通過香港滙豐流動理財應用程式"
+
+#: frontend/templates/how-to-report-fraud.html:49
+msgid "online banking"
+msgstr "或登入網上理財報失信用卡。"
+
+#: frontend/templates/how-to-report-fraud.html:49
+msgid ""
+", or call the hotline above. You can also temporarily block your card "
+"online for up to 60 days."
+msgstr "您也可以致電我們的24小時客戶服務熱線，報失信用卡。如果您確定信用卡没有遺失或被盗，只是一時想不起它在甚麼地方，可以登入網上理財，將信用卡暫時封鎖60日。"
+
+#: frontend/templates/how-to-report-fraud.html:50
+msgid "If your log on credentials have been disclosed"
+msgstr "如果您不慎洩露賬戶登入資料、密碼或保安編碼等敏感資料，"
+
+#: frontend/templates/how-to-report-fraud.html:51
+msgid ""
+"Call HSBC immediately, check your transaction records for unauthorized "
+"activity, and change your passwords."
+msgstr "，請立即致電熱線向我們報告，並馬上檢查戶口交易紀錄。如發現任何未經授權的交易，請立即致電熱線向我們報告。我們在經您同意後，可以助您暫時凍結戶口，免蒙受更多損失。"
+

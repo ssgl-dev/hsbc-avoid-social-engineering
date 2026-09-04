@@ -1,0 +1,47 @@
+.signly-button {
+  width: 30%;
+  max-width: 320px;
+  min-width: 120px;
+  height: 148px;
+  background-color: #dc3545;
+  border-radius: 4px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  position: absolute;
+  left: 0;
+  right: auto;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 99999;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.trans {
+  display: block;
+  position: relative;
+}
+
+.trans:hover .signly-button {
+  display: flex;
+}
+
+.signly-button i.fa-play {
+  font-size: 18px;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  position: static;
+  z-index: 100000;
+}
+
+/* Better paragraph spacing in notification banners */
+.notification-banner-text p {
+  margin-bottom: 16px !important;
+}
+
+.notification-banner-text p:last-child {
+  margin-bottom: 0 !important;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="{% trans %}HSBC HK's Cyber Security and Fraud Hub - Resources to protect your accounts and personal information{% endtrans %}">
+
+    <!-- Preload critical resources -->
+    <link rel="preload" href="/static/css/vlite.css" as="style">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/static/css/vlite.css" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="/static/css/vlite.css">
+    </noscript>
+
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://www.hsbc.com.hk">
+</head>
+<body>
+    {% include 'layout/header.html' %}
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+    {% include 'layout/footer.html' %}
+
+    <!-- Deferred scripts -->
+    <script type="module" src="/static/js/vlite.js" defer></script>
+    <script src="/static/js/video-player.js" defer></script>
+
+    <!-- Load polyfills for older browsers -->
+    <script>
+        if (!('noModule' in HTMLScriptElement.prototype)) {
+            const polyfill = document.createElement('script');
+            polyfill.src = "/static/js/polyfills.js";
+            document.head.appendChild(polyfill);
+        }
+    </script>
+</body>
+</html>

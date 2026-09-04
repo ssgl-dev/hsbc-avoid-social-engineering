@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="54px" height="27px" viewBox="0 0 54 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Logo/Hexagon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="01-Masthead-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01-Masthead-/-Single-/-Single-Design-Small-OpenNav" transform="translate(-133.000000, -12.000000)" fill="#DB0011">
+            <g id="Logo/Hexagon" transform="translate(133.000000, 12.000000)">
+                <polygon id="Shape" points="40.5 0 40.5 27 54 13.5001588"></polygon>
+                <polygon id="Shape" points="13.5 0 27.0001588 13.5 40.5 0"></polygon>
+                <polygon id="Shape" points="13.5 0 0 13.5001588 13.5 27"></polygon>
+                <polygon id="Shape" points="13.5 27 40.5 27 27.0001588 13.5"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

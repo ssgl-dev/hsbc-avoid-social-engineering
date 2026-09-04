@@ -1,0 +1,350 @@
+# Chinese translations for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-08-13 11:06+0800\n"
+"PO-Revision-Date: 2025-08-13 15:11+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: frontend/templates/phishing.html:5
+msgid "What is \"phishing\" and SMS Sender Registration Scheme – HSBC HK"
+msgstr "甚麼是「網絡釣魚」及短訊發送人登記制 - 香港滙豐"
+
+#: frontend/templates/android-malware-safety-measures.html:13
+msgid "Cyber security and fraud hub"
+msgstr "網路安全及防詐騙資訊中心"
+
+#: frontend/templates/phishing.html:11
+msgid "What is \"phishing\" and SMS Sender Registration Scheme"
+msgstr "甚麼是「網絡釣魚」及短訊發送人登記制"
+
+#: frontend/templates/phishing.html:12
+msgid ""
+"Online criminals are after your money. Here are some ways to help protect"
+" yourself"
+msgstr "網上匪徒對您的金錢虎視眈眈，以下羅列一些自我保護的方法"
+
+#: frontend/templates/phishing.html:14
+msgid "Cyber security and fraud hub"
+msgstr "網路安全及防詐騙資訊中心"
+
+#: frontend/templates/phishing.html:20
+msgid "What is phishing?"
+msgstr "何謂「網絡釣魚」？"
+
+#: frontend/templates/phishing.html:21
+msgid ""
+"Phishing is when a criminal sends you an email, SMS or phone call "
+"pretending to be from a legitimate organisation, such as a bank, online "
+"payment service, online retailer, or even a government department. They "
+"will often look very similar to genuine communications from these "
+"organisations. The communication will aim to get you to divulge passwords"
+" / bank details or other personal information by asking you click "
+"embedded links, scan QR codes or download attached files to implant "
+"malware on your device."
+msgstr "進行「網絡釣魚」(phishing)的騙徒會冒充合法機構，如銀行、網上付款服務商、網上零售商或政府機構，向您發送電郵、短訊或來電，看來亦往往與這些公司發出的真正訊息相似。這些訊息意圖透過要求您點擊內嵌連結、掃描QR碼或下載可在您的裝置植入惡意軟件的檔案附件，從而使獲取您的密碼、銀行資料或其他個人資料。"
+
+#: frontend/templates/phishing.html:22
+msgid ""
+"Besides, the embedded links will take you to a website that also looks "
+"very similar to the organisation's genuine site. Once you arrive at the "
+"fake site, it will usually prompt you to enter sensitive personal "
+"information, such as your account number, PIN, security code or one-time "
+"passwords (OTPs). The phishing site records everything you enter, and "
+"then the criminal can use your information to log into your actual "
+"account and steal your money."
+msgstr "此外，內嵌連結會將您帶至與有關機構真實網站極度相似的網站。一旦接達仿冒網站，受害人通常會被提示輸入敏感個人資料，如戶口號碼、PIN碼、保安編碼或一次性密碼。「網絡釣魚」網站會記錄所輸入的一切資料，騙徒繼而藉此登入您的賬戶及盜取金錢。"
+
+#: frontend/templates/phishing.html:23
+msgid ""
+"Recently criminals may encourage you to redeem special offers on social "
+"media platforms by clicking on suspicious link or installing app on your "
+"device. While this application may look and act like something useful "
+"(for example a shopping application), it may in fact contain malware that"
+" allow the criminals to control your phone and/or capture sensitive data."
+msgstr "最近，騙徒於社交媒體平台上以提供特別優惠為由，誘使客戶點擊可疑連結或下戴應用程式。這些應用程式可能含有惡意軟件，讓騙徒得以操控您的手機及/或獲取敏感資料。"
+
+#: frontend/templates/phishing.html:27
+msgid "To spot a phishing attempt, ask yourself the following questions:"
+msgstr "在判斷某電郵 / 短訊是否屬「網絡釣魚」時，應思考下列問題："
+
+#: frontend/templates/phishing.html:29
+msgid ""
+"Are you being asked for personal information, like credit card number or "
+"account password?"
+msgstr "電郵 / 短訊有否索取個人資料，如信用卡號碼或戶口密碼？"
+
+#: frontend/templates/phishing.html:30
+msgid "Were you expecting this message?"
+msgstr "收到訊息是否意料中事？"
+
+#: frontend/templates/phishing.html:31
+msgid "Does it have an attachment?"
+msgstr "電郵 / 短訊是否有附件？"
+
+#: frontend/templates/phishing.html:32
+msgid ""
+"Are you being asked to do something unusual, like transfer money to an "
+"unknown source, or email / SMS your account details to someone, or "
+"install a new application on your phone?"
+msgstr "電郵 / 短訊是否要求您採取異常行動，如將款項轉往不明來源，或以電郵 / 短訊將自己的戶口資料發給他人，或於手機下載應用程式？"
+
+#: frontend/templates/phishing.html:33
+msgid "Are you being asked to act with urgency to complete the actions?"
+msgstr "您是否被要求採取緊急行動？"
+
+#: frontend/templates/phishing.html:34
+msgid ""
+"Does the sender's email address or phone number match the name of the "
+"company that it claims to be from?"
+msgstr "寄件人的電郵地址或電話號碼，是否與報稱發出電郵 / 短訊的該公司的名稱匹配？"
+
+#: frontend/templates/phishing.html:35
+msgid ""
+"Is your email address or phone number different from the one that you "
+"gave that company?"
+msgstr "您的電郵地址或電話號碼，是否與您給予該公司的地址／號碼不同？"
+
+#: frontend/templates/phishing.html:36
+msgid "Was it sent or cc'd to more than just you?"
+msgstr "除以您為收件人外，電郵 / 短訊是否亦發送或副本抄送給他人？"
+
+#: frontend/templates/phishing.html:41
+msgid "How can I tell if I'm being phished?"
+msgstr "如何確定是否遇到「網絡釣魚」？"
+
+#: frontend/templates/phishing.html:42
+msgid "Fake or fraudulent websites"
+msgstr "仿冒或欺詐網站："
+
+#: frontend/templates/phishing.html:44
+msgid ""
+"Do not have an address (“domain name”) that exactly matches the HSBC "
+"official site. Always go to the HSBC website directly."
+msgstr "與滙豐官方網站的網址(網域名稱)不同。請直接瀏覽滙豐官方網站"
+
+#: frontend/templates/phishing.html:45
+msgid ""
+"May be for an offer that looks too good to be true, especially if the "
+"sites request you download an “APK” file or app. These may contain "
+"malware that can allow an attacker to control your phone. This could even"
+" be the case if it is linked from a reputable social media site."
+msgstr "可能會以提供特別優惠為由要求您下載APK檔或應用程式，這些APK檔或應用程式可能含有惡意軟件，讓騙徒得以操控您的手機。此情況可能會出現於信譽良好的社交媒體平台。"
+
+#: frontend/templates/phishing.html:47
+msgid "Phishing SMSes/emails/calls"
+msgstr "「網絡釣魚」短訊／電郵／電話："
+
+#: frontend/templates/phishing.html:49
+msgid ""
+"Make false claims pretending to be from the Bank - e.g. fake "
+"incentives/rewards, request for urgent contact and notifications of new "
+"payee/recipient or payments when you haven't done so"
+msgstr "偽冒銀行發出虛假訊息，例如向您推廣獎賞或優惠、要求緊急聯繫、提示您已新增收款人或成功轉賬等，而實際上您並沒有這樣做"
+
+#: frontend/templates/phishing.html:50
+msgid ""
+"Include a hyperlink requesting you to log on or enter sensitive personal "
+"information"
+msgstr "訊息内含連結，誘騙您登入虛假網站或提供敏感的個人資料"
+
+#: frontend/templates/phishing.html:51
+msgid ""
+"Could make use of spoofing tactics that mimic the bank as the sender of "
+"the message"
+msgstr "寄件者會試圖仿冒銀行的真實電郵地址或電話號碼，亦即「改號欺詐」"
+
+#: frontend/templates/phishing.html:52
+msgid ""
+"Have a sense of 'urgency' - e.g. you must do this now or the offer will "
+"expire / you will lose your money."
+msgstr "語帶「緊急」，例如:「您必須立即執行此操作，否則優惠將會過期 / 您將會損失金錢。」"
+
+#: frontend/templates/phishing.html:53
+msgid ""
+"It is not unusual for a phishing SMS attempt to come with phone call - a "
+"phone call from the fraudster purporting to be the Bank.  They may know "
+"personal details about you and/or your transactional history and appear "
+"convincing"
+msgstr "「網絡釣魚」短訊伴隨來電，即騙徒冒充銀行來電的情況並不罕見。騙徒可能知道您的個人資料及 / 或交易記錄，以顯得具有說服力"
+
+#: frontend/templates/phishing.html:58
+msgid "How to protect yourself from phishing"
+msgstr "如何從「網絡釣魚」中保護自己?"
+
+#: frontend/templates/phishing.html:59
+msgid "Follow these tips to prevent falling prey to phishing:"
+msgstr "請遵循以下提示，以防墜入「網路釣魚」陷阱："
+
+#: frontend/templates/phishing.html:61
+msgid ""
+"Never click on links or attachments on suspicious emails, SMS, messages, "
+"websites and/or social media"
+msgstr "切勿點擊可疑電郵、短訊、訊息、網頁及社交媒體內的連結及附件"
+
+#: frontend/templates/phishing.html:62
+msgid ""
+"Only download and install apps by trusted and verified developers via "
+"official channels/stores"
+msgstr "只從可靠及已認證的渠道下載及安裝應用程式"
+
+#: frontend/templates/phishing.html:63
+msgid ""
+"Never grant full control of your device to any third party or share "
+"screen unless you're absolutely certain of the source's trustworthiness"
+msgstr "如無法確認來源可信，請勿隨意授權第三方取得手機完整控制權或共享螢幕畫面"
+
+#: frontend/templates/phishing.html:64
+msgid ""
+"Never enter your sensitive personal information, credit card credentials "
+"or passwords on suspicious websites"
+msgstr "切勿於可疑網頁輸入任何敏感個人資料、信用卡憑證或保安密碼"
+
+#: frontend/templates/phishing.html:65
+msgid ""
+"If in doubt, verify with relevant organisation and company via official "
+"channels"
+msgstr "如有懷疑，請透過官方渠道向相關機構和公司核實"
+
+#: frontend/templates/phishing.html:66
+msgid ""
+"HSBC will never ask for sensitive personal information nor ask customers "
+"to log into HSBC Online Banking via emails or SMSes"
+msgstr "滙豐不會透過電郵或短訊要求客戶提供敏感個人資料或登入滙豐網上理財"
+
+#: frontend/templates/phishing.html:71
+msgid "What should I do if I'm being phished?"
+msgstr "遇上「網絡釣魚」，應該怎樣處理？"
+
+#: frontend/templates/phishing.html:72
+msgid ""
+"If an email,SMS or call seems suspicious, don’t reply to it. Don't click "
+"on any links. Don't open any attachments. We would never send you any "
+"messages with a link requesting that you log on to online banking or "
+"provide your usernames and passwords. And if you do receive a message "
+"claiming to be from HSBC and asking you to provide your account "
+"credentials or sensitive personal information, report it to us via: "
+"Phishing@hsbc.com. Just forward us the email, website address (URL) or "
+"send us a screen shot of the SMS you received. You'll receive an "
+"automated response from us when we've received your email."
+msgstr ""
+"如果您收到可疑的電郵或短訊，切勿回覆、點擊任何連結或開啟任何附件。我們絕對不會透過訊息内的連結要求您登入網上理財或提供登入賬號及密碼。若您收到自稱是滙豐發出的訊息，要求您提供戶口資料或敏感的個人資料，請即電郵至"
+" Phishing@hsbc.com 。請將收到的可疑電郵、詐騙短訊或網站地址（URL）傳送給我們 。我們收到電郵後，會自動向您發送通知。"
+
+#: frontend/templates/phishing.html:73
+msgid ""
+"If you believe you have disclosed account credentials or sensitive "
+"personal information to a fraudster, please report it to us via our "
+"customer service hotlines immediately:"
+msgstr "如您相信化已向騙徒提供賬戶憑證或敏感個人資料，請即致電客戶服務熱線向我們回報:"
+
+#: frontend/templates/phishing.html:75
+msgid "HSBC Global Private Banking: "
+msgstr "滙豐環球私人銀行客戶："
+
+#: frontend/templates/phishing.html:76
+msgid "HSBC Premier Elite: "
+msgstr "滙豐卓越理財尊尚客戶："
+
+#: frontend/templates/phishing.html:77
+msgid "HSBC Premier: "
+msgstr "滙豐卓越理財客戶："
+
+#: frontend/templates/phishing.html:78
+msgid "Other customers: "
+msgstr "其他客戶："
+
+#: frontend/templates/phishing.html:84
+msgid "SMS Sender Registration Scheme"
+msgstr "短訊發送人登記制"
+
+#: frontend/templates/phishing.html:85
+msgid ""
+"To assist public in identifying SMS sender and prevent them from falling "
+"prey to phishing SMS, Office of the Communications Authority, the Hong "
+"Kong Monetary Authority, the Hong Kong Police Force, the Hong Kong "
+"Association of Banks and the telecommunications industry have established"
+" the “SMS Sender Registration Scheme”. Starting from 28th January 2024, "
+"major local banks will only use registered sender IDs starting with “#” "
+"to send one-way SMS to local mobile users."
+msgstr "為協助市民識別短訊發送人的身分，防止市民墜入釣魚短訊詐騙的陷阱，通訊事務管理局辦公室、香港金融管理局、香港警務處、香港銀行公會及電訊業界合作推出「短訊發送人登記制」。由2024年1月28日起，主要本地銀行只會使用以「#」號開頭的已登記發送人名稱，向本地流動用戶發出單向短訊。"
+
+#: frontend/templates/phishing.html:86
+msgid ""
+"Starting from 28th January 2024, the sender address of one-time SMS sent "
+"by HSBC will be replaced by the registered sender IDs below:"
+msgstr "由2024年1月28日起，滙豐發送之一次性短訊，發送者地址將會以指定登記發送人名稱取代現有之號碼："
+
+#: frontend/templates/phishing.html:87
+msgid "Please note that the SMS Sender Registration Scheme is not appliable to:"
+msgstr "請注意，短訊發送人登記制並不適用於："
+
+#: frontend/templates/phishing.html:89
+msgid ""
+"SMS messages sent via below numbers of which receiving parties are "
+"expected to reply to the senders (2-way SMS):"
+msgstr "可供接收者以發送人號碼直接回覆的短訊（雙向交易短訊）會經由以下號碼發送："
+
+#: frontend/templates/phishing.html:91
+msgid "Credit Card: "
+msgstr "信用卡："
+
+#: frontend/templates/phishing.html:92
+msgid "Debit Card: "
+msgstr "扣賬卡："
+
+#: frontend/templates/phishing.html:93
+msgid "Banking Payment: "
+msgstr "戶口交易："
+
+#: frontend/templates/phishing.html:96
+msgid ""
+"Local subscribers of Single-Card-Multiple-Numbers/One-Card-Two-Numbers "
+"mobile service provided by non-Hong Kong operators."
+msgstr "使用非香港營辦商提供之一卡多號/一卡雙號流動服務的本地用戶。"
+
+#: frontend/templates/phishing.html:98
+msgid ""
+"HSBC reminder: If you receive SMS from unknown sender, please be vigilant"
+" and do not disclose any personal, account or credit card information, or"
+" transfer money as per requested. Do not click on suspicious link in SMS."
+" If in doubt, you can use \"Scameter\" or \"Scameter+\" launched by the "
+"police to evaluate the fraud risk of suspicious SMS, emails or calls by "
+"checking the phone number, email address or URL on the platform."
+msgstr "滙豐提示：如收到陌生發送人的短訊，請提高警覺，不應披露任何個人、戶口或信用卡資料，又或按其要求轉賬金錢。切勿點擊可疑短訊內的連結，如有懷疑，可使用警方推出的「防騙視伏器」或「防騙視伏App」去查詢電話號、電郵地址或網址，以評估可疑短訊、電郵或來電的詐騙風險。"
+
+#: frontend/templates/phishing.html:102
+msgid "Security tips from HKMA"
+msgstr "來自香港金管局的網絡安全貼士"
+
+#: frontend/templates/phishing.html:103
+msgid "Protect your Personal Digital Keys; Beware of Fraudulent Links!"
+msgstr "數碼KEY睇緊啲，撳LINK前要三思！"
+
+#: frontend/templates/phishing.html:104
+msgid ""
+"In this digital age, it is important to keep your Personal Digital Keys "
+"safe. They are your account credentials (eg online banking username and "
+"password, one-time passcode, and credit card credentials) and other "
+"sensitive personal information (eg your HKID number and date of birth). "
+"Please keep them well-protected as you would do with the keys to your "
+"home.  If fraudsters manage to steal such information, it could result in"
+" financial loss. Remember to keep your Personal Digital Keys safe!"
+msgstr "踏入電子時代，必須保護好您的個人數碼KEY，亦即您的戶口資料（例如網上理財的登入賬號及密碼、一次性密碼或信用卡資料）及敏感的個人資料（例如香港身份證號碼及出生日期）。個人數碼KEY如您的家門鎖匙一樣重要，必須好好保護，慎防不法之徒盜取這些資料，令您遭受財務損失。"
+
+#: frontend/templates/phishing.html:105
+msgid "Learn more about other security tips on HKMA website."
+msgstr "請前往香港金融管理局網站了解更多網絡安全貼士。"
+

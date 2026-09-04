@@ -1,0 +1,140 @@
+# Chinese translations for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-08-12 14:37+0800\n"
+"PO-Revision-Date: 2025-08-13 15:11+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: frontend/templates/investment-scams.html:5
+msgid "How Investment Scams Work and How to Avoid Them – HSBC HK"
+msgstr "投資騙案手法及防騙貼士 - 香港滙豐"
+
+#: frontend/templates/android-malware-safety-measures.html:13
+msgid "Cyber security and fraud hub"
+msgstr "網路安全及防詐騙資訊中心"
+
+#: frontend/templates/investment-scams.html:11
+msgid "How Investment Scams Work and How to Avoid Them"
+msgstr "投資騙案手法及防騙貼士"
+
+#: frontend/templates/investment-scams.html:18
+msgid "What are investment scams?"
+msgstr "何謂投資騙案？"
+
+#: frontend/templates/investment-scams.html:19
+msgid ""
+"Investment scams trick people into putting money into fake "
+"opportunities—such as cryptocurrencies, stocks, or trading platforms—that"
+" don’t really exist. These scams can lead to major financial loss and "
+"theft of personal information."
+msgstr "在投資騙案中，騙徒會以虛假的投資機會誘使受害人付出真金白銀，如投資於不存在的虛擬貨幣、A股交易等"
+
+#: frontend/templates/investment-scams.html:22
+msgid "Different kinds of investment scams"
+msgstr "不同種類的投資騙案"
+
+#: frontend/templates/investment-scams.html:24
+msgid ""
+"<strong>Unsolicited offers:</strong> Scammers may pose as celebrities or "
+"friends, sharing fake tips or forming online relationships to lure "
+"victims into fake investments."
+msgstr "<strong>不請自來的投資機會</strong>：騙徒會在Instagram、Facebook、WhatsApp、Tinder、Telegram等社交媒體或通訊群組假扮成名人，發放虛假內幕投資消息，或與受害人發展網上情緣，以誘使受害人於虛假投資平台開設戶口，並投入資金。"
+
+#: frontend/templates/investment-scams.html:25
+msgid ""
+"<strong>Fake websites and portfolios:</strong> Fraudulent sites promote "
+"investments with unrealistically high returns."
+msgstr "<strong>虛假網站及投資組合</strong>：騙徒會建立極度像真的虛假網站和投資組合，宣傳異常高回報的虛假投資計劃。"
+
+#: frontend/templates/investment-scams.html:26
+msgid ""
+"<strong>Bank employee impersonation:</strong> Scammers pose as bank "
+"staff, offering fake opportunities or claiming your account is under "
+"investigation."
+msgstr "<strong>假冒銀行職員</strong>：騙徒會假扮成銀行職員去提供虛假投資機會，亦會向受害人訛稱戶口被凍結以進行調查，迫使受害人轉賬到其他特定戶口。"
+
+#: frontend/templates/investment-scams.html:27
+msgid ""
+"<strong>Monetary inducement:</strong> Fraudsters may pay small returns at"
+" first to build trust, then disappear with your money."
+msgstr "<strong>金錢利誘</strong>：騙徒會向受害人支付少量的投資回報來建立信心，鼓勵受害人繼續投資。不過，受害人到最後會無法提取任何資金，遭受財務損失。"
+
+#: frontend/templates/investment-scams.html:31
+msgid "Spotting red flags of investment scams"
+msgstr "投資騙案特點"
+
+#: frontend/templates/investment-scams.html:33
+msgid ""
+"Promises of low-risk, high-return investments that sound too good to be "
+"true."
+msgstr "遇到低風險高回報，但並不符合現實的投資機會。"
+
+#: frontend/templates/investment-scams.html:34
+msgid "Pressure to invest quickly, without time to research."
+msgstr "騙徒通常會向受害人施壓要即時作出投資決定，令受害人沒有時間做資料搜集，甚至無法仔細考慮。"
+
+#: frontend/templates/investment-scams.html:35
+msgid "Requests to transfer money to unknown or third-party accounts."
+msgstr "要求受害人轉賬至不明的第三方戶口。"
+
+#: frontend/templates/investment-scams.html:36
+msgid "Excuses or extra charges when you try to withdraw your money."
+msgstr "當受害人的投資有進帳，想從投資戶口提取資金時，虛假平台的管理人會諸多推搪，以戶口被凍結、提款須付額外手續費等為理由阻撓受害人提款。"
+
+#: frontend/templates/investment-scams.html:40
+msgid "How to prevent investment scams"
+msgstr "如何提防投資騙案"
+
+#: frontend/templates/investment-scams.html:42
+msgid ""
+"Research investment referrers, products, and platforms thoroughly. Verify"
+" through official channels."
+msgstr "仔細查清楚投資推薦人、投資產品和投資平台的背景，透過官方渠道核實消息和身分。"
+
+#: frontend/templates/investment-scams.html:43
+msgid ""
+"Consult licensed professionals and check with the SFC for suspicious "
+"platforms."
+msgstr "諮詢合資格的專業人士，並參閱證券及期貨事務監察委員會（證監會）網站，查看持牌或可疑的虛擬資產交易平台名單。"
+
+#: frontend/templates/investment-scams.html:44
+msgid ""
+"Never let others set up investment accounts or manage your investments "
+"for you."
+msgstr "不要托任何人幫您開立投資戶口、上載身分證明文件，或代為管理投資。"
+
+#: frontend/templates/investment-scams.html:45
+msgid ""
+"Don’t disclose sensitive information or download unknown apps—these may "
+"contain malware."
+msgstr "避免透露敏感個人資料，或下載可能含有惡意軟件的應用程式，因為騙徒可以利用這類應用程式在您不知情的情況下盜用您的流動裝置轉移資金。"
+
+#: frontend/templates/investment-scams.html:46
+msgid ""
+"Never transfer money to unknown accounts. Use Scameter to check "
+"suspicious numbers or accounts."
+msgstr "如果有人要求您轉賬並向銀行提出不實的轉賬原因，一定要加以留神，因為這是騙徒避過審查的一種手法。"
+
+#: frontend/templates/investment-scams.html:47
+msgid "Be wary if told to mislead your bank about the reason for a payment."
+msgstr "不要轉賬至不明戶口，應使用香港警方的「防騙視伏器」或「防騙視伏App」應用程式評估可疑電話號碼、網頁、收賬戶口等的風險。"
+
+#: frontend/templates/investment-scams.html:49
+msgid ""
+"If you think you've been scammed, contact HSBC immediately at (852) 2233 "
+"3000."
+msgstr "滙豐致力保障您的財務安全。懷疑自己遭遇投資騙案？請即聯絡我們："
+

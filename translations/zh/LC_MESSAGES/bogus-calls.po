@@ -1,0 +1,128 @@
+# Chinese translations for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-08-12 10:59+0800\n"
+"PO-Revision-Date: 2025-08-13 15:11+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: frontend/templates/bogus-calls.html:5
+msgid "How to Identify Bogus Calls – HSBC HK"
+msgstr "如何分辨假冒來電 - 香港滙豐"
+
+#: frontend/templates/bogus-calls.html:11
+msgid "How to Identify Bogus Calls"
+msgstr "如何分辨假冒來電"
+
+#: frontend/templates/bogus-calls.html:13
+msgid "Cyber security &amp; fraud hub"
+msgstr "網路安全及防詐騙資訊中心"
+
+#: frontend/templates/bogus-calls.html:18
+msgid ""
+"Fraudsters may call pretending to be from HSBC or other financial "
+"institutions, inviting you to apply for loans or credit cards, or asking "
+"for sensitive information. Always be vigilant and authenticate any such "
+"calls."
+msgstr "來電者可能自稱是滙豐或其他金融機構的職員，並可能會邀請您申請私人貸款或信用卡。如接到報稱來自知名金融機構的來電，務必加以核實。應嘗試向來電者索取更多資料：詢問他們所屬部門的名稱及辦公室電話號碼，以及他們是如何取得您的電話號碼和戶口資料。若他們不願意透露，便應終止對話。您亦可致電滙豐熱線電話以核實來電者的身份"
+
+#: frontend/templates/bogus-calls.html:21
+msgid "Tips to help you identify a fraudulent call"
+msgstr "有欺詐成份的來電的識別指引"
+
+#: frontend/templates/bogus-calls.html:23
+msgid ""
+"The call is a pre-recorded message about irregularities with your bank or"
+" card account."
+msgstr "來電透過預先錄制的語音訊息通知您的銀行戶口或信用卡出現異常狀況"
+
+#: frontend/templates/bogus-calls.html:24
+msgid "Voice quality is poor, as if it’s a long-distance call."
+msgstr "通話音質比較差，彷彿是長途電話來電"
+
+#: frontend/templates/bogus-calls.html:25
+msgid "The caller refuses to provide a department name or call-back number."
+msgstr "來電者拒絕提供部門名稱，或拒絕提供回撥號碼"
+
+#: frontend/templates/bogus-calls.html:26
+msgid "The caller says there are irregularities with your account or card."
+msgstr "來電者稱，您的銀行戶口或信用卡出現異常狀況"
+
+#: frontend/templates/bogus-calls.html:27
+msgid ""
+"The caller focuses on selling credit products or services, especially "
+"with low interest rates."
+msgstr "來電者主要推銷低息信貸產品或服務，如私人貸款、加按或轉按貸款等"
+
+#: frontend/templates/bogus-calls.html:28
+msgid ""
+"The caller tries to close the sale quickly and is impatient to answer "
+"questions."
+msgstr "來電者急於完成交易，沒有耐性詳細介紹產品或服務"
+
+#: frontend/templates/bogus-calls.html:29
+msgid ""
+"Be especially cautious if asked for sensitive information like your "
+"banking password."
+msgstr "如果來電者在通話中要求取得敏感個人資料（例如您的理財密碼）或推銷信貸產品或服務，便應格外留神。"
+
+#: frontend/templates/bogus-calls.html:30
+msgid ""
+"HSBC does not authorize intermediaries to promote personal loans, tax "
+"loans, or credit cards via telesales."
+msgstr "敬請注意，滙豐沒有授權或委任任何中介公司進行電話促銷活動，以推廣私人貸款、稅務貸款或信用卡"
+
+#: frontend/templates/bogus-calls.html:34
+msgid "What to do if you receive a suspicious call"
+msgstr "接到可疑來電後應怎辦？"
+
+#: frontend/templates/bogus-calls.html:36
+msgid "Hang up immediately. If you shared personal details, call HSBC at"
+msgstr "如接到可疑來電，切勿驚慌失措，並應即時掛斷電話。"
+
+#: frontend/templates/bogus-calls.html:36
+msgid "and report the call to the police."
+msgstr ""
+"若您曾向來電者透露任何個人資料，請致電(852) 2233 "
+"3000向我們尋求協助，並向警方舉報，同時提供來電者的電話號碼，以及説明所泄露的個人資料。"
+
+#: frontend/templates/bogus-calls.html:37
+msgid "If you disclosed your password, change it right away."
+msgstr "若您曾向來電者透露密碼，應立即作出更改。"
+
+#: frontend/templates/bogus-calls.html:38
+msgid ""
+"HSBC staff can always provide their name and department for verification."
+" Call the hotline to confirm their identity."
+msgstr "若您接收到宣稱為滙豐的來電而您亦對對方的身份有懷疑，請緊記真正的滙豐員工可以清楚地提供其員工名稱、所屬分行或部門等資料，您可以致電我們的熱線電話以確認其身份。"
+
+#: frontend/templates/bogus-calls.html:39
+msgid "Never disclose personal or account information to suspicious callers."
+msgstr "如您對自稱為滙豐職員的來電感到懷疑，切忌提供任何個人資料或賬戶資訊，並請立即致電滙豐。"
+
+#: frontend/templates/bogus-calls.html:40
+msgid ""
+"Review your bank and credit card statements regularly and report any "
+"irregularities to HSBC."
+msgstr "我們的員工不會透過電話向您索取敏感的個人資料如保安密碼，滙豐亦不會以錄音訊息告知賬戶的異常情況。"
+
+#: frontend/templates/bogus-calls.html:41
+msgid "To opt out of HSBC marketing calls, call"
+msgstr "如不欲接收來自滙豐的市場推廣訊息及電話行銷來電，"
+
+#: frontend/templates/bogus-calls.html:41
+msgid ", mail your request to HSBC, or visit any branch."
+msgstr "敬請以下述方式與我們聯絡，，我們會安排在7個公曆日內從市場推廣名單中剔除您的聯絡號碼，費用全免。"
+

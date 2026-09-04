@@ -1,0 +1,168 @@
+# Chinese translations for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-08-12 12:15+0800\n"
+"PO-Revision-Date: 2025-08-13 15:11+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: frontend/templates/instant-messaging-app-scams.html:5
+msgid "How to Avoid WhatsApp and Instagram Account Takeover – HSBC HK"
+msgstr "提防WhatsApp騙案Instagram騙案 - 香港滙豐"
+
+#: frontend/templates/android-malware-safety-measures.html:13
+msgid "Cyber security and fraud hub"
+msgstr "網路安全及防詐騙資訊中心"
+
+#: frontend/templates/instant-messaging-app-scams.html:11
+msgid "How to avoid WhatsApp and Instagram account takeover"
+msgstr "如何避免WhatsApp和Instagram帳戶被盜用"
+
+#: frontend/templates/instant-messaging-app-scams.html:19
+msgid ""
+"WhatsApp hackers can access your account without you knowing and use it "
+"to send payment requests to your contacts. Those who receive the message "
+"might believe it came from you and be likely to follow the instructions. "
+"This tactic has spread to Instagram and other platforms with in-app "
+"chats. Stay cautious on all messaging and social networking platforms to "
+"avoid scams."
+msgstr "騙徒在您不知情的情況下騎劫您的WhatsApp帳戶，然後向在您通訊錄上的親友發出轉賬請求，收到訊息的親友因誤信您有財務需要，繼而被騙去金錢"
+
+#: frontend/templates/instant-messaging-app-scams.html:23
+msgid "How fraudsters can hijack your account"
+msgstr "騙徒騎劫帳戶手法"
+
+#: frontend/templates/instant-messaging-app-scams.html:25
+msgid ""
+"Fraudsters may send messages claiming your account is at risk or has "
+"violated user agreements, luring you to click a fake customer service "
+"link or contact a number. They try to obtain the verification code they "
+"requested, or simply ask for it in another message."
+msgstr "不法之徒會向您發出訊息，訛稱您的帳戶有違規行為或存在風險，並傳送偽造的客戶服務連結，或同黨的電話號碼，以套取由他們發出請求的驗證碼，或再次向您發出訊息索取。"
+
+#: frontend/templates/instant-messaging-app-scams.html:26
+msgid ""
+"They attempt to log in to your account with your phone number and the "
+"verification code on their own device."
+msgstr "然後，騙徒會在自己的裝置輸入您的電話號碼和驗證碼，試圖登入您的帳戶。"
+
+#: frontend/templates/instant-messaging-app-scams.html:27
+msgid ""
+"They may ask you to confirm their login attempt as genuine, giving them "
+"full access to your account."
+msgstr "最後，騙徒會要求您認證他們的登入，從而騎劫您的帳戶。"
+
+#: frontend/templates/instant-messaging-app-scams.html:28
+msgid ""
+"Once hijacked, fraudsters send messages to your contacts asking for "
+"money. Since the messages come from a trusted account, recipients often "
+"comply."
+msgstr "成功騎劫帳戶後，騙徒會向您通訊錄上的親友以不同原因索取金錢，親友會誤以為訊息來自可靠的帳戶（您的帳戶），繼而墜入金錢騙局。"
+
+#: frontend/templates/instant-messaging-app-scams.html:33
+msgid "How to avoid your accounts being hijacked"
+msgstr "如何防止帳戶被盜用"
+
+#: frontend/templates/instant-messaging-app-scams.html:35
+msgid "Strengthen your security settings:"
+msgstr "加強保安設定"
+
+#: frontend/templates/instant-messaging-app-scams.html:35
+msgid ""
+"Enable two-factor authentication (2FA) on WhatsApp, Instagram, and other "
+"apps. Never share your PIN or one-time password with anyone."
+msgstr "在WhatsApp、IG或其他通訊軟件開啟雙重驗證（2FA）功能後，用戶就需要兩個驗證步驟才能登入，大大加強賬戶安全"
+
+#: frontend/templates/instant-messaging-app-scams.html:36
+msgid "Protect your sensitive information:"
+msgstr "小心保護敏感個人資料"
+
+#: frontend/templates/instant-messaging-app-scams.html:36
+msgid ""
+"Never share digital banking credentials, PINs, or one-time passwords. "
+"Stay vigilant even when chatting with people you know, as their accounts "
+"may have been hijacked."
+msgstr "切勿透露自己的敏感個人資料，包括網上理財登入資料、PIN碼或一次性密碼。若騙徒取得相關資料，您就有可能蒙受金錢損失"
+
+#: frontend/templates/instant-messaging-app-scams.html:37
+msgid "Beware of suspicious links and attachments:"
+msgstr "避免點擊可疑的連結或附件"
+
+#: frontend/templates/instant-messaging-app-scams.html:37
+msgid ""
+"Don’t click on suspicious links or download attachments, even if sent by "
+"someone you know. Always check the source."
+msgstr "不要隨意點擊訊息中的連結或下載附件，就算訊息是由熟人發出，您都應在點擊前仔細查清楚連結是否安全可靠。"
+
+#: frontend/templates/instant-messaging-app-scams.html:38
+msgid "Learn about your apps and keep them updated:"
+msgstr "多了解您使用的通訊軟件並定期更新"
+
+#: frontend/templates/instant-messaging-app-scams.html:38
+msgid ""
+"Know your apps’ official policies (e.g., WhatsApp will never ask you to "
+"download other apps, tap links, pay for service, or forward messages). "
+"Use app security checkup features and keep apps updated."
+msgstr "應確保自己對使用中的通訊軟件有足夠了解。以WhatsApp安全風險為例，官方網站表明絕不會要求用戶下載額外軟件或系統、點擊連結以前往另一網站或啟動新服"
+
+#: frontend/templates/instant-messaging-app-scams.html:39
+msgid "Verify through phone call:"
+msgstr "致電親友查證"
+
+#: frontend/templates/instant-messaging-app-scams.html:39
+msgid ""
+"If you receive a message from family or friends asking for financial "
+"help, always call to confirm before sending money. If the bank account "
+"holder’s name looks wrong, be extra careful. Use the Hong Kong Police "
+"Force’s Scameter or Scameter+ to verify suspicious details."
+msgstr "當收到親友訊息，要求您提供任何形式的經濟援助時，應先打電話給他們問清楚。如果銀行戶口持有人姓名不尋常，就要格外留神，切勿輕易轉賬給對方"
+
+#: frontend/templates/instant-messaging-app-scams.html:44
+msgid "Be aware – whatever, whenever and wherever"
+msgstr "時刻提高警覺"
+
+#: frontend/templates/instant-messaging-app-scams.html:45
+msgid ""
+"Stay vigilant at all times to protect yourself and help fight fraud. If "
+"in doubt, call the police’s Anti-Deception Coordination Centre (ADCC) "
+"hotline at"
+msgstr "任何時候都應小心提防騙子，識破詐騙保障自己。如有懷疑，可致電警方的反詐騙協調中心"
+
+#: frontend/templates/instant-messaging-app-scams.html:45
+msgid "18222"
+msgstr "「防騙易18222」熱綫。"
+
+#: frontend/templates/instant-messaging-app-scams.html:46
+msgid ""
+"HSBC is committed to protecting your financial security. If you think "
+"you’ve encountered a WhatsApp or Instagram scam, contact HSBC:"
+msgstr "滙豐致力保障您的財務安全。懷疑自己遭遇WhatsApp騙案或Instagram騙案？請即聯絡我們："
+
+#: frontend/templates/instant-messaging-app-scams.html:48
+msgid "HSBC Global Private Banking:"
+msgstr "滙豐環球私人銀行客戶："
+
+#: frontend/templates/instant-messaging-app-scams.html:49
+msgid "HSBC Premier Elite:"
+msgstr "滙豐卓越理財尊尚客戶："
+
+#: frontend/templates/instant-messaging-app-scams.html:50
+msgid "HSBC Premier:"
+msgstr "滙豐卓越理財客戶："
+
+#: frontend/templates/instant-messaging-app-scams.html:51
+msgid "Other personal banking:"
+msgstr "其他個人理財客戶："
+

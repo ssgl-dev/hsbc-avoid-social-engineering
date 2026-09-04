@@ -1,0 +1,158 @@
+# Chinese translations for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-08-13 12:00+0800\n"
+"PO-Revision-Date: 2025-08-13 15:11+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: frontend/templates/romance-scams.html:5
+msgid "Romance Scams – HSBC HK"
+msgstr "網戀騙局 - 香港滙豐"
+
+#: frontend/templates/romance-scams.html:11
+msgid "How to Protect Your Heart (and Bank Account) from Romance Scams"
+msgstr "網戀騙局偷心又偷金，您會中招嗎？"
+
+#: frontend/templates/romance-scams.html:13
+msgid "Cyber security &amp; fraud hub"
+msgstr "網路安全及防詐騙資訊中心"
+
+#: frontend/templates/romance-scams.html:18
+msgid ""
+"\"You and I are one and the same: we both know what a broken heart feels "
+"like. I'm so lucky to have found you.\""
+msgstr "“我同您一樣都受過情傷，遇上您實在太幸運！”"
+
+#: frontend/templates/romance-scams.html:19
+msgid "\"I really miss you. What have you been up to this past week?\""
+msgstr "“我好掛住您，您呢幾日做咗啲乜？”"
+
+#: frontend/templates/romance-scams.html:20
+msgid ""
+"While these sweet words may sound like music to anyone's ears, they could"
+" also be a ploy used by scammers to catfish you and try to prompt you to "
+"reveal more about your personal life."
+msgstr "這些可能是一般的甜言蜜語，但也可能是網戀騙子假扮理想伴侶、打探個人背景的對白。"
+
+#: frontend/templates/romance-scams.html:21
+msgid ""
+"If you've never met this person in real life, you should be extra "
+"careful. Scammers may invest time in building up a certain level of trust"
+" with you to become a regular fixture in your life. Once that happens, "
+"things could quickly start to go wrong:"
+msgstr "如果對方是素未謀面的網友，那您就要加倍小心。在他們「放長線」與您建立信任，並成為您生活中的一部分後，對白就可能由普通的噓寒問暖，變成："
+
+#: frontend/templates/romance-scams.html:22
+msgid ""
+"\"I've been travelling and I'm out of town right now, so I can't meet up "
+"with you. Also, can you believe my bad luck? My webcam has just stopped "
+"working!\""
+msgstr "“我唔喺香港，唔可以同您見面，咁啱個cam又壞咗，真黑仔！”"
+
+#: frontend/templates/romance-scams.html:23
+msgid ""
+"\"I'm a little short on cash right now. Could you help me out by wiring "
+"some money to tide me over? Even a few thousand dollars would help.\""
+msgstr "“我呢排周轉困難，您可唔可以匯款俾我？幾千蚊都得。”"
+
+#: frontend/templates/romance-scams.html:24
+msgid ""
+"When someone you consider your 'online soulmate' is constantly making "
+"excuses not to meet up and is always asking you for money, would you "
+"still believe you've found 'the one'?"
+msgstr "當您的「網上伴侶」不停推託和您見面，一次又一次地向您索取金錢，您還會相信對方嗎？"
+
+#: frontend/templates/romance-scams.html:27
+msgid "Tips to protect your heart and your pocket from online love scams"
+msgstr "防範網戀騙局貼士"
+
+#: frontend/templates/romance-scams.html:28
+msgid ""
+"Always stay alert. Never send money to people you don't know much about. "
+"Don't give in to the initial rush of emotions you may feel after finding "
+"a connection with someone online. Take a pause, look out for red flags "
+"and take these steps before shelling out."
+msgstr "不想當局者迷，人財兩失，就要時常保持警惕，不要輕易向認識不深的人匯款。當您為網上「真愛」情迷意亂的時候，先停一停，回想您倆相處時有沒有甚麼警號，再做好以下措施，不要將錢包雙手奉上。"
+
+#: frontend/templates/romance-scams.html:30
+msgid "Protect your personal information:"
+msgstr "保護個人資料"
+
+#: frontend/templates/romance-scams.html:30
+msgid ""
+"Don't give sensitive information to people you've never met, including "
+"your bank account details and passwords."
+msgstr "千萬不要向素未謀面的人提供銀行戶口及密碼等敏感資料。"
+
+#: frontend/templates/romance-scams.html:31
+msgid "Don't overshare on social media:"
+msgstr "避免在社交媒體分享太多個人資料"
+
+#: frontend/templates/romance-scams.html:31
+msgid ""
+"Scammers can easily piece together a story from the information you share"
+" on your social media accounts and target you with social engineering "
+"attacks."
+msgstr "以免騙徒用「社交工程」技倆哄您上當。"
+
+#: frontend/templates/romance-scams.html:32
+msgid "Keep your guard up if the excuses start pouring in:"
+msgstr "諸多推搪要小心"
+
+#: frontend/templates/romance-scams.html:32
+msgid ""
+"Are you starting to receive lots of excuses from your online lover about "
+"why they can't turn on their webcam or meet you in person? That's a huge "
+"red flag. Stay alert."
+msgstr "如果「網上伴侶」總是不和您見面，必須警覺。"
+
+#: frontend/templates/romance-scams.html:33
+msgid "Don't reveal your finances:"
+msgstr "不要告訴別人您的財務狀况"
+
+#: frontend/templates/romance-scams.html:33
+msgid ""
+"If they start asking about your finances or asking for money, you should "
+"be cautious."
+msgstr "當對方詢問您的財務狀况，甚至要求您匯錢時，就要特別小心。"
+
+#: frontend/templates/romance-scams.html:34
+msgid "Don't blindly trust information they provide:"
+msgstr "不要輕易相信他們提供的資料"
+
+#: frontend/templates/romance-scams.html:34
+msgid ""
+"The photos or selfies they've sent you might be fake, so it's best to do "
+"your own verification. Use an app or go online to reverse image search "
+"what they sent you. The back story of their lives could also be made up. "
+"Ask questions and do your own research to check the details."
+msgstr "有圖未必有真相，您可以在網上以圖搜圖，確認照片真假。您也可以試探對方，查證對方的背景資料是否屬實。"
+
+#: frontend/templates/romance-scams.html:36
+msgid ""
+"Love scammers are well-versed at their art of deception and know exactly "
+"how to tug at your heartstrings. Don't let their sweet talk lure you into"
+" handing over your money, bank details or other personal data."
+msgstr "網上情緣騙徒善於牽動您的情緒，令您不能自拔，花言巧語千萬不要信以為真。"
+
+#: frontend/templates/romance-scams.html:37
+msgid "If you think you've been scammed,"
+msgstr "如果懷疑已經遇上詐騙，請即時"
+
+#: frontend/templates/romance-scams.html:37
+msgid "report it to HSBC immediately"
+msgstr "向我們舉報。"
+

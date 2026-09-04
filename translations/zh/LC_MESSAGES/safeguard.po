@@ -1,0 +1,381 @@
+# Chinese translations for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-08-13 14:34+0800\n"
+"PO-Revision-Date: 2025-08-13 15:11+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: frontend/templates/safeguard.html:5
+msgid "HSBC Safeguard: Let's Fight Financial Crime – HSBC HK"
+msgstr "HSBC Safeguard：同心打擊金融罪案 - 香港滙豐"
+
+#: frontend/templates/safeguard.html:11
+msgid "HSBC Safeguard: Let's Fight Financial Crime"
+msgstr "HSBC Safeguard：同心打擊金融罪案"
+
+#: frontend/templates/safeguard.html:13
+msgid "Cyber security &amp; fraud hub"
+msgstr "網絡安全及防詐騙資訊中心"
+
+#: frontend/templates/safeguard.html:18
+msgid "HSBC Safeguard"
+msgstr "HSBC Safeguard"
+
+#: frontend/templates/safeguard.html:19
+msgid ""
+"Financial crime is a growing global issue and can affect everyone. Banks "
+"play a vital role in protecting the integrity of the financial system "
+"upon which we all depend and HSBC is committed to meeting the highest "
+"standards in its controls against financial crime.  As a trusted banking "
+"partner in Hong Kong with over 150 years of history, we have made it "
+"easier and safer for customers to update information and access banking. "
+"We want to work with our customers to keep criminals out of Hong Kong.  "
+"Having your accurate and up-to-date information is critical to our "
+"efforts in detecting and deterring these criminals."
+msgstr "金融罪案構成的威脅是一個全球正面對的問題，並能影響所有人。銀行對保障健全的金融系統扮演非常重要的角色，因此，滙豐致力採取措施，以助打擊金融罪案。滙豐在香港擁有超過150年的歷史，作為你可信賴的夥伴，我們竭力提供更安全便捷的銀行服務。要偵測及防範金融罪案，有賴我們同心協力。準確和最新的客戶資料，有助我們阻止不法分子入侵金融系統。"
+
+#: frontend/templates/safeguard.html:20
+msgid ""
+"Criminals who try to access the financial system harm lives and "
+"communities everywhere, through activities such as human trafficking and "
+"illegal drug trading, as well as fraud and identity theft. We believe "
+"these issues matter to everyone and we want to work with our customers to"
+" fight these criminals."
+msgstr "不法分子一直試圖利用金融系統，進行人口販賣、非法毒品交易、欺詐及身分盜竊等危害人命和社會的活動。我們期望能與客戶攜手，共同打擊一切詐騙及非法行為。"
+
+#: frontend/templates/safeguard.html:21
+msgid ""
+"Information is crucial to protecting the integrity of the financial "
+"system. Keep a close connection with us by updating your information."
+msgstr "準確資料有助維持健全金融體系。我們期望與你緊密聯繫，請更新你的資料。 "
+
+#: frontend/templates/safeguard.html:22
+msgid ""
+"To succeed, we need more information about our customers than in the "
+"past: from customers opening new accounts, to existing customers. "
+"Understanding who we bank with, the source of their wealth and the "
+"purpose of banking with HSBC is vital to preventing financial crime. This"
+" is why we have launched HSBC Safeguard."
+msgstr ""
+"要成功打擊金融罪案，我們需要比以往更多的客戶資料，包括新客戶及現有客戶。深入了解個人及公司客戶、資金來源以至開立滙豐戶口的目的，對防範金融罪案至為重要。因此，我們特別推出一系列「HSBC"
+" Safeguard」措施。"
+
+#: frontend/templates/safeguard.html:23
+msgid ""
+"From time to time, we request up-to-date information from our customers. "
+"We understand these kinds of requests from banks can take up time in your"
+" busy schedule and we want to thank you in advance for helping us in the "
+"fight against financial crime. We have invested in our digital platforms "
+"to make it more convenient for our business customers to respond to our "
+"requests online and upload supporting documents.  We will continue to "
+"enhance our digital platforms to enable our customers to respond to us "
+"with ease."
+msgstr "我們會不時要求客戶提供最新資料，我們明白相關措施會佔用你的寶貴時間，並衷心感謝你協助我們打擊金融罪行，共創安心未來。我們已優化網上平台，以便商業客戶能簡易地更新客戶資料及上載所需文件。我們將持續更新技術，以便更多客戶能透過網上平台作出回應。"
+
+#: frontend/templates/safeguard.html:24
+msgid "Data protection and security"
+msgstr "資料保障"
+
+#: frontend/templates/safeguard.html:25
+msgid ""
+"Updating existing customer information and collecting new customer "
+"information ensures that our systems and processes are better able to "
+"protect the integrity of the financial system. We take our obligation to "
+"protect your data very seriously, so all information you provide will be "
+"subject to HSBC's high data and security standards."
+msgstr "藉著更新現有客戶資料及收集新客戶資料，便能確保我們的系統及程序更有效地維持健全金融體制。我們會嚴謹保護客戶資料，因此你所提供的所有資料，均受滙豐高級別的資料及安全標準所保障。"
+
+#: frontend/templates/safeguard.html:26
+msgid ""
+"If you are using any of our mobile apps, you are protected with a suite "
+"of advanced technologies: logon with biometric authentication (such as "
+"Android™ Fingerprint ID, iOS Touch ID and Face ID), transaction "
+"verification, strong data encryption, automatic time-out feature, SMS "
+"notification etc.  All of these features aim to let you enjoy simpler and"
+" faster access to mobile banking, plus bank-grade security to give you "
+"peace of mind."
+msgstr ""
+"如你使用我們的流動應用程式，你可以透過先進科技獲得保護，包括生物認證 (例如：Android™ 指紋認證、iOS Touch ID及Face "
+"ID) "
+"迅速登入、交易驗證功能、強大的數據加密、自動「操作時段逾時」功能、交易短訊提示等。以上各項功能，旨在為你提供更簡易快捷的銀行服務，及享有銀行級別的安全保障，令你放心處理賬務。"
+
+#: frontend/templates/safeguard.html:27
+msgid "What do you need to do next?"
+msgstr "你下一步需要做什麼？"
+
+#: frontend/templates/safeguard.html:28
+msgid ""
+"You do not need to do anything at the moment. We will be contacting "
+"customers individually when we need additional or updated information."
+msgstr "你暫時毋須採取任何行動。如我們需要你提供額外或更新現有的資料，我們將與你聯絡，通知有關詳情。"
+
+#: frontend/templates/safeguard.html:31
+msgid "Frequently Asked Questions"
+msgstr "常見問題"
+
+#: frontend/templates/safeguard.html:32
+msgid "About HSBC Safeguard"
+msgstr "有關 HSBC Safeguard"
+
+#: frontend/templates/safeguard.html:33
+msgid "What is HSBC Safeguard?"
+msgstr "什麼是「HSBC Safeguard」？"
+
+#: frontend/templates/safeguard.html:34
+msgid ""
+"HSBC Safeguard is a series of initiatives designed to keep criminals out "
+"of the financial system. It involves strengthening our ability to detect "
+"and deter money laundering and evasion of sanctions as these activities "
+"harm lives and communities. We request the most up-to-date information "
+"from our customers, which could include the source of their wealth and "
+"the purpose of their relationships with us. By better understanding "
+"these, we will be able to prevent criminal actions that abuse the "
+"financial system."
+msgstr ""
+"「HSBC "
+"Safeguard」是一系列用作杜絕金融犯罪分子的保障措施。當中包括提升本行打擊清洗黑錢及逃避金融制裁的能力，這兩項均是金融罪案背後的常見動機並能影響每個人。我們會要求客戶提供最新資料如資金來源以至在滙豐開立戶口的目的。這些資料可助我們更了解客戶及防範不法分子利用金融系統犯案。"
+
+#: frontend/templates/safeguard.html:35
+msgid ""
+"In addition, we will no longer be offering products such as travellers' "
+"cheques, as we believe they are no longer safe enough for our customers "
+"to convert money. We may review other products like this over time."
+msgstr "此外，我們將不再提供一些在兌換貨幣過程中安全度不足的產品，例如：旅行支票等。而我們亦會不時檢討其他產品，並作出相關修訂措施。"
+
+#: frontend/templates/safeguard.html:36
+msgid "What is financial crime?"
+msgstr "什麼是金融罪案？"
+
+#: frontend/templates/safeguard.html:37
+msgid ""
+"Fraud and financial crimes are forms of theft. They tend to involve money"
+" or property that are gained illegally, and used in a deceptive or "
+"illegal manner to gain benefits from the proceeds. In today's complex "
+"economy, financial crimes can take many forms, including money "
+"laundering, sanction breaches, fraud, tax evasion, terrorist financing, "
+"bribery, and corruption."
+msgstr "欺詐和金融罪案是盜竊行為，往往涉及以非法方式獲得金錢或財產，或透過欺騙及非法手段獲得利益。在現今複雜的經濟體系，金融罪案可以多種形式進行，包括清洗黑錢、違反金融制裁、詐騙、逃稅、恐怖分子融資、賄賂及受賄。"
+
+#: frontend/templates/safeguard.html:38
+msgid "What are sanctions?"
+msgstr "什麼是金融制裁？"
+
+#: frontend/templates/safeguard.html:39
+msgid ""
+"Sanctions are a policy tool which national governments and organisations "
+"such as the United Nations and European Union use to constrain and deter "
+"perceived threats to their security, or to require international conduct "
+"to conform to recognised international standards. Sanctions help stop "
+"crimes like terrorism, drug trafficking and arms dealing by imposing "
+"restrictions on the business that banks can do with specific people, "
+"corporations, countries or territories. The names of these are clearly "
+"listed on resources like the Office of Foreign Assets Control (OFAC) "
+"sanctions list."
+msgstr "金融制裁是一種政策工具，是各地政府及機構如聯合國及歐盟等用以限制或阻止一些潛在威脅安全的活動，或以此要求執行一致行動以符合公認的國際標準。金融制裁是透過限制銀行與已被列入美國財政部海外資產控制辦公室（OFAC）及其他制裁名單的特定人士、公司、國家或地區進行業務往來，從而協助制止恐怖主義、販毒及軍火交易等犯罪活動。"
+
+#: frontend/templates/safeguard.html:40
+msgid "Why is financial crime an increasing concern?"
+msgstr "為何金融罪案愈來愈受關注？"
+
+#: frontend/templates/safeguard.html:41
+msgid ""
+"Fighting financial crime has been a longstanding priority for HSBC. "
+"However, criminal activity has become increasingly sophisticated in "
+"recent years. Fraudsters, money launderers and others have persistently "
+"targeted the global networks of financial institutions."
+msgstr "打擊金融罪案是滙豐一直以來的首要重任。然而，近年金融罪案越趨複雜，詐騙及清洗黑錢等犯罪分子已經試圖以全球金融機構作為目標。"
+
+#: frontend/templates/safeguard.html:42
+msgid ""
+"Improving the way we share and manage customer information will help us "
+"fight against the risk of financial crime. After all, it's our duty to "
+"ensure that you can bank with us safely, securely and confidently."
+msgstr "提升我們管理及共用客戶資料的運作模式，將有助打擊金融罪案。因為滙豐肩負著為客戶提供安全、穩健及可靠銀行服務的重任。"
+
+#: frontend/templates/safeguard.html:43
+msgid ""
+"I have banked with you for years. Why do you suddenly need additional "
+"information?"
+msgstr "我已是滙豐多年的客戶，為什麼突然需要提供額外資料？"
+
+#: frontend/templates/safeguard.html:44
+msgid ""
+"We understand your concerns and would like to take this opportunity to "
+"thank you for using our banking services. As a responsible bank, keeping "
+"customer account information accurate and up to date is key to making "
+"banking more secure for customers and fighting financial crime. We thank "
+"you for your understanding and support."
+msgstr "我們明白你的顧慮，亦希望藉此機會感謝你多年來一直選用我們的銀行服務。作為一家負責任的銀行，打擊金融罪案及確保客戶資料準確齊全，旨在為你提供更安全的理財服務。在此我們感謝你的諒解及配合。"
+
+#: frontend/templates/safeguard.html:45
+msgid ""
+"I have completed similar types of banking transaction many times before, "
+"why are you asking me so many questions now?"
+msgstr "我以往已多次進行同類型的銀行交易，為何銀行最近才向我提出這些疑問？"
+
+#: frontend/templates/safeguard.html:46
+msgid ""
+"We understand your concerns and appreciate that you may have been using "
+"HSBC to meet your banking needs for a long period of time. As fraud and "
+"financial crime are becoming increasingly sophisticated, we need to adopt"
+" measures to better manage financial crime risk. Therefore, from time to "
+"time, we do need to update our customer records to ensure they are "
+"current and complete."
+msgstr "我們非常明白你的顧慮，亦感謝你一直選用滙豐。由於欺詐及金融罪案愈來愈複雜，為更有效管理金融罪案的風險，我們需要採取新措施，不時更新客戶紀錄，以確保客戶資料準確齊全。"
+
+#: frontend/templates/safeguard.html:47
+msgid "Don't you have all of the information that you require?"
+msgstr "滙豐不是已有我的所有資料嗎？"
+
+#: frontend/templates/safeguard.html:48
+msgid ""
+"We need to periodically conduct reviews with customers in order to obtain"
+" the most relevant and up-to-date information. This is to ensure that all"
+" of the information we have is accurate, up to date and covers details "
+"that you haven't provided before or weren't previously required. The "
+"information you provide will help us protect your account from potential "
+"misuse and the community from financial crime."
+msgstr "為確保客戶資料齊全及準確，我們會定期向客戶要求提交相關所需及最新的資料，當中可能包括客戶以往未有提供或我們未曾向客戶索取的資料。你所提供的資料，可助我們保障你的戶口及社會免受潛在的金融罪案所影響。"
+
+#: frontend/templates/safeguard.html:49
+msgid "What has financial crime got to do with me or my business?"
+msgstr "金融罪案與我或我的業務有什麼關係？"
+
+#: frontend/templates/safeguard.html:50
+msgid ""
+"Financial crime and fraud can affect everyone. As the world becomes "
+"increasingly connected and information moves around at a greater pace, "
+"there are unfortunately greater opportunities for criminals to misuse the"
+" financial system."
+msgstr "金融罪案與欺詐能影響所有人。隨著國際間聯繫越趨緊密，資訊流動變得迅速，犯罪分子容易利用金融體系犯事。"
+
+#: frontend/templates/safeguard.html:51
+msgid ""
+"From time to time, we need to verify the origins of the funds as part of "
+"our ongoing efforts to track our customers' legitimate funds. Criminals "
+"will try to appear to be law-abiding citizens or businesses, and "
+"therefore we need to request relevant documents from our customers in "
+"order to understand them and their account transactions."
+msgstr "所以我們有時需核實客戶的資金來源，持續了解客戶的合法資金去向。犯罪分子表面上與守法的公民或企業無異，所以我們會要求客戶提供有關證明文件，從而了解客戶及其戶口交易。"
+
+#: frontend/templates/safeguard.html:52
+msgid ""
+"Security has always been important. Why are you asking me for more "
+"information now?"
+msgstr "保安措施一向都非常重要。為什麼銀行現在才要求我提交更多資料？"
+
+#: frontend/templates/safeguard.html:53
+msgid ""
+"Constant changes in technology and the way companies do business have "
+"affected the whole banking industry and, in turn, how we protect it. "
+"Fraud and financial crime are becoming even more sophisticated and "
+"globally organised - so we have to be more vigilant than ever. We need "
+"you to help us stay one step ahead of financial crime by providing us "
+"with up-to-date information."
+msgstr "科技不斷發展及企業營運模式的轉變均對整個銀行業帶來影響，而我們的安全保障措施亦須相應改變。欺詐及金融罪案愈來愈複雜及趨國際化，因此，我們必須加倍警惕。我們需要你的協助，提供最新資料，以助我們進一步打擊金融罪案。"
+
+#: frontend/templates/safeguard.html:54
+msgid "HSBC Safeguard and you"
+msgstr "｢HSBC Safeguard｣ 與你 "
+
+#: frontend/templates/safeguard.html:55
+msgid "What information will you likely request from me?"
+msgstr "銀行可能需要我提供哪些資料？"
+
+#: frontend/templates/safeguard.html:56
+msgid ""
+"If you are a personal customer, we will likely ask for your identity "
+"proof to confirm your identity and maybe more relevant documents such as "
+"address proof as required."
+msgstr "個人客戶或須提交身分證明，或因應需要提供更多相關文件，如住址證明等。"
+
+#: frontend/templates/safeguard.html:57
+msgid ""
+"If you are a business customer, the documents we ask for will depend on "
+"the size and nature of your business. However, we will likely need you to"
+" confirm your business legal entity structure, list of beneficial owners,"
+" and the countries or territories you do business in."
+msgstr "商業客戶須視乎業務規模及性質提供相關資料。在一般情況下，我們或許需要客戶提供資料確認業務法定架構、實益擁有人、以及與公司有業務往來的國家或地區。"
+
+#: frontend/templates/safeguard.html:58
+msgid "Why do I have to provide all of these information?"
+msgstr "為什麼我必須提供所須文件？"
+
+#: frontend/templates/safeguard.html:59
+msgid ""
+"We understand your concerns, and we want to let you know that information"
+" being requested will be used to ensure we understand our customers. We "
+"aim to take the lead when it comes to adopting high standards to "
+"safeguard the financial system. Having the right information is a key "
+"part of detecting and deterring financial crime."
+msgstr "我們明白你的顧慮，同時希望你理解所需資料會用作確保我們對客戶的認知。我們將確保金融系統以及你的資料備受最高級別的安全標準所保障，而取得準確無誤的資料是讓我們能偵測和防止金融罪案發生的重要一環。"
+
+#: frontend/templates/safeguard.html:60
+msgid "What will happen if I do not provide the requested information?"
+msgstr "如我未能提供所需的資料，將會有什麼影響？"
+
+#: frontend/templates/safeguard.html:61
+msgid ""
+"You will receive follow-up reminders from us. If you are having trouble "
+"gathering the information, please do let us know as soon as possible so "
+"that we can help wherever possible. It may, for example, be possible for "
+"us to rely on alternative documents in your possession. If we cannot "
+"obtain a sufficient level of information about your account, it may "
+"impact the services that we are able to provide you until we can update "
+"your account details. Please let us know if you need more time or if you "
+"have any further questions."
+msgstr "我們會提示你並與你跟進。如你於收集資料時遇上困難，請盡快通知我們，讓我們為你提供相應協助。例如：我們或許可以接納你手上其他文件以作替代。若我們不能得到有關你戶口的足夠資料，所提供的銀行服務或會受到影響，直到你的戶口資料更新為止。如你需要更多時間作準備，或有任何疑問，請與我們聯絡。"
+
+#: frontend/templates/safeguard.html:62
+msgid "Will I need to provide this type of information if I’m a new customer?"
+msgstr "若我是新客戶，我需提供這類資料嗎？"
+
+#: frontend/templates/safeguard.html:63
+msgid ""
+"We may need to request information from you as a new customer as well, "
+"because we need to understand each of the relationships we build. "
+"However, we will try to keep the process as simple and straightforward as"
+" possible so as to minimise the impact on you. The information we have "
+"about you will be kept confidential and that will help us protect your "
+"account from potential misuse."
+msgstr "我們希望深入認識每一位新客戶，所以需要更詳盡的客戶資料。然而，我們將會以最簡單及直接的方式完成整個程序，以減低對你的影響。你所提供的資料將會保密，亦可助我們保障你的戶口免受潛在的金融罪案所影響。"
+
+#: frontend/templates/safeguard.html:64
+msgid "Data and security"
+msgstr "資料及保安"
+
+#: frontend/templates/safeguard.html:65
+msgid "How will the collection of this information protect the financial system?"
+msgstr "收集這些資料將如何保障金融系統？"
+
+#: frontend/templates/safeguard.html:66
+msgid ""
+"As more and more of our customers live, travel and trade internationally,"
+" we are always looking for better ways to give you greater peace of mind,"
+" whatever you do. Our global systems and processes work by sharing data "
+"and customer information across borders in order to deter and detect "
+"financial crime. Even when you only bank in one country or territory, we "
+"are committed to protecting the integrity of the financial system as "
+"financial crime is a global operation."
+msgstr "隨著客戶於生活、旅遊及商務越趨國際化，我們致力為客戶提供更佳的銀行服務及保障，讓你無論身處世界任何地方，亦可更安心地追求所想。我們的環球系統及程序透過跨境的數據及客戶資料，以偵測及阻止金融罪案。即使你只是身處其中一個國家或地區享用銀行服務，我們亦致力保障健全的金融體系，免受國際金融罪案影響。"
+
+#: frontend/templates/safeguard.html:67
+msgid ""
+"By confirming your details and making sure that all the information we "
+"hold about you is up to date, you will help us make banking more secure "
+"for yourself and other customers."
+msgstr "透過核實及更新你存於本行的資料，可協助我們為你及其他客戶提供更安全的理財服務。"
+

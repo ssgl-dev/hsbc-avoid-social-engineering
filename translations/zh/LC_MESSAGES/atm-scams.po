@@ -1,0 +1,125 @@
+# Chinese translations for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-08-14 16:03+0800\n"
+"PO-Revision-Date: 2025-08-14 16:08+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: frontend/templates/atm-scams.html:5
+msgid "How to Avoid ATM Traps – HSBC HK"
+msgstr "自動櫃員機有甚麼陷阱？ - 香港滙豐"
+
+#: frontend/templates/atm-scams.html:12
+msgid "How to Avoid ATM Traps"
+msgstr "自動櫃員機有甚麼陷阱？"
+
+#: frontend/templates/atm-scams.html:14
+msgid "Cyber security &amp; fraud hub"
+msgstr "網絡安全及防詐騙資訊中心"
+
+#: frontend/templates/atm-scams.html:19
+msgid ""
+"Most of us use ATMs on a regular basis. But just because you’re familiar "
+"with the machines doesn’t mean you should let your guard down. Take a "
+"look at some of the ways criminals have used them to steal people’s "
+"personal banking details."
+msgstr "大部分人都經常使用自動櫃員機，但即使熟悉操作，亦不代表應放低戒備。不法分子會以各種方式盜取個人戶口資料，以下略舉數例。"
+
+#: frontend/templates/atm-scams.html:22
+msgid "ATM skimming"
+msgstr "藉自動櫃員機盜取資料"
+
+#: frontend/templates/atm-scams.html:23
+msgid ""
+"Criminals have been known to attach card readers to the card slots on an "
+"ATM. When an unsuspecting customer inserts their card into the ATM, the "
+"card reader will copy all the account information associated with that "
+"card. Other fraudsters will hide pinhole cameras near an ATM and then "
+"loosen or remove the PIN shields so they can record you entering your "
+"PIN."
+msgstr ""
+"某些匪徒會在自動櫃員機的卡槽裝上讀卡器。如客戶並無防備而把卡插入櫃員機，讀卡器便會複製與該卡相關的所有戶口資料。其他匪徒則會在櫃員機附近暗藏針孔攝錄機，遮蓋密碼鍵盤的保護罩也會遭人拆鬆或移除，"
+" 以便針孔攝錄機可偷錄客人輸入的私人密碼。"
+
+#: frontend/templates/atm-scams.html:24
+msgid "Other ATM frauds"
+msgstr "針對自動櫃員機的其他行騙方式"
+
+#: frontend/templates/atm-scams.html:25
+msgid ""
+"It’s not always so high tech. Sometimes a criminal will just watch you "
+"closely to try and see your PIN as you enter it. Afterwards they might "
+"try to distract you, perhaps by telling you that you dropped money or "
+"personal belongings. When you look away, they could try to swap your ATM "
+"or credit card for a dummy card."
+msgstr "匪徒絕非全靠高科技作案，有時只會緊盯着受害者，試圖在您輸入時窺探其私人密碼。之後，他們可能會說您的錢或財物丟在地上，從而分散您的注意力。若您在此時轉移目光，匪徒便會伺機以假卡換走您的櫃員機卡或信用卡。"
+
+#: frontend/templates/atm-scams.html:28
+msgid "What you can do"
+msgstr "防範措施"
+
+#: frontend/templates/atm-scams.html:30
+msgid ""
+"If you notice any device or behaviour that looks suspicious, cancel your "
+"transaction immediately, take back your card and inform us"
+msgstr "若發現有任何可疑裝置或遇有懷疑時，請即取消交易，把卡取回並即時通知本行"
+
+#: frontend/templates/atm-scams.html:31
+msgid "Don’t allow yourself to be distracted when you use the ATM"
+msgstr "使用自動櫃員機時要保持警覺，不要讓其他人分散您的注意力"
+
+#: frontend/templates/atm-scams.html:32
+msgid ""
+"Refuse all offers of help from strangers when you are performing ATM "
+"transactions"
+msgstr "在進行自動櫃員機交易時，於任何情況下切勿接受陌生人的協助"
+
+#: frontend/templates/atm-scams.html:33
+msgid ""
+"Cover the numeric pad and make sure no one is looking over your shoulder "
+"when you enter your PIN"
+msgstr "輸入私人密碼時，請把鍵盤遮蔽，並確保無人從您背後偷看"
+
+#: frontend/templates/atm-scams.html:34
+msgid ""
+"Never disclose your personal security details such as account number or "
+"PIN to anyone, even if they claim to be from the bank or the police"
+msgstr "切勿透露戸口號碼或私人密碼予他人，即使對方自稱是本行職員或警察"
+
+#: frontend/templates/atm-scams.html:35
+msgid "Memorise your PIN and don’t write it down"
+msgstr "請緊記你的私人密碼而不要寫下它"
+
+#: frontend/templates/atm-scams.html:36
+msgid "Choose a PIN that’s hard to guess"
+msgstr "在選取密碼時，使用難於被人猜度的密碼"
+
+#: frontend/templates/atm-scams.html:37
+msgid ""
+"Use different PINs for different websites and channels (ATM, Phone "
+"Banking, Internet Banking)"
+msgstr "在使用不同的銀行服務（例如自動櫃員機，電話理財和網上理財）時，選用不同的密碼"
+
+#: frontend/templates/atm-scams.html:38
+msgid ""
+"Do not use your identity card number, birthday, telephone number or "
+"commonly used sequences such as 888888, 123456 or 00 as your PIN"
+msgstr "切勿選用身份證號碼、生日日期、電話號碼或常用的數字組合（例如：888888、123456或00）作私人密碼"
+
+#: frontend/templates/atm-scams.html:39
+msgid "Change your PIN regularly"
+msgstr "定期更改私人密碼"
+

@@ -1,0 +1,191 @@
+# Chinese translations for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-08-13 11:49+0800\n"
+"PO-Revision-Date: 2025-08-13 15:11+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: frontend/templates/prevent-fraud.html:5
+msgid "Prevent Fraud – HSBC HK"
+msgstr "防詐騙三大法則 - 香港滙豐"
+
+#: frontend/templates/prevent-fraud.html:11
+msgid "Three Rules to Prevent Fraud"
+msgstr "防詐騙三大法則"
+
+#: frontend/templates/prevent-fraud.html:13
+msgid "Cyber security and fraud hub"
+msgstr "網路安全及防詐騙資訊中心"
+
+#: frontend/templates/prevent-fraud.html:18
+msgid ""
+"Criminals are getting more sophisticated with telephone scams and online "
+"scams. Here are our top tips for a great defence."
+msgstr "電話詐騙和網上騙案日益猖獗，稍一不慎就可能墮入騙局。防範詐騙的第一度防線，其實就是您自己。"
+
+#: frontend/templates/prevent-fraud.html:19
+msgid ""
+"In 2019, the Anti-Deception Coordination Centre intercepted nearly HKD3 "
+"billion that was on its way to hackers and fraudsters – up by 1.5 "
+"times1Footnote link 1 from 2018. According to the HSBC Cyber Security "
+"Index, 56%% of Hongkongers have encountered online fraud before, with 30%% "
+"of these people experiencing monetary loss2Footnote link 2. If you don't "
+"want to become the next victim, remember the following important tips."
+msgstr "2019年，反詐騙協調中心成功攔截的電話及網上騙案金額，超過港幣30億元，較2018年同期上升1.5倍1。而根據滙豐網絡安全調查，56%%受訪香港人曾經遭遇網上詐騙，當中更有近30%%人有金錢損失2。不想自己成為「中伏」的一份子？記著以下重要法則，保護自己的個人資料和財產。"
+
+#: frontend/templates/prevent-fraud.html:22
+msgid "1. Be very cautious about how you share your personal information"
+msgstr "切勿輕易透露個人資料"
+
+#: frontend/templates/prevent-fraud.html:23
+msgid ""
+"\"Please provide your account information and one-time password to "
+"confirm your identity.\""
+msgstr "請提供戶口資料及一次性密碼確認身分。"
+
+#: frontend/templates/prevent-fraud.html:24
+msgid ""
+"If you hear or see those words, consider it a red flag. Remember, never "
+"disclose sensitive personal information such as your account or credit "
+"card information or password to anyone."
+msgstr "毋須再懷疑了，聽到這句說話，對方一定是騙徒。緊記切勿向任何人透露戶口、信用卡資料和密碼等個人敏感資料。"
+
+#: frontend/templates/prevent-fraud.html:25
+msgid ""
+"HSBC will never ask you to provide sensitive information such as "
+"usernames and passwords by phone or email."
+msgstr "滙豐絕對不會在電話或電郵要求客戶提供用戶名稱及密碼等敏感資料。"
+
+#: frontend/templates/prevent-fraud.html:25
+msgid ""
+"Even if the caller claims to be from an investment product company, a "
+"telecommunications company, or even claims to be a government official, "
+"don't take their words easily."
+msgstr "請主動查證及向我們核實來電者身分，就算對方自稱投資產品公司或電訊公司職員，甚至政府官員，亦切勿輕易相信。"
+
+#: frontend/templates/prevent-fraud.html:26
+msgid ""
+"You should also enhance the security of your online banking and adopt "
+"measures, such as multiple login authentication, to ensure account "
+"security."
+msgstr "您亦應加强網上銀行保安，採用多重登入認證等措施，確保戶口安全。"
+
+#: frontend/templates/prevent-fraud.html:29
+msgid "2. If it sounds too good to be true, it probably is"
+msgstr "勿貪小便宜"
+
+#: frontend/templates/prevent-fraud.html:30
+msgid ""
+"\"Even if you can't provide a proof of income, we can definitely help you"
+" borrow money at a very preferential interest rate.\""
+msgstr "“就算沒有入息證明，都一定可以幫您用超優惠利率借錢。”"
+
+#: frontend/templates/prevent-fraud.html:31
+msgid ""
+"\"Just pay a small fee or make a deposit, and your loan will be approved "
+"immediately.\""
+msgstr "“先繳交費用或按金，貸款就可以立即獲批。”"
+
+#: frontend/templates/prevent-fraud.html:32
+msgid ""
+"\"Congratulations! You've won a big prize. To claim your prize, simply "
+"pay a small administrative fee.\""
+msgstr "“您中大獎了，只要繳交行政費，就可以取得獎項。”"
+
+#: frontend/templates/prevent-fraud.html:33
+msgid ""
+"Scammers are experts at preying on people's interest in easy victories "
+"and desire to get rich quick. They'll offer you attractive services or "
+"generous rewards, that can all be yours... as long as you make an advance"
+" payment."
+msgstr "騙徒最擅長捉摸大眾「貪著數」的心理，向您開出很吸引的服務或優厚的回報，引誘您心甘情願墊支款項，換取異常豐厚的「著數」。"
+
+#: frontend/templates/prevent-fraud.html:34
+msgid ""
+"When you come across these \"offers\", remember the old saying: there's "
+"no such thing as a free lunch. There will almost always be a hidden cost,"
+" especially if an offer sounds too good to be true."
+msgstr "遇上這些對白，先問自己：世上哪有免費的午餐？我會不會因小失大？"
+
+#: frontend/templates/prevent-fraud.html:35
+msgid "HSBC will never require you to pay fees to ensure loan approval."
+msgstr "滙豐絕對不會要求您繳交費用來保證貸款獲批。"
+
+#: frontend/templates/prevent-fraud.html:35
+msgid ""
+"Bank staff or mortgage company staff will never ask customers to borrow "
+"money from another financial company to repay your existing loan."
+msgstr "銀行或按揭公司職員也絕對不會要求客戶向另一間財務公司借貸來清還借款。無論甚麼情況，如果對方叫您「先交金錢，後享著數」，請格外留神。"
+
+#: frontend/templates/prevent-fraud.html:38
+msgid "3. Keep calm, don't panic"
+msgstr "保持冷靜，不要慌張"
+
+#: frontend/templates/prevent-fraud.html:39
+msgid ""
+"\"You're suspected of a criminal offense. You have to hand over your "
+"online bank account, password or money to prove your innocence.\""
+msgstr "“您涉嫌觸犯法律，您需要交出網上銀行戶口、密碼或款項，證明清白。”"
+
+#: frontend/templates/prevent-fraud.html:40
+msgid ""
+"\"We found abnormal transactions in your account. If you don't provide "
+"your account password for confirmation, your account will be frozen.\""
+msgstr "“我們發現您的戶口有異常交易，如不提供戶口密碼作確認，您的戶口將被凍結。”"
+
+#: frontend/templates/prevent-fraud.html:41
+msgid ""
+"In addition to offering you unbelievable deals, scammers will also take "
+"advantage of your fears. They might claim to be law enforcement officers,"
+" government officials or bank employees, and tell you that you're "
+"involved in legal or financial troubles and frighten you into providing "
+"sensitive information or even money."
+msgstr "除了您的「貪念」之外，騙徒還會利用您的恐懼心理，自稱執法部門人員、政府或銀行職員，聲稱您遇上法律或財務問題，令您在恐慌之下向他們提供敏感資料或金錢「洗脫嫌疑」。"
+
+#: frontend/templates/prevent-fraud.html:42
+msgid ""
+"If you encounter this scenario, please remain calm. Call back the bank or"
+" institution to verify the caller. Don't let yourself be scared into "
+"something that doesn't feel right."
+msgstr "如果遇上這些情況，請保持冷靜，並再三向機構或銀行核實對方身分。覺得不對勁時，不要輕舉妄動。"
+
+#: frontend/templates/prevent-fraud.html:43
+msgid ""
+"HSBC will never ask you to provide your account passwords or any payments"
+" to confirm transaction activities."
+msgstr "滙豐絕對不會要求客戶交出戶口密碼或款項確認交易活動"
+
+#: frontend/templates/prevent-fraud.html:43
+msgid ""
+"Law enforcement officers won't ask for your personal information on the "
+"phone, or ask you to reveal your bank account password to prove your "
+"innocence."
+msgstr "，執法人員亦不會在電話中索取您的個人資料，或者要您透露銀行戶口密碼以證明清白。"
+
+#: frontend/templates/prevent-fraud.html:44
+msgid ""
+"Whether it's on social media, by email or on the phone, scammers will try"
+" their best to steal your personal information and money, riding on your "
+"psychological weaknesses to obtain your personal data and your trust. "
+"Don't rely on others. Learn how to protect yourself."
+msgstr "無論是用社交媒體、電郵還是電話，騙徒手法雖然層出不窮，但萬變不離其宗，總是想盡辦法利用心理弱點，套取您的個人資料和信任，讓您雙手奉上金錢。防範詐騙，靠的不是別人，正是您自己。"
+
+#: frontend/templates/prevent-fraud.html:45
+msgid ""
+"Think you might have encountered fraud? Please report it to us "
+"immediately."
+msgstr "萬一遭遇詐騙， 請即向我們舉報。"
+

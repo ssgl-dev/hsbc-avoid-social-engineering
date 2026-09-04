@@ -1,0 +1,177 @@
+# Chinese translations for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-08-14 16:22+0800\n"
+"PO-Revision-Date: 2025-08-14 16:29+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: frontend/templates/avoid-social-engineering-scams.html:5
+msgid "Avoid Social Engineering Scams – HSBC HK"
+msgstr "如何防範「社交工程」陷阱？ - 香港滙豐"
+
+#: frontend/templates/avoid-social-engineering-scams.html:12
+msgid "How to avoid social engineering scams"
+msgstr "如何防範「社交工程」陷阱？"
+
+#: frontend/templates/avoid-social-engineering-scams.html:20
+msgid "How to protect yourself against social engineering scams"
+msgstr "如何防範「社交工程」詐騙"
+
+#: frontend/templates/avoid-social-engineering-scams.html:21
+msgid ""
+"It’s 10pm when your phone rings. The man on the other end tells you he’s "
+"a police inspector from Guangdong Province and that you could be in "
+"serious legal trouble."
+msgstr "電話在晚上10時響起，對方自稱是廣東省公安，指您可能已捲入嚴重的案件之中。"
+
+#: frontend/templates/avoid-social-engineering-scams.html:22
+msgid ""
+"It seems your name has appeared on several suspicious business contracts "
+"involving illegal imports and exports. The authorities have serious "
+"concerns that you might be involved in trafficking."
+msgstr "您的姓名似乎在多份非法進出口的可疑商業合約中出現，當局正懷疑，您可能是從事非法貿易的不法分子。"
+
+#: frontend/templates/avoid-social-engineering-scams.html:23
+msgid ""
+"The caller begins to question your finances. He knows about the smart TV "
+"you just bought, the vacation you took to Okinawa, the lavish meal you "
+"had at that Michelin star restaurant last week. He asks if you are the "
+"one paying for your nephew’s university in Canada."
+msgstr "來電者開始詢問您的財務狀況。他知道您剛買了一台智能電視、到過沖繩度假，又知道您上星期去了米芝蓮星級餐廳享用大餐。他再詢問您，外甥在加拿大的大學學費是否由您支付。"
+
+#: frontend/templates/avoid-social-engineering-scams.html:24
+msgid ""
+"He tells you they have more evidence, too – but perhaps it’s a mistake. "
+"Perhaps you got mixed up with gangsters who have tricked you into shady "
+"business dealings. Or maybe your account has been hacked, and is being "
+"used to cover illegal transactions."
+msgstr "他又告訴您他們還有更多證據，但也可能純屬誤會。您可能不知道自己被犯罪分子牽涉在不當買賣之中，或者您的賬戶遭人盜取，被用作掩飾非法交易。"
+
+#: frontend/templates/avoid-social-engineering-scams.html:26
+msgid ""
+"He tells you don’t hang up. This is your only chance. Provide your log on"
+" details now, or your account will be frozen and you'll face prosecution "
+"to the fullest extent of the law."
+msgstr "他叫您不要掛線，這是您的唯一辯解機會。您必須即時提供銀行登入資訊，否則您的賬戶將被凍結，而您亦會面臨最重的刑罰。"
+
+#: frontend/templates/avoid-social-engineering-scams.html:30
+msgid "Don’t do it. It’s a scam."
+msgstr "切勿上當，這是個騙局。"
+
+#: frontend/templates/avoid-social-engineering-scams.html:31
+msgid ""
+"This is what is known as a “social engineering scam”. Sometimes the story"
+" will be about tax evasion. Other times the con artists will claim that "
+"your relative is in serious legal trouble. But in general with these "
+"scams, criminals pose as officials and try to get you to share your bank "
+"details, or to transfer money directly to them."
+msgstr ""
+"這就是「社交工程」（social "
+"engineering）詐騙，有時騙徒會說您逃稅，有時又會訛稱您的親屬已捲入嚴重的法律糾紛。但一般而言，犯罪者在這些騙案中都自稱是政府人員，試圖游說您提供銀行資料，或直接向他們匯款。"
+
+#: frontend/templates/avoid-social-engineering-scams.html:32
+msgid ""
+"Consider the story you just read. A convincing fraudster could make you "
+"think that they knew these details because they had high-level government"
+" access. But take a closer look at the “facts” they knew about you."
+msgstr "想想剛才的故事：騙徒言之鑿鑿，的確有可能令您相信，他們身居政府要職，所以有您的資料。但是，請再三思考一下他們對您的「認識」。"
+
+#: frontend/templates/avoid-social-engineering-scams.html:33
+msgid ""
+"Your trip to Okinawa. Your new TV. Your expensive meal. Your nephew in "
+"Canada."
+msgstr "您的沖繩之旅、新電視、奢華晚餐，還有在加拿大的外甥。"
+
+#: frontend/templates/avoid-social-engineering-scams.html:34
+msgid ""
+"These are all common social media posts. Maybe you Instagrammed your "
+"trip. You thanked your Facebook friends for helping you decide on the "
+"best TV for your budget. You wrote a review for that anniversary dinner. "
+"And maybe you left a simple “Happy Birthday!” on your nephew’s wall, and "
+"his profile shows that he’s studying in Vancouver."
+msgstr "這都是社交媒體帖文的常見內容。您或許曾在Instagram發布旅程照片，又在Facebook感謝好友幫您選購合預算的電視。您又可能曾經為那次周年紀念晚餐寫過食評。在外甥生日時，您也可能在他的社交媒體送上簡單祝福，而他的個人檔案顯示他正在溫哥華留學。"
+
+#: frontend/templates/avoid-social-engineering-scams.html:35
+msgid ""
+"But fraudsters aren't always stalking your online profile. Sometimes they"
+" just play the odds. They'll say things like: "
+msgstr "但是，騙徒不只會利用您在網上發布的資訊。有時，他們會碰碰運氣，以這些說法開場："
+
+#: frontend/templates/avoid-social-engineering-scams.html:36
+msgid "\"I know you travelled to China recently.\""
+msgstr "“我知道您最近到過中國內地。”"
+
+#: frontend/templates/avoid-social-engineering-scams.html:37
+msgid "\"We notice you tried to buy something from an online shipper in China.\""
+msgstr "“我們發現，您試過在內地一間網店買東西。”"
+
+#: frontend/templates/avoid-social-engineering-scams.html:38
+msgid ""
+"\"There's been some unusual activity from a Chinese mobile number "
+"registered to you.\""
+msgstr "“您登記的內地手機號碼涉及不尋常的活動。”"
+
+#: frontend/templates/avoid-social-engineering-scams.html:39
+msgid ""
+"These are things that could sound true for most Hongkongers. Lots of "
+"people visit family in Mainland China. Many of them also have a local "
+"number there. And who doesn't shop from Taobao now and then?"
+msgstr "這些說法，其實可能說中了大部分香港人。到內地探親、在內地登記手機號碼的人多不勝數。而且，有誰不會間中在淘寶購物？"
+
+#: frontend/templates/avoid-social-engineering-scams.html:44
+msgid "Fortunately, there are ways to protect yourself:"
+msgstr "幸好，您可以用這些方式保護自己："
+
+#: frontend/templates/avoid-social-engineering-scams.html:45
+msgid "Stay calm"
+msgstr "保持冷靜"
+
+#: frontend/templates/avoid-social-engineering-scams.html:47
+msgid ""
+"The caller might tell you that this is your only chance to defend "
+"yourself, but they are lying about everything. Even if the call sounds "
+"genuine, your best bet is to hang up and seek legal advice."
+msgstr "來電者也許會告訴您，這是您為自己辯解的唯一機會，但其實根本在說謊。即使來電聽起來真有其事，您最好還是掛線，徵詢法律意見。"
+
+#: frontend/templates/avoid-social-engineering-scams.html:49
+msgid "Be aware of what you share online"
+msgstr "時刻注意自己在網上分享的內容"
+
+#: frontend/templates/avoid-social-engineering-scams.html:51
+msgid ""
+"Sharing too much personal information makes it easy for scammers to make "
+"it seem like they know you."
+msgstr "您發布的個人資料越多，騙徒便越容易用來編造故事，訛稱掌握您的身分。"
+
+#: frontend/templates/avoid-social-engineering-scams.html:53
+msgid ""
+"Never give your account details – especially your log on information – to"
+" anyone"
+msgstr "切勿向他人提供自己的賬戶資料，尤其是登入資訊"
+
+#: frontend/templates/avoid-social-engineering-scams.html:55
+msgid ""
+"Your user name and password provide crucial protection for you. Same goes"
+" for one-time passwords. Banks will never ask for these details and "
+"neither will any law enforcement personnel."
+msgstr "用戶名稱和密碼對保護您至關重要，一次性密碼也是一樣。銀行和執法人員都絕對不會索取這些資料。"
+
+#: frontend/templates/avoid-social-engineering-scams.html:57
+msgid ""
+"If you receive a suspicious call, hang up immediately and report it to us"
+" by calling (852) 2233 3000."
+msgstr "如接獲可疑來電，請立即掛線，並致電+852 2233 3000向我們舉報。"
+

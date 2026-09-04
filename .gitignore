@@ -1,0 +1,25 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Node.js dependencies
+node_modules/
+
+# Translation template files
+*.pot
+*.mo
+
+frontend/assets/videos
+
+# Log files
+*.log
+
+# Server
+server.pid
