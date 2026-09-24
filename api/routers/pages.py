@@ -16,7 +16,11 @@ AUTH_COOKIE = "auth_token_avoid"
 @router.get("/login.html", response_class=HTMLResponse)
 @router.get("/login", response_class=HTMLResponse)
 async def login_page():
-    return FileResponse("frontend/login.html")
+    response = FileResponse("frontend/login.html")
+    response.headers["Cache-Control"] = "no-store, no-cache, must-revalidate, max-age=0"
+    response.headers["Pragma"] = "no-cache"
+    response.headers["Expires"] = "0"
+    return response
 
 
 @router.post("/api/login")
@@ -37,40 +41,68 @@ async def logout():
 
 @router.get("/", response_class=HTMLResponse)
 async def root(request: Request):
-    return RedirectResponse("/avoid-social-engineering-scams")
+    target = "/portal" if request.cookies.get(AUTH_COOKIE, "").startswith("authenticated_") else "/login.html?v=20260924"
+    response = RedirectResponse(target, status_code=303)
+    response.headers["Cache-Control"] = "no-store, no-cache, must-revalidate, max-age=0"
+    response.headers["Pragma"] = "no-cache"
+    response.headers["Expires"] = "0"
+    return response
 
 
-@router.get("/avoid-social-engineering-scams", response_class=HTMLResponse)
-async def avoid_social_engineering_scams_page_cn(request: Request):
-    return render(
-        "Avoid social engineering scams _ Cyber security and fraud - HSBC HK CN.html",
-        request,
-        language="en",
-    )
+@router.get("/portal", response_class=HTMLResponse)
+@router.get("/portal.html", response_class=HTMLResponse)
+async def portal_page():
+    return FileResponse("frontend/portal.html")
 
 
-@router.get("/avoid-social-engineering-scams/en", response_class=HTMLResponse)
-async def avoid_social_engineering_scams_page(request: Request):
-    return render(
-        "Avoid social engineering scams _ Cyber security and fraud - HSBC HK.html",
-        request,
-        language="en",
-    )
+def _register_additional_page_routes(
+    route_slug: str,
+    cn_template: str,
+    en_template: str,
+) -> None:
+    @router.get(f"/{route_slug}", response_class=HTMLResponse)
+    async def page_default(request: Request):
+        return render(cn_template, request, language="en")
+
+    @router.get(f"/{route_slug}/en", response_class=HTMLResponse)
+    async def page_en(request: Request):
+        return render(en_template, request, language="en")
+
+    @router.get(f"/{route_slug}/sc", response_class=HTMLResponse)
+    async def page_sc(request: Request):
+        return render(cn_template, request, language="sc")
 
 
-@router.get("/credit-card-fraud-alert", response_class=HTMLResponse)
-async def credit_card_fraud_alert_page_cn(request: Request):
-    return render(
-        "Preventing credit card fraud _ Cyber security and fraud - HSBC HK CN.html",
-        request,
-        language="en",
-    )
-
-
-@router.get("/credit-card-fraud-alert/en", response_class=HTMLResponse)
-async def credit_card_fraud_alert_page(request: Request):
-    return render(
-        "Preventing credit card fraud _ Cyber security and fraud - HSBC HK.html",
-        request,
-        language="en",
-    )
+for _page in [
+    (
+        "prevent-fraud",
+        "Prevent Fraud _ Cyber Security And Fraud - HSBC HK CN.html",
+        "Prevent Fraud _ Cyber Security And Fraud - HSBC HK.html",
+    ),
+    (
+        "investment-scams",
+        "How Investment Scams Work And How To Avoid Them - HSBC HK CN.html",
+        "How Investment Scams Work And How To Avoid Them - HSBC HK.html",
+    ),
+    (
+        "job-scams",
+        "How To Avoid Job Scams _ Cyber Security And Fraud - HSBC HK CN.html",
+        "How To Avoid Job Scams _ Cyber Security And Fraud - HSBC HK.html",
+    ),
+    (
+        "instant-messaging-app-scams",
+        "Stay Aware Of WhatsApp And Instagram Scams - HSBC HK CN.html",
+        "Stay Aware Of WhatsApp And Instagram Scams - HSBC HK.html",
+    ),
+    (
+        "romance-scams",
+        "Romance Scams _ Cyber Security And Fraud - HSBC HK CN.html",
+        "Romance Scams _ Cyber Security And Fraud - HSBC HK.html",
+    ),
+    (
+        "passwords",
+        "How to set a strong password _ Cyber security and fraud - HSBC HK CN.html",
+        "How to set a strong password _ Cyber security and fraud - HSBC HK.html",
+    ),
+]:
+    _register_additional_page_routes(*_page)

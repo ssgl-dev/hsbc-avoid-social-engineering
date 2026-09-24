@@ -1,7 +1,86 @@
-const TIMELINE_URL = '/static/timeline.json';
-const VIDEO_URL = '/static/videos/total.mp4';
+function versionedConfig(timelineUrl, videoUrl) {
+  return {
+    timelineUrl,
+    videoUrl,
+    versions: {
+      D: { timelineUrl, videoUrl },
+      E: {
+        timelineUrl: timelineUrl.replace(/\.json$/i, '-E.json'),
+        videoUrl: videoUrl.replace(/\.mp4(\?.*)?$/i, '_E.mp4$1'),
+      },
+    },
+  };
+}
 
-const NODE_SELECTORS = [
+const PAGE_CONFIGS = {
+  '/instant-messaging-app-scams': {
+    ...versionedConfig(
+      '/static/timelines/instant-messaging-app-scams.json',
+      '/static/videos/page-3-merged_1080x1920_pad.mp4?v=20260924opt',
+    ),
+    useNodeSelectors: false,
+    textMatchFallback: true,
+  },
+  '/job-scams': {
+    ...versionedConfig(
+      '/static/timelines/job-scams.json',
+      '/static/videos/page-4-merged_1080x1920_pad.mp4?v=20260924opt',
+    ),
+    useNodeSelectors: false,
+    textMatchFallback: true,
+  },
+  '/investment-scams': {
+    ...versionedConfig(
+      '/static/timelines/investment-scams.json',
+      '/static/videos/page-5-merged_1080x1920_pad.mp4?v=20260924opt',
+    ),
+    useNodeSelectors: false,
+    textMatchFallback: true,
+  },
+  '/prevent-fraud': {
+    ...versionedConfig(
+      '/static/timelines/prevent-fraud.json',
+      '/static/videos/page-6-merged_1080x1920_pad.mp4?v=20260924opt',
+    ),
+    useNodeSelectors: false,
+    textMatchFallback: true,
+  },
+  '/romance-scams': {
+    ...versionedConfig(
+      '/static/timelines/romance-scams.json',
+      '/static/videos/page-7-merged_1080x1920_pad.mp4?v=20260924opt',
+    ),
+    useNodeSelectors: false,
+    textMatchFallback: true,
+  },
+  '/passwords': {
+    ...versionedConfig(
+      '/static/timelines/passwords.json',
+      '/static/videos/page-8-merged_1080x1920_pad.mp4?v=20260924opt',
+    ),
+    useNodeSelectors: false,
+    textMatchFallback: true,
+  },
+};
+
+function normalizedRoute(pathname) {
+  return pathname
+    .replace(/\/+$/, '')
+    .replace(/\/(en|sc)$/i, '')
+    || '/';
+}
+
+const PAGE_CONFIG =
+  window.HSBC_TOTAL_VIDEO_CONFIG
+  || PAGE_CONFIGS[normalizedRoute(window.location.pathname)]
+  || {};
+const TIMELINE_URL = PAGE_CONFIG.timelineUrl || '/static/timeline.json';
+const VIDEO_URL = PAGE_CONFIG.videoUrl || '/static/videos/total.mp4';
+const VIDEO_VERSIONS = PAGE_CONFIG.versions || null;
+const USE_NODE_SELECTORS = PAGE_CONFIG.useNodeSelectors !== false;
+const TEXT_MATCH_FALLBACK = PAGE_CONFIG.textMatchFallback === true;
+
+const NODE_SELECTORS = PAGE_CONFIG.nodeSelectors || [
   '#content_intro_hero_banner_2 h1',
   '#content_link_1',
   '#content_link_2',
@@ -71,6 +150,7 @@ let subtitleEl = null;
 let progressTrack = null;
 let progressFill = null;
 let speedButton = null;
+let versionButton = null;
 let sizeButton = null;
 let timeLabel = null;
 let subtitleTypingTimer = null;
@@ -78,14 +158,17 @@ let subtitleTypingChars = [];
 let subtitleTypingIndex = 0;
 let currentSizeIndex = 0;
 let currentSpeedIndex = SPEED_STATES.indexOf(DEFAULT_SPEED);
+let currentVideoVersion = 'D';
 let activeIndex = -1;
 let lastScrollIndex = -1;
 let pendingSeekTime = null;
+let pendingPlayAfterVersionSwitch = false;
 let isDraggingProgress = false;
 let suppressProgressClick = false;
 let playerDragState = null;
 let suppressVideoClick = false;
 let documentClickHandlerAttached = false;
+let videoSourceUrl = null;
 let signLanguageEnabled = (() => {
   try {
     return localStorage.getItem('hsbc-sign-language-enabled') !== 'false';
@@ -102,6 +185,120 @@ function normalizedText(el) {
   const clone = el.cloneNode(true);
   clone.querySelectorAll('.visuallyhidden, .sr-only').forEach((node) => node.remove());
   return (clone.textContent || '').replace(/\s+/g, ' ').trim();
+}
+
+function normalizedMatchText(value) {
+  return String(value || '')
+    .normalize('NFKC')
+    .toLowerCase()
+    .replace(/况/g, '況')
+    .replace(/户/g, '戶')
+    .replace(/帐/g, '帳')
+    .replace(/账/g, '賬')
+    .replace(/骗/g, '騙')
+    .replace(/财/g, '財')
+    .replace(/务/g, '務')
+    .replace(/转/g, '轉')
+    .replace(/资/g, '資')
+    .replace(/讯/g, '訊')
+    .replace(/荀/g, '筍')
+    .replace(/[\s\u00a0"'“”‘’.,，。！？!?;；:：()（）\[\]【】\-–—_]+/g, '');
+}
+
+function isVisibleTextElement(el) {
+  if (!(el instanceof Element) || !el.isConnected) return false;
+  if (el.closest('.hidden-to-sign-language-player, .visuallyhidden, .sr-only, [hidden]')) {
+    return false;
+  }
+  const style = window.getComputedStyle(el);
+  return (
+    style.display !== 'none'
+    && style.visibility !== 'hidden'
+    && Number(style.opacity || 1) > 0
+    && el.getClientRects().length > 0
+  );
+}
+
+function findTextMatch(node, usedElements) {
+  const wanted = [node.text, node.text_en, node.text_sc]
+    .map(normalizedMatchText)
+    .filter((value) => value.length >= 2);
+  if (wanted.length === 0) return null;
+
+  const scopes = [
+    document.querySelector('main'),
+    document.querySelector('article'),
+    document.body,
+  ].filter(Boolean);
+  const selector =
+    'h1,h2,h3,h4,h5,h6,p,li,blockquote,dt,dd,figcaption,td,th,div,span,strong';
+
+  for (const scope of scopes) {
+    const elements = Array.from(scope.querySelectorAll(selector)).filter(isVisibleTextElement);
+    for (const target of wanted) {
+      const exact = elements
+        .filter((el) => {
+          if (usedElements.has(el)) return false;
+          return normalizedMatchText(normalizedText(el)) === target;
+        })
+        .sort(
+          (a, b) =>
+            a.querySelectorAll('*').length - b.querySelectorAll('*').length,
+        )[0];
+      if (exact) return exact;
+    }
+  }
+
+  for (const scope of scopes) {
+    const elements = Array.from(scope.querySelectorAll(selector)).filter(isVisibleTextElement);
+    for (const target of wanted) {
+      if (target.length < 12) continue;
+      const partial = elements
+        .filter((el) => {
+          if (usedElements.has(el)) return false;
+          const value = normalizedMatchText(normalizedText(el));
+          return value.length >= 4
+            && (value.startsWith(target) || target.startsWith(value));
+        })
+        .sort((a, b) => {
+          const aValue = normalizedMatchText(normalizedText(a));
+          const bValue = normalizedMatchText(normalizedText(b));
+          const aStartsWithTarget = aValue.startsWith(target);
+          const bStartsWithTarget = bValue.startsWith(target);
+          if (aStartsWithTarget !== bStartsWithTarget) {
+            return aStartsWithTarget ? -1 : 1;
+          }
+          if (aValue.length !== bValue.length) {
+            return aStartsWithTarget
+              ? aValue.length - bValue.length
+              : bValue.length - aValue.length;
+          }
+          return a.querySelectorAll('*').length - b.querySelectorAll('*').length;
+        })[0];
+      if (partial) return partial;
+    }
+  }
+
+  for (const scope of scopes) {
+    const elements = Array.from(scope.querySelectorAll(selector)).filter(isVisibleTextElement);
+    for (const target of wanted) {
+      if (target.length < 12) continue;
+      const containing = elements
+        .filter((el) => {
+          if (usedElements.has(el)) return false;
+          return normalizedMatchText(normalizedText(el)).includes(target);
+        })
+        .sort((a, b) => {
+          const aLength = normalizedMatchText(normalizedText(a)).length;
+          const bLength = normalizedMatchText(normalizedText(b)).length;
+          if (aLength !== bLength) return aLength - bLength;
+          return a.querySelectorAll('*').length - b.querySelectorAll('*').length;
+        })[0];
+      if (containing) return containing;
+    }
+  }
+
+  return null;
 }
 
 function injectStyles() {
@@ -256,6 +453,12 @@ function injectStyles() {
 .hsbc-total-speed:focus-visible {
   outline: 2px solid #0a78c4;
   outline-offset: 2px;
+}
+.hsbc-total-version {
+  width: 42px;
+}
+.hsbc-total-version.is-unavailable {
+  opacity: 0.55;
 }
 .hsbc-total-progress {
   position: relative;
@@ -761,6 +964,97 @@ function speedControlHtml() {
   return `<button class="hsbc-total-speed" id="hsbc-total-speed" type="button" title="Playback speed" aria-label="Playback speed ${formatSpeed(DEFAULT_SPEED)}">${formatSpeed(DEFAULT_SPEED)}</button>`;
 }
 
+function versionControlHtml() {
+  if (!VIDEO_VERSIONS?.E) return '';
+  return '<button class="hsbc-total-speed hsbc-total-version" id="hsbc-total-version" type="button" title="Switch to E version" aria-label="Video version D">D</button>';
+}
+
+function ensureVideoSource(config) {
+  const nextUrl = config?.videoUrl || VIDEO_URL;
+  if (!video || videoSourceUrl === nextUrl) return;
+  videoSourceUrl = nextUrl;
+  video.setAttribute('preload', 'none');
+  video.innerHTML = `<source src="${nextUrl}" type="video/mp4">`;
+  video.load();
+  video.playbackRate = SPEED_STATES[currentSpeedIndex];
+}
+
+async function versionResourcesAvailable(version) {
+  const config = VIDEO_VERSIONS?.[version];
+  if (!config) return false;
+  const [timelineResponse, videoResponse] = await Promise.all([
+    fetch(config.timelineUrl, { method: 'HEAD', cache: 'no-store' }),
+    fetch(config.videoUrl, { method: 'HEAD', cache: 'no-store' }),
+  ]);
+  return timelineResponse.ok && videoResponse.ok;
+}
+
+async function switchVideoVersion(version) {
+  if (!VIDEO_VERSIONS?.[version] || version === currentVideoVersion || !video) {
+    return;
+  }
+  if (version !== 'D' && !(await versionResourcesAvailable(version))) {
+    versionButton?.classList.add('is-unavailable');
+    if (versionButton) versionButton.title = `Version ${version} is not available yet`;
+    setTimeout(() => versionButton?.classList.remove('is-unavailable'), 1200);
+    return;
+  }
+
+  const config = VIDEO_VERSIONS[version];
+  const response = await fetch(config.timelineUrl, { cache: 'no-store' });
+  if (!response.ok) return;
+
+  const previousActiveIndex = activeIndex;
+  const previousNodeKey = items[activeIndex]?.node?.index || null;
+  const wasPlaying = Boolean(
+    player?.classList.contains('is-open') && video && !video.paused,
+  );
+
+  timeline = await response.json();
+  const nextNodesByIndex = new Map(
+    timeline.nodes.map((node) => [node.index, node]),
+  );
+  items.forEach((item, index) => {
+    if (!item) return;
+    item.node =
+      (item.node?.index && nextNodesByIndex.get(item.node.index))
+      || timeline.nodes[index]
+      || null;
+  });
+
+  let nextActiveIndex = -1;
+  if (previousNodeKey) {
+    nextActiveIndex = items.findIndex(
+      (item) => item?.node?.index === previousNodeKey,
+    );
+  }
+  if (nextActiveIndex < 0 && previousActiveIndex >= 0) {
+    nextActiveIndex = previousActiveIndex;
+  }
+
+  currentVideoVersion = version;
+  ensureVideoSource(config);
+  if (versionButton) {
+    versionButton.textContent = version;
+    versionButton.setAttribute('aria-label', `Video version ${version}`);
+    versionButton.title = version === 'D' ? 'Switch to E version' : 'Switch to D version';
+    versionButton.classList.remove('is-unavailable');
+  }
+
+  const nextNode = nextActiveIndex >= 0 ? items[nextActiveIndex]?.node : null;
+  if (nextNode) {
+    pendingSeekTime = nextNode.start + 0.02;
+    pendingPlayAfterVersionSwitch = wasPlaying;
+    setActiveItem(nextActiveIndex, true);
+    updateProgress(nextNode.start);
+  } else {
+    pendingSeekTime = 0;
+    pendingPlayAfterVersionSwitch = false;
+    setActiveItem(-1, false);
+    updateProgress(0);
+  }
+}
+
 function canDragPlayerFrom(event) {
   if (!player || event.button !== undefined && event.button !== 0) return false;
   if (event.target.closest('button, a, input, select, textarea')) return false;
@@ -829,7 +1123,7 @@ function ensurePlayerDom() {
   player.innerHTML = `
     <div class="hsbc-total-subtitle" id="hsbc-total-subtitle"></div>
     <div class="hsbc-total-video-wrap">
-      <video id="hsbc-total-video" playsinline preload="metadata" controlsList="nodownload nofullscreen noremoteplayback"></video>
+      <video id="hsbc-total-video" playsinline preload="none" controlsList="nodownload nofullscreen noremoteplayback"></video>
       <div class="hsbc-total-top-left">
         <button id="hsbc-total-close" class="hsbc-total-control-btn" type="button" title="Close" aria-label="Close">${CLOSE_ICON_SVG}</button>
       </div>
@@ -838,6 +1132,7 @@ function ensurePlayerDom() {
       </div>
     </div>
     <div class="hsbc-total-controls">
+      ${versionControlHtml()}
       ${speedControlHtml()}
       <div class="hsbc-total-progress" id="hsbc-total-progress" role="slider" aria-label="Video progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
         <div class="hsbc-total-track">
@@ -857,15 +1152,19 @@ function ensurePlayerDom() {
   progressTrack = document.querySelector('.hsbc-total-track');
   progressFill = document.getElementById('hsbc-total-fill');
   speedButton = document.getElementById('hsbc-total-speed');
+  versionButton = document.getElementById('hsbc-total-version');
   sizeButton = document.getElementById('hsbc-total-resize');
   timeLabel = document.getElementById('hsbc-total-time');
   video = document.getElementById('hsbc-total-video');
 
-  video.innerHTML = `<source src="${VIDEO_URL}" type="video/mp4">`;
-  video.load();
   video.playbackRate = SPEED_STATES[currentSpeedIndex];
   applySize();
   updateSpeedButtons();
+  versionButton?.addEventListener('click', () => {
+    switchVideoVersion(currentVideoVersion === 'D' ? 'E' : 'D').catch((error) => {
+      console.error('Unable to switch video version:', error);
+    });
+  });
 
   video.addEventListener('loadedmetadata', () => {
     if (video.videoWidth && video.videoHeight) {
@@ -874,11 +1173,22 @@ function ensurePlayerDom() {
     if (timeline?.total_duration && timeLabel) {
       timeLabel.textContent = `${formatTime(0)} / ${formatTime(timeline.total_duration)}`;
     }
-    if (pendingSeekTime !== null) {
+    const versionSeekTime = pendingSeekTime;
+    if (versionSeekTime !== null) {
       try {
-        video.currentTime = pendingSeekTime;
+        video.currentTime = versionSeekTime;
       } catch (_) {}
       pendingSeekTime = null;
+    }
+    if (versionSeekTime !== null && activeIndex >= 0 && items[activeIndex]) {
+      startSubtitleTyping(
+        items[activeIndex].text,
+        items[activeIndex].node?.duration,
+      );
+    }
+    if (pendingPlayAfterVersionSwitch) {
+      pendingPlayAfterVersionSwitch = false;
+      video.play().catch(() => {});
     }
   });
   video.addEventListener('timeupdate', () => {
@@ -985,6 +1295,7 @@ function showPlayer(index) {
   ensurePlayerDom();
   if (!player) return;
   player.classList.add('is-open');
+  ensureVideoSource(VIDEO_VERSIONS?.[currentVideoVersion] || { videoUrl: VIDEO_URL });
   if (video) video.playbackRate = SPEED_STATES[currentSpeedIndex];
   setActiveItem(index, true);
 }
@@ -1070,10 +1381,21 @@ function updateSentenceIconsVisibility() {
   });
 }
 
-function mapNodesToPage(nodes) {
+function mapNodesToPage(nodes, warnMissing = true) {
+  const usedElements = new Set();
   items = nodes.map((node, index) => {
-    const el = document.querySelector(NODE_SELECTORS[index]);
+    let el = null;
+    if (node.selector) {
+      el = document.querySelector(node.selector);
+    }
+    if (!el && USE_NODE_SELECTORS && NODE_SELECTORS[index]) {
+      el = document.querySelector(NODE_SELECTORS[index]);
+    }
+    if (!el && TEXT_MATCH_FALLBACK) {
+      el = findTextMatch(node, usedElements);
+    }
     if (!el) return null;
+    usedElements.add(el);
     return {
       node,
       el,
@@ -1082,17 +1404,27 @@ function mapNodesToPage(nodes) {
   });
 
   const missing = items.map((item, index) => item ? null : index).filter((value) => value !== null);
-  if (missing.length > 0) {
+  if (warnMissing && missing.length > 0) {
     console.warn('Missing total-video node selectors:', missing);
-    items = items.filter(Boolean);
   }
 
   items.forEach((item, index) => {
+    if (!item) return;
     addSentenceIcon(item);
     attachSentenceInteraction(item, index);
   });
   setupSentenceClickDelegation();
   updateSentenceIconsVisibility();
+}
+
+async function mapNodesWhenReady(nodes) {
+  for (let attempt = 0; attempt < 20; attempt += 1) {
+    mapNodesToPage(nodes, false);
+    if (items.some(Boolean)) return;
+    await new Promise((resolve) => setTimeout(resolve, 500));
+  }
+  const missing = items.map((item, index) => item ? null : index).filter((value) => value !== null);
+  console.warn('Missing total-video node selectors:', missing);
 }
 
 async function initialize() {
@@ -1110,7 +1442,7 @@ async function initialize() {
     }
     timeline = await response.json();
     ensurePlayerDom();
-    mapNodesToPage(timeline.nodes);
+    await mapNodesWhenReady(timeline.nodes);
     updateProgress(0);
     setActiveItem(-1, false);
   })().catch((error) => {
