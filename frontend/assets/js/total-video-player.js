@@ -3,7 +3,7 @@ function versionedConfig(timelineUrl, videoUrl) {
     timelineUrl,
     videoUrl,
     versions: {
-      D: { timelineUrl, videoUrl },
+      C: { timelineUrl, videoUrl },
       E: {
         timelineUrl: timelineUrl.replace(/\.json$/i, '-E.json'),
         videoUrl: videoUrl.replace(/\.mp4(\?.*)?$/i, '_E.mp4$1'),
@@ -158,7 +158,7 @@ let subtitleTypingChars = [];
 let subtitleTypingIndex = 0;
 let currentSizeIndex = 0;
 let currentSpeedIndex = SPEED_STATES.indexOf(DEFAULT_SPEED);
-let currentVideoVersion = 'D';
+let currentVideoVersion = 'C';
 let activeIndex = -1;
 let lastScrollIndex = -1;
 let pendingSeekTime = null;
@@ -966,7 +966,7 @@ function speedControlHtml() {
 
 function versionControlHtml() {
   if (!VIDEO_VERSIONS?.E) return '';
-  return '<button class="hsbc-total-speed hsbc-total-version" id="hsbc-total-version" type="button" title="Switch to E version" aria-label="Video version D">D</button>';
+  return '<button class="hsbc-total-speed hsbc-total-version" id="hsbc-total-version" type="button" title="Switch to E version" aria-label="Video version C">C</button>';
 }
 
 function ensureVideoSource(config) {
@@ -993,7 +993,7 @@ async function switchVideoVersion(version) {
   if (!VIDEO_VERSIONS?.[version] || version === currentVideoVersion || !video) {
     return;
   }
-  if (version !== 'D' && !(await versionResourcesAvailable(version))) {
+  if (version !== 'C' && !(await versionResourcesAvailable(version))) {
     versionButton?.classList.add('is-unavailable');
     if (versionButton) versionButton.title = `Version ${version} is not available yet`;
     setTimeout(() => versionButton?.classList.remove('is-unavailable'), 1200);
@@ -1037,7 +1037,7 @@ async function switchVideoVersion(version) {
   if (versionButton) {
     versionButton.textContent = version;
     versionButton.setAttribute('aria-label', `Video version ${version}`);
-    versionButton.title = version === 'D' ? 'Switch to E version' : 'Switch to D version';
+    versionButton.title = version === 'C' ? 'Switch to E version' : 'Switch to C version';
     versionButton.classList.remove('is-unavailable');
   }
 
@@ -1161,7 +1161,7 @@ function ensurePlayerDom() {
   applySize();
   updateSpeedButtons();
   versionButton?.addEventListener('click', () => {
-    switchVideoVersion(currentVideoVersion === 'D' ? 'E' : 'D').catch((error) => {
+    switchVideoVersion(currentVideoVersion === 'C' ? 'E' : 'C').catch((error) => {
       console.error('Unable to switch video version:', error);
     });
   });

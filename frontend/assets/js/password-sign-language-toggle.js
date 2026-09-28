@@ -60,7 +60,7 @@
     if (module || loading) return module;
     loading = true;
     try {
-      module = await import("/assets/js/interactive-highlight.js?v=20260924dk");
+      module = await import("/assets/js/interactive-highlight.js?v=20260924dl");
     } finally {
       loading = false;
     }
