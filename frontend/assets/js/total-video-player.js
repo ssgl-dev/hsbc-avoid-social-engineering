@@ -134,8 +134,10 @@ const NODE_SELECTORS = PAGE_CONFIG.nodeSelectors || [
 
 const DESKTOP_SIZE_STATES = [260, 320, 380];
 const MOBILE_SIZE_STATES = [200, 260, 320];
-const SPEED_STATES = [1, 1.2, 1.4];
-const DEFAULT_SPEED = 1.2;
+const SOURCE_SPEED_FACTOR = 1.3;
+const SPEED_LABELS = [1, 1.3, 1.5];
+const SPEED_STATES = SPEED_LABELS.map((speed) => speed / SOURCE_SPEED_FACTOR);
+const DEFAULT_SPEED = 1.3;
 const PLAY_ICON_SVG = `
 <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
   <path fill="currentColor" d="M9 6.5L18 12 9 17.5z"/>
@@ -171,7 +173,7 @@ let subtitleTypingTimer = null;
 let subtitleTypingChars = [];
 let subtitleTypingIndex = 0;
 let currentSizeIndex = 0;
-let currentSpeedIndex = SPEED_STATES.indexOf(DEFAULT_SPEED);
+let currentSpeedIndex = SPEED_LABELS.indexOf(DEFAULT_SPEED);
 let currentVideoVersion = 'C';
 let activeIndex = -1;
 let lastScrollIndex = -1;
@@ -947,8 +949,9 @@ function seekFromProgressEvent(event, commit) {
 
 function updateSpeedButtons() {
   if (!speedButton) return;
-  speedButton.textContent = formatSpeed(SPEED_STATES[currentSpeedIndex]);
-  speedButton.setAttribute('aria-label', `Playback speed ${formatSpeed(SPEED_STATES[currentSpeedIndex])}`);
+  const speedLabel = SPEED_LABELS[currentSpeedIndex];
+  speedButton.textContent = formatSpeed(speedLabel);
+  speedButton.setAttribute('aria-label', `Playback speed ${formatSpeed(speedLabel)}`);
   if (video) video.playbackRate = SPEED_STATES[currentSpeedIndex];
 }
 
