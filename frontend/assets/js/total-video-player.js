@@ -134,8 +134,8 @@ const NODE_SELECTORS = PAGE_CONFIG.nodeSelectors || [
 
 const DESKTOP_SIZE_STATES = [260, 320, 380];
 const MOBILE_SIZE_STATES = [200, 260, 320];
-const SPEED_STATES = [1, 1.3, 1.5];
-const DEFAULT_SPEED = 1.3;
+const SPEED_STATES = [1, 1.2, 1.4];
+const DEFAULT_SPEED = 1.2;
 const PLAY_ICON_SVG = `
 <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
   <path fill="currentColor" d="M9 6.5L18 12 9 17.5z"/>

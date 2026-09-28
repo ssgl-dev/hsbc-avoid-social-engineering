@@ -3,4 +3,4 @@ export {
   clearAllHighlights,
   enableSignLanguage,
   disableSignLanguage,
-} from './total-video-player.js?v=20260928dv';
+} from './total-video-player.js?v=20260928dw';
