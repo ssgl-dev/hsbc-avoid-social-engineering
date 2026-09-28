@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="12px" viewBox="0 0 18 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>quote</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="04-viewports/VP1440" transform="translate(-224.000000, -4072.000000)" fill="#DB0011" fill-rule="nonzero">
+            <g id="callOut" transform="translate(185.000000, 3738.000000)">
+                <g transform="translate(19.000000, 310.000000)" id="quote">
+                    <path d="M24.625387,36 L27.6904025,24 L24.7368421,24 L20,36 L24.625387,36 Z M34.9907121,36 L38,24 L35.0464396,24 L30.3095975,36 L34.9907121,36 Z"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

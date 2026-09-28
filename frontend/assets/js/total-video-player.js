@@ -1,13 +1,20 @@
 function versionedConfig(timelineUrl, videoUrl) {
+  const configuredVersion = (version, revision) => {
+    const versionedVideoUrl = videoUrl
+      .replace(/\.mp4(\?.*)?$/i, `_${version}.mp4`)
+      .concat(`?v=${revision}`);
+    return {
+      timelineUrl: timelineUrl.replace(/\.json$/i, `-${version}.json`),
+      videoUrl: versionedVideoUrl,
+    };
+  };
   return {
     timelineUrl,
     videoUrl,
     versions: {
       C: { timelineUrl, videoUrl },
-      E: {
-        timelineUrl: timelineUrl.replace(/\.json$/i, '-E.json'),
-        videoUrl: videoUrl.replace(/\.mp4(\?.*)?$/i, '_E.mp4$1'),
-      },
+      D: configuredVersion('D', '20260928d'),
+      E: configuredVersion('E', '20260928e'),
     },
   };
 }
@@ -18,7 +25,8 @@ const PAGE_CONFIGS = {
       '/static/timelines/instant-messaging-app-scams.json',
       '/static/videos/page-3-merged_1080x1920_pad.mp4?v=20260924opt',
     ),
-    useNodeSelectors: false,
+    useNodeSelectors: true,
+    nodeSelectors: ['#par-introduction_articleTitle_1 h1'],
     textMatchFallback: true,
   },
   '/job-scams': {
@@ -26,7 +34,8 @@ const PAGE_CONFIGS = {
       '/static/timelines/job-scams.json',
       '/static/videos/page-4-merged_1080x1920_pad.mp4?v=20260924opt',
     ),
-    useNodeSelectors: false,
+    useNodeSelectors: true,
+    nodeSelectors: ['#par-introduction_articleTitle_1 h1'],
     textMatchFallback: true,
   },
   '/investment-scams': {
@@ -34,7 +43,8 @@ const PAGE_CONFIGS = {
       '/static/timelines/investment-scams.json',
       '/static/videos/page-5-merged_1080x1920_pad.mp4?v=20260924opt',
     ),
-    useNodeSelectors: false,
+    useNodeSelectors: true,
+    nodeSelectors: ['#par-introduction_articleTitle_1 h1'],
     textMatchFallback: true,
   },
   '/prevent-fraud': {
@@ -42,7 +52,8 @@ const PAGE_CONFIGS = {
       '/static/timelines/prevent-fraud.json',
       '/static/videos/page-6-merged_1080x1920_pad.mp4?v=20260924opt',
     ),
-    useNodeSelectors: false,
+    useNodeSelectors: true,
+    nodeSelectors: ['#par-introduction_articleTitle_1 h1'],
     textMatchFallback: true,
   },
   '/romance-scams': {
@@ -50,7 +61,8 @@ const PAGE_CONFIGS = {
       '/static/timelines/romance-scams.json',
       '/static/videos/page-7-merged_1080x1920_pad.mp4?v=20260924opt',
     ),
-    useNodeSelectors: false,
+    useNodeSelectors: true,
+    nodeSelectors: ['#par-introduction_articleTitle_1 h1'],
     textMatchFallback: true,
   },
   '/passwords': {
@@ -58,7 +70,8 @@ const PAGE_CONFIGS = {
       '/static/timelines/passwords.json',
       '/static/videos/page-8-merged_1080x1920_pad.mp4?v=20260924opt',
     ),
-    useNodeSelectors: false,
+    useNodeSelectors: true,
+    nodeSelectors: ['#par-introduction_articleTitle_1 h1'],
     textMatchFallback: true,
   },
 };
@@ -77,6 +90,7 @@ const PAGE_CONFIG =
 const TIMELINE_URL = PAGE_CONFIG.timelineUrl || '/static/timeline.json';
 const VIDEO_URL = PAGE_CONFIG.videoUrl || '/static/videos/total.mp4';
 const VIDEO_VERSIONS = PAGE_CONFIG.versions || null;
+const VIDEO_VERSION_ORDER = ['C', 'D', 'E'];
 const USE_NODE_SELECTORS = PAGE_CONFIG.useNodeSelectors !== false;
 const TEXT_MATCH_FALLBACK = PAGE_CONFIG.textMatchFallback === true;
 
@@ -169,6 +183,8 @@ let playerDragState = null;
 let suppressVideoClick = false;
 let documentClickHandlerAttached = false;
 let videoSourceUrl = null;
+let versionAvailabilityRequest = 0;
+let pendingPlayRequest = false;
 let signLanguageEnabled = (() => {
   try {
     return localStorage.getItem('hsbc-sign-language-enabled') !== 'false';
@@ -366,13 +382,14 @@ function injectStyles() {
   width: 100%;
   overflow: hidden;
   background: #eaf3fb;
-  aspect-ratio: var(--hsbc-total-video-ratio, 1 / 1);
+  aspect-ratio: 1 / 1;
 }
 .hsbc-total-video-wrap video {
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
+  object-position: center;
   background: #eaf3fb;
 }
 .hsbc-total-top-left,
@@ -924,7 +941,7 @@ function seekFromProgressEvent(event, commit) {
   const targetTime = progressTimeFromEvent(event);
   seekToTime(targetTime, commit);
   if (commit) {
-    video.play().catch(() => {});
+    requestVideoPlayback();
   }
 }
 
@@ -965,21 +982,42 @@ function speedControlHtml() {
 }
 
 function versionControlHtml() {
-  if (!VIDEO_VERSIONS?.E) return '';
-  return '<button class="hsbc-total-speed hsbc-total-version" id="hsbc-total-version" type="button" title="Switch to E version" aria-label="Video version C">C</button>';
+  if (!VIDEO_VERSIONS || Object.keys(VIDEO_VERSIONS).length < 2) return '';
+  return '<button class="hsbc-total-speed hsbc-total-version" id="hsbc-total-version" type="button" title="Switch to D version" aria-label="Video version C">C</button>';
 }
 
 function ensureVideoSource(config) {
   const nextUrl = config?.videoUrl || VIDEO_URL;
   if (!video || videoSourceUrl === nextUrl) return;
   videoSourceUrl = nextUrl;
+  video.pause();
+  video.removeAttribute('src');
+  video.innerHTML = '';
   video.setAttribute('preload', 'none');
-  video.innerHTML = `<source src="${nextUrl}" type="video/mp4">`;
+  video.src = nextUrl;
   video.load();
   video.playbackRate = SPEED_STATES[currentSpeedIndex];
 }
 
+function requestVideoPlayback() {
+  if (!video) return;
+  pendingPlayRequest = true;
+  const playPromise = video.play();
+  if (playPromise?.catch) {
+    playPromise.catch(() => {});
+  }
+}
+
+function retryPendingPlayback() {
+  if (!pendingPlayRequest || !video) return;
+  const playPromise = video.play();
+  if (playPromise?.catch) {
+    playPromise.catch(() => {});
+  }
+}
+
 async function versionResourcesAvailable(version) {
+  if (version === 'C') return true;
   const config = VIDEO_VERSIONS?.[version];
   if (!config) return false;
   const [timelineResponse, videoResponse] = await Promise.all([
@@ -987,6 +1025,30 @@ async function versionResourcesAvailable(version) {
     fetch(config.videoUrl, { method: 'HEAD', cache: 'no-store' }),
   ]);
   return timelineResponse.ok && videoResponse.ok;
+}
+
+async function findNextAvailableVersion() {
+  const currentIndex = VIDEO_VERSION_ORDER.indexOf(currentVideoVersion);
+  if (currentIndex < 0) return null;
+  for (let offset = 1; offset < VIDEO_VERSION_ORDER.length; offset += 1) {
+    const candidate =
+      VIDEO_VERSION_ORDER[(currentIndex + offset) % VIDEO_VERSION_ORDER.length];
+    if (VIDEO_VERSIONS?.[candidate] && await versionResourcesAvailable(candidate)) {
+      return candidate;
+    }
+  }
+  return null;
+}
+
+async function refreshVersionButton() {
+  if (!versionButton) return;
+  const requestId = ++versionAvailabilityRequest;
+  const nextVersion = await findNextAvailableVersion();
+  if (requestId !== versionAvailabilityRequest || !versionButton) return;
+  versionButton.dataset.nextVersion = nextVersion || '';
+  versionButton.title = nextVersion
+    ? `Switch to ${nextVersion} version`
+    : 'No other video version available';
 }
 
 async function switchVideoVersion(version) {
@@ -1037,8 +1099,8 @@ async function switchVideoVersion(version) {
   if (versionButton) {
     versionButton.textContent = version;
     versionButton.setAttribute('aria-label', `Video version ${version}`);
-    versionButton.title = version === 'C' ? 'Switch to E version' : 'Switch to C version';
     versionButton.classList.remove('is-unavailable');
+    refreshVersionButton();
   }
 
   const nextNode = nextActiveIndex >= 0 ? items[nextActiveIndex]?.node : null;
@@ -1078,10 +1140,6 @@ function startPlayerDrag(event) {
     subtitleHeight,
     didDrag: false,
   };
-  player.style.transition = 'none';
-  player.style.right = 'auto';
-  player.style.bottom = 'auto';
-  event.preventDefault();
 }
 
 function movePlayerDrag(event) {
@@ -1089,7 +1147,15 @@ function movePlayerDrag(event) {
   if (playerDragState.pointerId !== undefined && event.pointerId !== playerDragState.pointerId) return;
   const dx = event.clientX - playerDragState.startX;
   const dy = event.clientY - playerDragState.startY;
-  if (Math.abs(dx) + Math.abs(dy) > 3) playerDragState.didDrag = true;
+  if (!playerDragState.didDrag && Math.hypot(dx, dy) < 8) {
+    return;
+  }
+  if (!playerDragState.didDrag) {
+    playerDragState.didDrag = true;
+    player.style.transition = 'none';
+    player.style.right = 'auto';
+    player.style.bottom = 'auto';
+  }
   const maxLeft = Math.max(0, window.innerWidth - player.offsetWidth);
   const maxTop = Math.max(playerDragState.subtitleHeight, window.innerHeight - player.offsetHeight);
   const left = Math.max(0, Math.min(maxLeft, playerDragState.startLeft + dx));
@@ -1097,6 +1163,33 @@ function movePlayerDrag(event) {
   player.style.left = `${left}px`;
   player.style.top = `${top}px`;
   event.preventDefault();
+}
+
+function keepPlayerInViewport() {
+  if (!player) return;
+  const rect = player.getBoundingClientRect();
+  const margin = 8;
+  const outside =
+    rect.right <= margin
+    || rect.bottom <= margin
+    || rect.left >= window.innerWidth - margin
+    || rect.top >= window.innerHeight - margin;
+  if (outside) {
+    player.style.left = '';
+    player.style.top = '';
+    player.style.right = '';
+    player.style.bottom = '';
+    player.style.transition = '';
+    return;
+  }
+  if (rect.left < margin) player.style.left = `${margin}px`;
+  if (rect.top < margin) player.style.top = `${margin}px`;
+  if (rect.right > window.innerWidth - margin) {
+    player.style.left = `${Math.max(margin, window.innerWidth - rect.width - margin)}px`;
+  }
+  if (rect.bottom > window.innerHeight - margin) {
+    player.style.top = `${Math.max(margin, window.innerHeight - rect.height - margin)}px`;
+  }
 }
 
 function endPlayerDrag() {
@@ -1161,14 +1254,20 @@ function ensurePlayerDom() {
   applySize();
   updateSpeedButtons();
   versionButton?.addEventListener('click', () => {
-    switchVideoVersion(currentVideoVersion === 'C' ? 'E' : 'C').catch((error) => {
+    const nextVersion = versionButton.dataset.nextVersion;
+    if (!nextVersion) {
+      refreshVersionButton();
+      return;
+    }
+    switchVideoVersion(nextVersion).catch((error) => {
       console.error('Unable to switch video version:', error);
     });
   });
+  refreshVersionButton();
 
   video.addEventListener('loadedmetadata', () => {
     if (video.videoWidth && video.videoHeight) {
-      player.style.setProperty('--hsbc-total-video-ratio', `${video.videoWidth} / ${video.videoHeight}`);
+      player.style.setProperty('--hsbc-total-video-ratio', '1 / 1');
     }
     if (timeline?.total_duration && timeLabel) {
       timeLabel.textContent = `${formatTime(0)} / ${formatTime(timeline.total_duration)}`;
@@ -1187,9 +1286,14 @@ function ensurePlayerDom() {
       );
     }
     if (pendingPlayAfterVersionSwitch) {
-      pendingPlayAfterVersionSwitch = false;
-      video.play().catch(() => {});
+      pendingPlayRequest = true;
     }
+    pendingPlayAfterVersionSwitch = false;
+    retryPendingPlayback();
+  });
+  video.addEventListener('canplay', retryPendingPlayback);
+  video.addEventListener('playing', () => {
+    pendingPlayRequest = false;
   });
   video.addEventListener('timeupdate', () => {
     if (!player?.classList.contains('is-open')) return;
@@ -1210,8 +1314,9 @@ function ensurePlayerDom() {
       return;
     }
     if (video.paused) {
-      video.play().catch(() => {});
+      requestVideoPlayback();
     } else {
+      pendingPlayRequest = false;
       video.pause();
     }
   });
@@ -1280,7 +1385,7 @@ function seekToIndex(index) {
   if (!timeline || !timeline.nodes[index]) return;
   seekToTime(timeline.nodes[index].start + 0.02, true);
   if (video) {
-    video.play().catch(() => {});
+    requestVideoPlayback();
   }
 }
 
@@ -1295,6 +1400,7 @@ function showPlayer(index) {
   ensurePlayerDom();
   if (!player) return;
   player.classList.add('is-open');
+  keepPlayerInViewport();
   ensureVideoSource(VIDEO_VERSIONS?.[currentVideoVersion] || { videoUrl: VIDEO_URL });
   if (video) video.playbackRate = SPEED_STATES[currentSpeedIndex];
   setActiveItem(index, true);
@@ -1303,6 +1409,7 @@ function showPlayer(index) {
 export function hidePlayer() {
   if (player) {
     player.classList.remove('is-open');
+    pendingPlayRequest = false;
     if (video) video.pause();
   }
   stopSubtitleTyping();
@@ -1319,6 +1426,12 @@ function addSentenceIcon(item) {
 
 function attachSentenceInteraction(item, index) {
   if (!item?.el) return;
+  if (
+    item.el.classList.contains('hsbc-total-sentence')
+    && item.el.dataset.hsbcTotalNode === String(index)
+  ) {
+    return;
+  }
   item.el.classList.add('hsbc-total-sentence');
   item.el.dataset.hsbcTotalNode = String(index);
   item.el.setAttribute('tabindex', '0');
@@ -1343,7 +1456,23 @@ function setupSentenceClickDelegation() {
     'click',
     (event) => {
       const target = event.target instanceof Element ? event.target : null;
-      const sentence = target?.closest?.('[data-hsbc-total-node]');
+      if (target?.closest?.('.hsbc-total-player, button, a, input, select, textarea')) {
+        return;
+      }
+      let sentence = target?.closest?.('[data-hsbc-total-node]');
+      if (!sentence && Number.isFinite(event.clientX) && Number.isFinite(event.clientY)) {
+        const coordinateMatch = items.find((item) => {
+          if (!item?.el) return false;
+          const rect = item.el.getBoundingClientRect();
+          return (
+            event.clientX >= rect.left
+            && event.clientX <= rect.right
+            && event.clientY >= rect.top
+            && event.clientY <= rect.bottom
+          );
+        });
+        sentence = coordinateMatch?.el || null;
+      }
       if (!sentence) return;
       if (!signLanguageEnabled) return;
       const index = Number(sentence.dataset.hsbcTotalNode);
@@ -1418,9 +1547,19 @@ function mapNodesToPage(nodes, warnMissing = true) {
 }
 
 async function mapNodesWhenReady(nodes) {
-  for (let attempt = 0; attempt < 20; attempt += 1) {
+  let bestMappedCount = 0;
+  let stableAttempts = 0;
+  for (let attempt = 0; attempt < 30; attempt += 1) {
     mapNodesToPage(nodes, false);
-    if (items.some(Boolean)) return;
+    const mappedCount = items.filter(Boolean).length;
+    if (mappedCount >= nodes.length) return;
+    if (mappedCount > bestMappedCount) {
+      bestMappedCount = mappedCount;
+      stableAttempts = 0;
+    } else {
+      stableAttempts += 1;
+    }
+    if (attempt >= 3 && stableAttempts >= 12) return;
     await new Promise((resolve) => setTimeout(resolve, 500));
   }
   const missing = items.map((item, index) => item ? null : index).filter((value) => value !== null);

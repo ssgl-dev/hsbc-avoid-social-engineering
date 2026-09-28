@@ -1,0 +1,307 @@
+{
+  "slug": "prevent-fraud",
+  "version": "D",
+  "video": "/static/videos/page-6-merged_1080x1920_pad_D.mp4?v=20260928d",
+  "total_duration": 296.554,
+  "nodes": [
+    {
+      "index": "245.4",
+      "last_index": "245.4",
+      "text": "防詐騙三大法則",
+      "text_en": "Three rules to prevent fraud",
+      "text_sc": "防诈骗三大法则",
+      "files": [
+        "Prevent-Fraud.mp4"
+      ],
+      "start": 0.0,
+      "end": 3.446,
+      "duration": 3.446
+    },
+    {
+      "index": "245.5",
+      "last_index": "245.5",
+      "text": "電話詐騙和網上騙案日益猖獗，稍一不慎就可能墮入騙局。",
+      "text_en": "Criminals are getting more sophisticated with telephone scams and online scams.",
+      "text_sc": "电话诈骗和网上骗案日益猖獗，稍一不慎就可能堕入骗局。",
+      "files": [
+        "Prevent-Fraud.mp4"
+      ],
+      "start": 3.446,
+      "end": 13.446,
+      "duration": 10.0
+    },
+    {
+      "index": "245.6",
+      "last_index": "245.6",
+      "text": "不想自己成為「中伏」的一份子？記著以下重要法則，保護自己的個人資料和財產。",
+      "text_en": "If you don't want to become the next victim, remember the following important tips.",
+      "text_sc": "不想自己成为“掉坑”的一份子？记着以下重要法则，保护自己的个人信息和财产。",
+      "files": [
+        "Prevent-Fraud.mp4"
+      ],
+      "start": 13.446,
+      "end": 23.8,
+      "duration": 10.354
+    },
+    {
+      "index": "245.7",
+      "last_index": "245.7",
+      "text": "切勿輕易透露個人資料",
+      "text_en": "Be very cautious about how you share your personal information",
+      "text_sc": "切勿轻易透露个人信息",
+      "files": [
+        "Prevent-Fraud.mp4"
+      ],
+      "start": 23.8,
+      "end": 28.569,
+      "duration": 4.769
+    },
+    {
+      "index": "245.8",
+      "last_index": "245.8",
+      "text": "請提供戶口資料及一次性密碼確認身分。",
+      "text_en": "Please provide your account information and one-time password to confirm your identity.",
+      "text_sc": "请提供账户信息及一次性密码确认身分。",
+      "files": [
+        "Prevent-Fraud.mp4"
+      ],
+      "start": 28.569,
+      "end": 36.538,
+      "duration": 7.969
+    },
+    {
+      "index": "245.9",
+      "last_index": "245.9",
+      "text": "毋須再懷疑了，聽到這句說話，對方一定是騙徒。緊記切勿向任何人透露戶口、信用卡資料和密碼等個人敏感資料。",
+      "text_en": "If you hear or see those words, consider it a red flag. Remember, never disclose sensitive personal information such as your account or credit card information or password to anyone.",
+      "text_sc": "无须再怀疑了，听到这句说话，对方一定是骗徒。紧记切勿向任何人透露账户、信用卡信息和密码等个人敏感信息。",
+      "files": [
+        "Prevent-Fraud.mp4"
+      ],
+      "start": 36.538,
+      "end": 52.354,
+      "duration": 15.816
+    },
+    {
+      "index": "245.10",
+      "last_index": "245.10",
+      "text": "滙豐絕對不會在電話或電郵要求客戶提供用戶名稱及密碼等敏感資料。請主動查證及向我們核實來電者身分，就算對方自稱投資產品公司或電訊公司職員，甚至政府官員，亦切勿輕易相信。",
+      "text_en": "HSBC will never ask you to provide sensitive information such as usernames and passwords by phone or email. Even if the caller claims to be from an investment product company, a telecommunications company, or even claims to be a government official, don't take their words easily.",
+      "text_sc": "汇丰绝对不会在电话或电邮要求客户提供用户名称及密码等敏感信息。请主动查证及向我们核实来电者身份，就算对方自称投资产品公司或电讯公司职员，甚至政府官员，也切勿轻易相信。",
+      "files": [
+        "Prevent-Fraud.mp4"
+      ],
+      "start": 52.354,
+      "end": 82.138,
+      "duration": 29.784
+    },
+    {
+      "index": "245.12",
+      "last_index": "245.12",
+      "text": "您亦應加强網上銀行保安，採用多重登入認證等措施，確保戶口安全。",
+      "text_en": "You should also enhance the security of your online banking and adopt measures, such as multiple login authentication, to ensure account security.",
+      "text_sc": "您也应该加强网上银行保安，采用多重登入认证等措施，确保账户安全。",
+      "files": [
+        "Prevent-Fraud.mp4"
+      ],
+      "start": 82.138,
+      "end": 97.046,
+      "duration": 14.908
+    },
+    {
+      "index": "245.15",
+      "last_index": "245.15",
+      "text": "勿貪小便宜",
+      "text_en": "If it sounds too good to be true, it probably is",
+      "text_sc": "勿贪小便宜",
+      "files": [
+        "Prevent-Fraud.mp4"
+      ],
+      "start": 97.046,
+      "end": 101.6,
+      "duration": 4.554
+    },
+    {
+      "index": "245.16",
+      "last_index": "245.16",
+      "text": "就算沒有入息證明，都一定可以幫您用超優惠利率借錢。",
+      "text_en": "Even if you can't provide a proof of income, we can definitely help you borrow money at a very preferential interest rate.",
+      "text_sc": "就算没有入息证明，也一定可以帮您用超优惠利率借钱。",
+      "files": [
+        "Prevent-Fraud.mp4"
+      ],
+      "start": 101.6,
+      "end": 111.0,
+      "duration": 9.4
+    },
+    {
+      "index": "245.17",
+      "last_index": "245.17",
+      "text": "先繳交費用或按金，貸款就可以立即獲批。",
+      "text_en": "Just pay a small fee or make a deposit, and your loan will be approved immediately.",
+      "text_sc": "先支付费用或押金，贷款就可以立即获批。",
+      "files": [
+        "Prevent-Fraud.mp4"
+      ],
+      "start": 111.0,
+      "end": 118.892,
+      "duration": 7.892
+    },
+    {
+      "index": "245.18",
+      "last_index": "245.18",
+      "text": "您中大獎了，只要繳交行政費，就可以取得獎項。",
+      "text_en": "Congratulations! You've won a big prize. To claim your prize, simply pay a small administrative fee.",
+      "text_sc": "您中大奖了，只要支付行政费，就可以取得奖项。",
+      "files": [
+        "Prevent-Fraud.mp4"
+      ],
+      "start": 118.892,
+      "end": 127.8,
+      "duration": 8.908
+    },
+    {
+      "index": "245.19",
+      "last_index": "245.19",
+      "text": "騙徒最擅長捉摸大眾「貪著數」的心理，向您開出很吸引的服務或優厚的回報，引誘您心甘情願墊支款項，換取異常豐厚的「著數」。",
+      "text_en": "Scammers are experts at preying on people's interest in easy victories and desire to get rich quick. They'll offer you attractive services or generous rewards, that can all be yours... as long as you make an advance payment.",
+      "text_sc": "骗徒最擅长捉摸大众“捡便宜”的心理，向您开出很吸引的服务或优厚的回报，引诱您心甘情愿垫支款项，换取异常丰厚的“便宜”。",
+      "files": [
+        "Prevent-Fraud.mp4"
+      ],
+      "start": 127.8,
+      "end": 144.831,
+      "duration": 17.031
+    },
+    {
+      "index": "245.20",
+      "last_index": "245.20",
+      "text": "遇上這些對白，先問自己：世上哪有免費的午餐？我會不會因小失大？",
+      "text_en": "When you come across these \"offers\", remember the old saying: there's no such thing as a free lunch. There will almost always be a hidden cost, especially if an offer sounds too good to be true.",
+      "text_sc": "遇上这些对白，先问自己：世上哪有免费的午餐？我会不会因小失大？",
+      "files": [
+        "Prevent-Fraud.mp4"
+      ],
+      "start": 144.831,
+      "end": 157.677,
+      "duration": 12.846
+    },
+    {
+      "index": "245.21",
+      "last_index": "245.21",
+      "text": "滙豐絕對不會要求您繳交費用來保證貸款獲批。銀行或按揭公司職員也絕對不會要求客戶向另一間財務公司借貸來清還借款。無論甚麼情況，如果對方叫您「先交金錢，後享著數」，請格外留神。",
+      "text_en": "HSBC will never require you to pay fees to ensure loan approval. Bank staff or mortgage company staff will never ask customers to borrow money from another financial company to repay your existing loan.",
+      "text_sc": "汇丰绝对不会要求您支付费用来保证贷款获批。银行或房貸公司职员也绝对不会要求客户向另一家财务公司借贷来清还借款。无论什么情况，如果对方叫您“先交金钱，后享便宜”，请格外留神。",
+      "files": [
+        "Prevent-Fraud.mp4"
+      ],
+      "start": 157.677,
+      "end": 186.123,
+      "duration": 28.446
+    },
+    {
+      "index": "245.23",
+      "last_index": "245.23",
+      "text": "保持冷靜，不要慌張",
+      "text_en": "Keep calm, don't panic",
+      "text_sc": "保持冷静，不要慌张",
+      "files": [
+        "Prevent-Fraud.mp4"
+      ],
+      "start": 186.123,
+      "end": 190.723,
+      "duration": 4.6
+    },
+    {
+      "index": "245.24",
+      "last_index": "245.24",
+      "text": "您涉嫌觸犯法律，您需要交出網上銀行戶口、密碼或款項，證明清白。",
+      "text_en": "You're suspected of a criminal offense. You have to hand over your online bank account, password or money to prove your innocence.",
+      "text_sc": "您涉嫌触犯法律，您需要交出网上银行账户、密码或款项，证明清白。",
+      "files": [
+        "Prevent-Fraud.mp4"
+      ],
+      "start": 190.723,
+      "end": 203.046,
+      "duration": 12.323
+    },
+    {
+      "index": "245.25",
+      "last_index": "245.25",
+      "text": "我們發現您的戶口有異常交易，如不提供戶口密碼作確認，您的戶口將被凍結。",
+      "text_en": "We found abnormal transactions in your account. If you don't provide your account password for confirmation, your account will be frozen.",
+      "text_sc": "我们发现您的账户有异常交易，如果不提供账户密码作确认，您的账户将被冻结。",
+      "files": [
+        "Prevent-Fraud.mp4"
+      ],
+      "start": 203.046,
+      "end": 216.754,
+      "duration": 13.708
+    },
+    {
+      "index": "245.26",
+      "last_index": "245.26",
+      "text": "除了您的「貪念」之外，騙徒還會利用您的恐懼心理，自稱執法部門人員、政府或銀行職員，聲稱您遇上法律或財務問題，令您在恐慌之下向他們提供敏感資料或金錢「洗脫嫌疑」。",
+      "text_en": "In addition to offering you unbelievable deals, scammers will also take advantage of your fears. They might claim to be law enforcement officers, government officials or bank employees, and tell you that you're involved in legal or financial troubles and frighten you into providing sensitive information or even money.",
+      "text_sc": "除了您的“贪念”之外，骗徒还会利用您的恐惧心理，自称执法部门人员、政府或银行职员，声称您遇上法律或财务问题，令您在恐慌之下向他们提供敏感信息或金钱“洗脱嫌疑”。",
+      "files": [
+        "Prevent-Fraud.mp4"
+      ],
+      "start": 216.754,
+      "end": 236.938,
+      "duration": 20.184
+    },
+    {
+      "index": "245.27",
+      "last_index": "245.27",
+      "text": "如果遇上這些情況，請保持冷靜，並再三向機構或銀行核實對方身分。 覺得不對勁時，不要輕舉妄動",
+      "text_en": "If you encounter this scenario, please remain calm. Call back the bank or institution to verify the caller. Don't let yourself be scared into something that doesn't feel right.",
+      "text_sc": "如果遇上这些情况，请保持冷静，并再三向机构或银行核实对方身份。觉得不对劲时，不要轻举妄动。",
+      "files": [
+        "Prevent-Fraud.mp4"
+      ],
+      "start": 236.938,
+      "end": 251.277,
+      "duration": 14.339
+    },
+    {
+      "index": "245.28",
+      "last_index": "245.28",
+      "text": "滙豐絕對不會要求客戶交出戶口密碼或款項確認交易活動，執法人員亦不會在電話中索取您的個人資料，或者要您透露銀行戶口密碼以證明清白。",
+      "text_en": "HSBC will never ask you to provide your account passwords or any payments to confirm transaction activities. Law enforcement officers won't ask for your personal information on the phone, or ask you to reveal your bank account password to prove your innocence.",
+      "text_sc": "汇丰绝对不会要求客户交出账户密码或款项确认交易活动，执法人员也不会在电话中索取您的个人信息，或者要您透露银行账户密码以证明清白。",
+      "files": [
+        "Prevent-Fraud.mp4"
+      ],
+      "start": 251.277,
+      "end": 270.815,
+      "duration": 19.538
+    },
+    {
+      "index": "245.30",
+      "last_index": "245.30",
+      "text": "無論是用社交媒體、電郵還是電話，騙徒手法雖然層出不窮，但萬變不離其宗，總是想盡辦法利用心理弱點，套取您的個人資料和信任，讓您雙手奉上金錢。防範詐騙，靠的不是別人，正是您自己。",
+      "text_en": "Whether it's on social media, by email or on the phone, scammers will try their best to steal your personal information and money, riding on your psychological weaknesses to obtain your personal data and your trust. Don't rely on others. Learn how to protect yourself.",
+      "text_sc": "无论是用社交媒体、电邮还是电话，骗徒手法虽然层出不穷，但万变不离其宗，总是想尽办法利用心理弱点，套取您的个人信息和信任，让您双手奉上金钱。防范诈骗，靠的不是别人，正是您自己。",
+      "files": [
+        "Prevent-Fraud.mp4"
+      ],
+      "start": 270.815,
+      "end": 291.077,
+      "duration": 20.262
+    },
+    {
+      "index": "245.31",
+      "last_index": "245.31",
+      "text": "萬一遭遇詐騙， 請即向我們舉報。",
+      "text_en": "Think you might have encountered fraud? Please report it to us immediately.",
+      "text_sc": "万一遭遇诈骗， 请即向我们举报。",
+      "files": [
+        "Prevent-Fraud.mp4"
+      ],
+      "start": 291.077,
+      "end": 296.554,
+      "duration": 5.477
+    }
+  ]
+}
