@@ -135,7 +135,7 @@ const NODE_SELECTORS = PAGE_CONFIG.nodeSelectors || [
 const DESKTOP_SIZE_STATES = [260, 320, 380];
 const MOBILE_SIZE_STATES = [200, 260, 320];
 const SOURCE_SPEED_FACTOR = 1.3;
-const SPEED_LABELS = [1, 1.3, 1.5];
+const SPEED_LABELS = [1, 1.2, 1.3, 1.4, 1.5];
 const SPEED_STATES = SPEED_LABELS.map((speed) => speed / SOURCE_SPEED_FACTOR);
 const DEFAULT_SPEED = 1.3;
 const PLAY_ICON_SVG = `
